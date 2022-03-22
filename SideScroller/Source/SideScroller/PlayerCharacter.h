@@ -4,6 +4,8 @@
 
 #include "CoreMinimal.h"
 #include "PaperCharacter.h"
+#include "Blueprint/UserWidget.h"
+#include "GameScreenHUD.h"
 #include "PlayerCharacter.generated.h"
 
 /**
@@ -25,6 +27,7 @@ class SIDESCROLLER_API APlayerCharacter : public APaperCharacter
 	virtual void Tick(float DeltaSeconds) override;
 public:
 	APlayerCharacter();
+
 
 protected:
 	// APlayerCharacter Interface
@@ -52,4 +55,5 @@ protected:
 
 	void UpdateCharacter();
 
+	float coins;
 };

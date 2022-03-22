@@ -14,4 +14,16 @@ class SIDESCROLLER_API ASideScrollerGameModeBase : public AGameModeBase
 {
 	GENERATED_BODY()
 	
+public:
+	ASideScrollerGameModeBase();
+
+	virtual void BeginPlay() override;
+
+protected:
+	//widget class to use for our hud screen
+	UPROPERTY(EditAnywhere, Category = "Widget")
+		TSubclassOf<UUserWidget> GameScreenHUDWidget;
+
+	UPROPERTY(VisibleInstanceOnly, Category = "Widget")
+		class UGameScreenHUD* gameWidget;
 };

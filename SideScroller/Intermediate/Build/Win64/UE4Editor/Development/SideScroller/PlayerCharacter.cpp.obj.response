@@ -234,6 +234,15 @@
 /I Editor\Kismet\Public
 /I ..\Intermediate\Build\Win64\UE4Editor\Inc\ClothingSystemRuntimeInterface
 /I Runtime\ClothingSystemRuntimeInterface\Public
+/I ..\Intermediate\Build\Win64\UE4Editor\Inc\UMGEditor
+/I Editor\UMGEditor\Classes
+/I Editor\UMGEditor\Public
+/I ..\Intermediate\Build\Win64\UE4Editor\Inc\Sequencer
+/I Editor\Sequencer\Public
+/I ..\Intermediate\Build\Win64\UE4Editor\Inc\SceneOutliner
+/I Editor\SceneOutliner\Public
+/I ..\Intermediate\Build\Win64\UE4Editor\Inc\CurveEditor
+/I Editor\CurveEditor\Public
 /I "D:\Unreal Projects\SideScroller2D\SideScroller\Intermediate\Build\Win64\UE4Editor\Inc\SideScroller"
 /I "D:\Unreal Projects\SideScroller2D\SideScroller\Source"
 /I ThirdParty\PhysX3\PxShared\include

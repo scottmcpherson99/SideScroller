@@ -32,7 +32,9 @@ APlayerCharacter::APlayerCharacter()
 	SideViewCameraComponent->bAutoActivate = true;
 	GetCharacterMovement()->bOrientRotationToMovement = false;
 
+	
 }
+
 
 void APlayerCharacter::Tick(float DeltaSeconds)
 {

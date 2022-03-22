@@ -36,7 +36,7 @@ public: \
 
 #define SideScroller_Source_SideScroller_SideScrollerGameModeBase_h_15_STANDARD_CONSTRUCTORS \
 	/** Standard constructor, called after all reflected properties have been initialized */ \
-	NO_API ASideScrollerGameModeBase(const FObjectInitializer& ObjectInitializer = FObjectInitializer::Get()); \
+	NO_API ASideScrollerGameModeBase(const FObjectInitializer& ObjectInitializer); \
 	DEFINE_DEFAULT_OBJECT_INITIALIZER_CONSTRUCTOR_CALL(ASideScrollerGameModeBase) \
 	DECLARE_VTABLE_PTR_HELPER_CTOR(NO_API, ASideScrollerGameModeBase); \
 DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(ASideScrollerGameModeBase); \
@@ -48,8 +48,6 @@ public:
 
 
 #define SideScroller_Source_SideScroller_SideScrollerGameModeBase_h_15_ENHANCED_CONSTRUCTORS \
-	/** Standard constructor, called after all reflected properties have been initialized */ \
-	NO_API ASideScrollerGameModeBase(const FObjectInitializer& ObjectInitializer = FObjectInitializer::Get()) : Super(ObjectInitializer) { }; \
 private: \
 	/** Private move- and copy-constructors, should never be used */ \
 	NO_API ASideScrollerGameModeBase(ASideScrollerGameModeBase&&); \
@@ -57,10 +55,14 @@ private: \
 public: \
 	DECLARE_VTABLE_PTR_HELPER_CTOR(NO_API, ASideScrollerGameModeBase); \
 DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(ASideScrollerGameModeBase); \
-	DEFINE_DEFAULT_OBJECT_INITIALIZER_CONSTRUCTOR_CALL(ASideScrollerGameModeBase)
+	DEFINE_DEFAULT_CONSTRUCTOR_CALL(ASideScrollerGameModeBase)
 
 
-#define SideScroller_Source_SideScroller_SideScrollerGameModeBase_h_15_PRIVATE_PROPERTY_OFFSET
+#define SideScroller_Source_SideScroller_SideScrollerGameModeBase_h_15_PRIVATE_PROPERTY_OFFSET \
+	FORCEINLINE static uint32 __PPO__GameScreenHUDWidget() { return STRUCT_OFFSET(ASideScrollerGameModeBase, GameScreenHUDWidget); } \
+	FORCEINLINE static uint32 __PPO__gameWidget() { return STRUCT_OFFSET(ASideScrollerGameModeBase, gameWidget); }
+
+
 #define SideScroller_Source_SideScroller_SideScrollerGameModeBase_h_12_PROLOG
 #define SideScroller_Source_SideScroller_SideScrollerGameModeBase_h_15_GENERATED_BODY_LEGACY \
 PRAGMA_DISABLE_DEPRECATION_WARNINGS \
