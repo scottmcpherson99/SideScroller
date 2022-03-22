@@ -1,7 +1,7 @@
-D:\Unreal Projects\SideScroller\Intermediate\Build\Win64\UE4Editor\Development\SideScroller\Definitions.SideScroller.h
-D:\Unreal Projects\SideScroller\Source\SideScroller\SideScrollerGameModeBase.h
+D:\Unreal Projects\SideScroller2D\SideScroller\Intermediate\Build\Win64\UE4Editor\Development\SideScroller\Definitions.SideScroller.h
+D:\Unreal Projects\SideScroller2D\SideScroller\Source\SideScroller\SideScrollerGameModeBase.h
 C:\Program Files\Epic Games\UE_4.26\Engine\Source\Runtime\Engine\Classes\GameFramework/GameModeBase.h
 C:\Program Files\Epic Games\UE_4.26\Engine\Source\Runtime\Engine\Classes\Engine/ServerStatReplicator.h
 C:\Program Files\Epic Games\UE_4.26\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\ServerStatReplicator.generated.h
 C:\Program Files\Epic Games\UE_4.26\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\GameModeBase.generated.h
-D:\Unreal Projects\SideScroller\Intermediate\Build\Win64\UE4Editor\Inc\SideScroller\SideScrollerGameModeBase.generated.h
+D:\Unreal Projects\SideScroller2D\SideScroller\Intermediate\Build\Win64\UE4Editor\Inc\SideScroller\SideScrollerGameModeBase.generated.h

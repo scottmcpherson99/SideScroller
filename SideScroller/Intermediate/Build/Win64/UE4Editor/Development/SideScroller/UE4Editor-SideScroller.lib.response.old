@@ -7,8 +7,10 @@
 /IGNORE:4221
 /NODEFAULTLIB
 "D:\Unreal Projects\SideScroller\Intermediate\Build\Win64\SideScrollerEditor\Development\Engine\SharedPCH.Engine.ShadowErrors.h.obj"
+"D:\Unreal Projects\SideScroller\Intermediate\Build\Win64\UE4Editor\Development\SideScroller\PlayerCharacter.cpp.obj"
 "D:\Unreal Projects\SideScroller\Intermediate\Build\Win64\UE4Editor\Development\SideScroller\SideScroller.cpp.obj"
 "D:\Unreal Projects\SideScroller\Intermediate\Build\Win64\UE4Editor\Development\SideScroller\SideScrollerGameModeBase.cpp.obj"
+"D:\Unreal Projects\SideScroller\Intermediate\Build\Win64\UE4Editor\Development\SideScroller\PlayerCharacter.gen.cpp.obj"
 "D:\Unreal Projects\SideScroller\Intermediate\Build\Win64\UE4Editor\Development\SideScroller\SideScroller.init.gen.cpp.obj"
 "D:\Unreal Projects\SideScroller\Intermediate\Build\Win64\UE4Editor\Development\SideScroller\SideScrollerGameModeBase.gen.cpp.obj"
 "D:\Unreal Projects\SideScroller\Intermediate\Build\Win64\UE4Editor\Development\SideScroller\Default.rc2.res"

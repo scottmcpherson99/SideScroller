@@ -5,6 +5,8 @@
 #include "GameFramework/SpringArmComponent.h"
 #include "Camera/CameraComponent.h"
 #include "GameFramework/CharacterMovementComponent.h"
+#include "Components/InputComponent.h"
+#include "PaperFlipbookComponent.h"
 
 
 APlayerCharacter::APlayerCharacter()
@@ -32,6 +34,71 @@ APlayerCharacter::APlayerCharacter()
 
 }
 
+void APlayerCharacter::Tick(float DeltaSeconds)
+{
+	Super::Tick(DeltaSeconds);
+	UpdateCharacter();
+}
+
+
+/// //////////////////////////////////////////////////////////////////////
+/// Input
 void APlayerCharacter::SetupPlayerInputComponent(UInputComponent* PlayerInputComponent)
 {
+	//set up gameplay key bindings
+	check(PlayerInputComponent);
+
+	PlayerInputComponent->BindAxis("MoveRight", this, &APlayerCharacter::MoveRight);
+
+	PlayerInputComponent->BindAction("Jump", IE_Pressed, this, &APlayerCharacter::Jump);
+	PlayerInputComponent->BindAction("Jump", IE_Released, this, &APlayerCharacter::StopJumping);
 }
+
+void APlayerCharacter::MoveRight(float value_)
+{
+	if (Controller && (value_ != 0.0f))
+	{
+		AddMovementInput(FVector(1.0f * value_, 0.0f, 0.0f));
+	}
+}
+//////////////////////////////////////////////////////////////////////////
+
+
+//////////////////////////////////////////////////////////////////////////
+// Animation
+
+void APlayerCharacter::UpdateAnimation()
+{
+	const FVector PlayerVelocity = GetVelocity();
+	const float PlayerSpeedSqr = PlayerVelocity.SizeSquared();
+
+	// Are we moving or standing still?
+	UPaperFlipbook* DesiredAnimation = (PlayerSpeedSqr > 0.0f) ? RunningAnimation : IdleAnimation;
+	if (GetSprite()->GetFlipbook() != DesiredAnimation)
+	{
+		GetSprite()->SetFlipbook(DesiredAnimation);
+	}
+}
+
+
+void APlayerCharacter::UpdateCharacter()
+{
+	UpdateAnimation();
+
+	// Now setup the rotation of the controller based on the direction we are travelling
+	const FVector PlayerVelocity = GetVelocity();
+	float TravelDirection = PlayerVelocity.X;
+	// Set the rotation so that the character faces his direction of travel.
+	if (Controller != nullptr)
+	{
+		if (TravelDirection < 0.0f)
+		{
+			Controller->SetControlRotation(FRotator(0.0, 180.0f, 0.0f));
+		}
+		else if (TravelDirection > 0.0f)
+		{
+			Controller->SetControlRotation(FRotator(0.0f, 0.0f, 0.0f));
+		}
+	}
+}
+//////////////////////////////////////////////////////////////////////////

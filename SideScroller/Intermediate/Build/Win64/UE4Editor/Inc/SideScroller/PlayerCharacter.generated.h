@@ -60,7 +60,10 @@ DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(APlayerCharacter); \
 
 #define SideScroller_Source_SideScroller_PlayerCharacter_h_15_PRIVATE_PROPERTY_OFFSET \
 	FORCEINLINE static uint32 __PPO__CameraBoom() { return STRUCT_OFFSET(APlayerCharacter, CameraBoom); } \
-	FORCEINLINE static uint32 __PPO__SideViewCameraComponent() { return STRUCT_OFFSET(APlayerCharacter, SideViewCameraComponent); }
+	FORCEINLINE static uint32 __PPO__SideViewCameraComponent() { return STRUCT_OFFSET(APlayerCharacter, SideViewCameraComponent); } \
+	FORCEINLINE static uint32 __PPO__RunningAnimation() { return STRUCT_OFFSET(APlayerCharacter, RunningAnimation); } \
+	FORCEINLINE static uint32 __PPO__IdleAnimation() { return STRUCT_OFFSET(APlayerCharacter, IdleAnimation); } \
+	FORCEINLINE static uint32 __PPO__JumpingAnimation() { return STRUCT_OFFSET(APlayerCharacter, JumpingAnimation); }
 
 
 #define SideScroller_Source_SideScroller_PlayerCharacter_h_12_PROLOG

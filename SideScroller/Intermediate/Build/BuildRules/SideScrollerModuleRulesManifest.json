@@ -1,8 +1,8 @@
 {
 	"SourceFiles": [
-		"D:\\Unreal Projects\\SideScroller\\Source\\SideScroller\\SideScroller.Build.cs",
-		"D:\\Unreal Projects\\SideScroller\\Source\\SideScroller.Target.cs",
-		"D:\\Unreal Projects\\SideScroller\\Source\\SideScrollerEditor.Target.cs"
+		"D:\\Unreal Projects\\SideScroller2D\\SideScroller\\Source\\SideScroller\\SideScroller.Build.cs",
+		"D:\\Unreal Projects\\SideScroller2D\\SideScroller\\Source\\SideScroller.Target.cs",
+		"D:\\Unreal Projects\\SideScroller2D\\SideScroller\\Source\\SideScrollerEditor.Target.cs"
 	],
 	"EngineVersion": "4.26.2"
 }
