@@ -19,6 +19,7 @@ public:
 
 	virtual void BeginPlay() override;
 
+	void UpdatePlayerStats(float coins_);
 protected:
 	//widget class to use for our hud screen
 	UPROPERTY(EditAnywhere, Category = "Widget")
@@ -26,4 +27,5 @@ protected:
 
 	UPROPERTY(VisibleInstanceOnly, Category = "Widget")
 		class UGameScreenHUD* gameWidget;
+
 };

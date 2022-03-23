@@ -7,6 +7,7 @@
 #include "GameFramework/CharacterMovementComponent.h"
 #include "Components/InputComponent.h"
 #include "PaperFlipbookComponent.h"
+#include "SideScrollerGameModeBase.h"
 
 
 APlayerCharacter::APlayerCharacter()
@@ -61,6 +62,7 @@ void APlayerCharacter::MoveRight(float value_)
 	if (Controller && (value_ != 0.0f))
 	{
 		AddMovementInput(FVector(1.0f * value_, 0.0f, 0.0f));
+		//CollectCoin();
 	}
 }
 //////////////////////////////////////////////////////////////////////////
@@ -103,4 +105,20 @@ void APlayerCharacter::UpdateCharacter()
 		}
 	}
 }
+//////////////////////////////////////////////////////////////////////////
+
+
+//////////////////////////////////////////////////////////////////////////
+// Gameplay
+
+void APlayerCharacter::CollectCoin()
+{
+	coins++;
+	ASideScrollerGameModeBase* gameMode = (ASideScrollerGameModeBase*)GetWorld()->GetAuthGameMode();
+	if (gameMode)
+	{
+		gameMode->UpdatePlayerStats(coins);
+	}
+}
+
 //////////////////////////////////////////////////////////////////////////

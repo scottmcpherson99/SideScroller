@@ -28,6 +28,7 @@ class SIDESCROLLER_API APlayerCharacter : public APaperCharacter
 public:
 	APlayerCharacter();
 
+	void CollectCoin();
 
 protected:
 	// APlayerCharacter Interface
@@ -54,6 +55,7 @@ protected:
 	void UpdateAnimation();
 
 	void UpdateCharacter();
+
 
 	float coins;
 };

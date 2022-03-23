@@ -20,3 +20,8 @@ void ASideScrollerGameModeBase::BeginPlay()
 		UE_LOG(LogTemp, Warning, TEXT("Added to viewport"));
 	}
 }
+
+void ASideScrollerGameModeBase::UpdatePlayerStats(float coins_)
+{
+	gameWidget->UpdatePlayerCoins(coins_);
+}

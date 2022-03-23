@@ -3,7 +3,7 @@
   <ItemGroup>
     <None Include="..\..\SideScroller.uproject" />
     <Filter Include="Source">
-      <UniqueIdentifier>{DEE9E762-F333-414D-8D96-CCF810BC3464}</UniqueIdentifier>
+      <UniqueIdentifier>{F640FA5C-3C7A-4264-925A-A78CAFF9D09F}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Source\SideScroller.Target.cs">
       <Filter>Source</Filter>
@@ -12,7 +12,7 @@
       <Filter>Source</Filter>
     </None>
     <Filter Include="Config">
-      <UniqueIdentifier>{993AF15C-1ADD-4E8F-98A1-B8B4BE9B2194}</UniqueIdentifier>
+      <UniqueIdentifier>{81D45A4E-578F-41A7-99EA-C03BD3713591}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Config\DefaultEditor.ini">
       <Filter>Config</Filter>
@@ -27,8 +27,20 @@
       <Filter>Config</Filter>
     </None>
     <Filter Include="Source\SideScroller">
-      <UniqueIdentifier>{4E37228E-20FD-4424-B2B0-D44DD5CD4207}</UniqueIdentifier>
+      <UniqueIdentifier>{EDE6DD43-D0DD-47AB-9EBB-30ED3AC23073}</UniqueIdentifier>
     </Filter>
+    <ClCompile Include="..\..\Source\SideScroller\Coin.cpp">
+      <Filter>Source\SideScroller</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\SideScroller\Coin.h">
+      <Filter>Source\SideScroller</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\SideScroller\Collectable.cpp">
+      <Filter>Source\SideScroller</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\SideScroller\Collectable.h">
+      <Filter>Source\SideScroller</Filter>
+    </ClInclude>
     <ClCompile Include="..\..\Source\SideScroller\GameHUD.cpp">
       <Filter>Source\SideScroller</Filter>
     </ClCompile>
