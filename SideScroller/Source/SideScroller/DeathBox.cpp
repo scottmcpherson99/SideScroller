@@ -31,7 +31,15 @@ void ADeathBox::OnTriggerBoxOverlap(UPrimitiveComponent* OverlappedComponent, AA
 
 	if (playerCharacter)
 	{
-		UKismetSystemLibrary::QuitGame(GetWorld(), UGameplayStatics::GetPlayerController(GetWorld(), 0), EQuitPreference::Quit, true);
+		if (playerCharacter->GetLives() > 0)
+		{
+			playerCharacter->IncrementLives(-1);
+			UGameplayStatics::OpenLevel(GetWorld(), FName(UGameplayStatics::GetCurrentLevelName(GetWorld(), true)));
+		}
+		else
+		{
+			UKismetSystemLibrary::QuitGame(GetWorld(), UGameplayStatics::GetPlayerController(GetWorld(), 0), EQuitPreference::Quit, true);
+		}
 	}
 }
 

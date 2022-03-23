@@ -33,6 +33,7 @@ APlayerCharacter::APlayerCharacter()
 	SideViewCameraComponent->bAutoActivate = true;
 	GetCharacterMovement()->bOrientRotationToMovement = false;
 
+	lives = 3;
 	
 }
 
@@ -42,6 +43,7 @@ void APlayerCharacter::Tick(float DeltaSeconds)
 	Super::Tick(DeltaSeconds);
 	UpdateCharacter();
 }
+
 
 
 /// //////////////////////////////////////////////////////////////////////
@@ -62,7 +64,6 @@ void APlayerCharacter::MoveRight(float value_)
 	if (Controller && (value_ != 0.0f))
 	{
 		AddMovementInput(FVector(1.0f * value_, 0.0f, 0.0f));
-		//CollectCoin();
 	}
 }
 //////////////////////////////////////////////////////////////////////////
@@ -114,11 +115,37 @@ void APlayerCharacter::UpdateCharacter()
 void APlayerCharacter::CollectCoin()
 {
 	coins++;
+	if (coins >= 3)
+	{
+		coins = 0;
+		lives++;
+
+	}
 	ASideScrollerGameModeBase* gameMode = (ASideScrollerGameModeBase*)GetWorld()->GetAuthGameMode();
 	if (gameMode)
 	{
-		gameMode->UpdatePlayerStats(coins);
+		gameMode->UpdatePlayerStats(coins, lives);
 	}
 }
 
+
+void APlayerCharacter::IncrementLives(float lives_)
+{
+	lives += lives_;
+}
 //////////////////////////////////////////////////////////////////////////
+
+
+//////////////////////////////////////////////////////////////////////////
+// Getters
+
+float APlayerCharacter::GetCoins()
+{
+	return coins;
+}
+
+float APlayerCharacter::GetLives()
+{
+	return lives;
+}
+///////////////////////////////////////////////////////////////////////////

@@ -21,7 +21,8 @@ void ASideScrollerGameModeBase::BeginPlay()
 	}
 }
 
-void ASideScrollerGameModeBase::UpdatePlayerStats(float coins_)
+void ASideScrollerGameModeBase::UpdatePlayerStats(float coins_, float lives_)
 {
 	gameWidget->UpdatePlayerCoins(coins_);
+	gameWidget->UpdatePlayerLives(lives_);
 }

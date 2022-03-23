@@ -19,6 +19,10 @@ protected:
 	UPROPERTY(BlueprintReadWrite, meta = (BindWidget))
 		class UTextBlock* PlayerCoins;
 
+	UPROPERTY(BlueprintReadWrite, meta = (BindWidget))
+		class UTextBlock* PlayerLives;
+
 public:
 	void UpdatePlayerCoins(float coins_);
+	void UpdatePlayerLives(float lives_);
 };

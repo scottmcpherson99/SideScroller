@@ -36,6 +36,10 @@ void EmptyLinkFunctionForGeneratedCodeGameScreenHUD() {}
 		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_PlayerCoins_MetaData[];
 #endif
 		static const UE4CodeGen_Private::FObjectPropertyParams NewProp_PlayerCoins;
+#if WITH_METADATA
+		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_PlayerLives_MetaData[];
+#endif
+		static const UE4CodeGen_Private::FObjectPropertyParams NewProp_PlayerLives;
 		static const UE4CodeGen_Private::FPropertyParamsBase* const PropPointers[];
 		static const FCppClassTypeInfoStatic StaticCppClassTypeInfo;
 		static const UE4CodeGen_Private::FClassParams ClassParams;
@@ -60,8 +64,18 @@ void EmptyLinkFunctionForGeneratedCodeGameScreenHUD() {}
 	};
 #endif
 	const UE4CodeGen_Private::FObjectPropertyParams Z_Construct_UClass_UGameScreenHUD_Statics::NewProp_PlayerCoins = { "PlayerCoins", nullptr, (EPropertyFlags)0x002008000008000c, UE4CodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(UGameScreenHUD, PlayerCoins), Z_Construct_UClass_UTextBlock_NoRegister, METADATA_PARAMS(Z_Construct_UClass_UGameScreenHUD_Statics::NewProp_PlayerCoins_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_UGameScreenHUD_Statics::NewProp_PlayerCoins_MetaData)) };
+#if WITH_METADATA
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_UGameScreenHUD_Statics::NewProp_PlayerLives_MetaData[] = {
+		{ "BindWidget", "" },
+		{ "Category", "GameScreenHUD" },
+		{ "EditInline", "true" },
+		{ "ModuleRelativePath", "GameScreenHUD.h" },
+	};
+#endif
+	const UE4CodeGen_Private::FObjectPropertyParams Z_Construct_UClass_UGameScreenHUD_Statics::NewProp_PlayerLives = { "PlayerLives", nullptr, (EPropertyFlags)0x002008000008000c, UE4CodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(UGameScreenHUD, PlayerLives), Z_Construct_UClass_UTextBlock_NoRegister, METADATA_PARAMS(Z_Construct_UClass_UGameScreenHUD_Statics::NewProp_PlayerLives_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_UGameScreenHUD_Statics::NewProp_PlayerLives_MetaData)) };
 	const UE4CodeGen_Private::FPropertyParamsBase* const Z_Construct_UClass_UGameScreenHUD_Statics::PropPointers[] = {
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_UGameScreenHUD_Statics::NewProp_PlayerCoins,
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_UGameScreenHUD_Statics::NewProp_PlayerLives,
 	};
 	const FCppClassTypeInfoStatic Z_Construct_UClass_UGameScreenHUD_Statics::StaticCppClassTypeInfo = {
 		TCppClassTypeTraits<UGameScreenHUD>::IsAbstract,
@@ -90,7 +104,7 @@ void EmptyLinkFunctionForGeneratedCodeGameScreenHUD() {}
 		}
 		return OuterClass;
 	}
-	IMPLEMENT_CLASS(UGameScreenHUD, 4193807360);
+	IMPLEMENT_CLASS(UGameScreenHUD, 3712241569);
 	template<> SIDESCROLLER_API UClass* StaticClass<UGameScreenHUD>()
 	{
 		return UGameScreenHUD::StaticClass();

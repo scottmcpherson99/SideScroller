@@ -29,8 +29,16 @@ public:
 	APlayerCharacter();
 
 	void CollectCoin();
+	
+	float GetCoins();
+
+	float GetLives();
+
+	void IncrementLives(float lives_);
 
 protected:
+
+
 	// APlayerCharacter Interface
 	virtual void SetupPlayerInputComponent(class UInputComponent* PlayerInputComponent) override;
 
@@ -58,4 +66,7 @@ protected:
 
 
 	float coins;
+
+	float lives;
+
 };
