@@ -3,7 +3,7 @@
   <ItemGroup>
     <None Include="..\..\SideScroller.uproject" />
     <Filter Include="Source">
-      <UniqueIdentifier>{200312A6-D484-4FFA-9A27-842ACC4C9904}</UniqueIdentifier>
+      <UniqueIdentifier>{DD4F6359-99A0-4489-A3C0-5169DF74B368}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Source\SideScroller.Target.cs">
       <Filter>Source</Filter>
@@ -12,7 +12,7 @@
       <Filter>Source</Filter>
     </None>
     <Filter Include="Config">
-      <UniqueIdentifier>{EDEFE69B-D3B8-4F0D-9393-6FC0CBA879E9}</UniqueIdentifier>
+      <UniqueIdentifier>{C8C21213-B2B8-4844-A650-4B6C449F58EE}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Config\DefaultEditor.ini">
       <Filter>Config</Filter>
@@ -27,7 +27,7 @@
       <Filter>Config</Filter>
     </None>
     <Filter Include="Source\SideScroller">
-      <UniqueIdentifier>{3D535F82-4595-4BA5-BA6D-3BBCEE9D5EEE}</UniqueIdentifier>
+      <UniqueIdentifier>{7D4A84A8-69F0-4D8D-8606-5A0281DC6C89}</UniqueIdentifier>
     </Filter>
     <ClCompile Include="..\..\Source\SideScroller\Coin.cpp">
       <Filter>Source\SideScroller</Filter>
@@ -45,6 +45,18 @@
       <Filter>Source\SideScroller</Filter>
     </ClCompile>
     <ClInclude Include="..\..\Source\SideScroller\DeathBox.h">
+      <Filter>Source\SideScroller</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\SideScroller\DumbEnemy.cpp">
+      <Filter>Source\SideScroller</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\SideScroller\DumbEnemy.h">
+      <Filter>Source\SideScroller</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\SideScroller\EnemyBase.cpp">
+      <Filter>Source\SideScroller</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\SideScroller\EnemyBase.h">
       <Filter>Source\SideScroller</Filter>
     </ClInclude>
     <ClCompile Include="..\..\Source\SideScroller\GameHUD.cpp">

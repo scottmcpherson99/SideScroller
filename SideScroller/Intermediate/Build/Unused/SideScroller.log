@@ -1,104 +1,12 @@
 ﻿  Using 'git status' to determine working set for adaptive non-unity build (D:\Unreal Projects\SideScroller2D).
-  Parsing headers for SideScrollerEditor
-    Running UnrealHeaderTool "D:\Unreal Projects\SideScroller2D\SideScroller\SideScroller.uproject" "D:\Unreal Projects\SideScroller2D\SideScroller\Intermediate\Build\Win64\SideScrollerEditor\Development\SideScrollerEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -abslog="C:\Users\scott\AppData\Local\UnrealBuildTool\Log_UHT.txt" -installed
-  Reflection code generated for SideScrollerEditor in 2.5584134 seconds
-  Deleted hot-reload file: D:\Unreal Projects\SideScroller2D\SideScroller\Binaries\Win64\UE4Editor-SideScroller-0005.dll
-  Deleted hot-reload file: D:\Unreal Projects\SideScroller2D\SideScroller\Binaries\Win64\UE4Editor-SideScroller-0006.dll
-  Deleted hot-reload file: D:\Unreal Projects\SideScroller2D\SideScroller\Binaries\Win64\UE4Editor-SideScroller-0008.dll
-  Deleted hot-reload file: D:\Unreal Projects\SideScroller2D\SideScroller\Binaries\Win64\UE4Editor-SideScroller-0009.dll
-  Deleted hot-reload file: D:\Unreal Projects\SideScroller2D\SideScroller\Binaries\Win64\UE4Editor-SideScroller-0015.dll
-  Deleted hot-reload file: D:\Unreal Projects\SideScroller2D\SideScroller\Binaries\Win64\UE4Editor-SideScroller-0017.dll
-  Deleted hot-reload file: D:\Unreal Projects\SideScroller2D\SideScroller\Binaries\Win64\UE4Editor-SideScroller-0018.dll
-  Deleted hot-reload file: D:\Unreal Projects\SideScroller2D\SideScroller\Binaries\Win64\UE4Editor-SideScroller-0023.dll
-  Deleted hot-reload file: D:\Unreal Projects\SideScroller2D\SideScroller\Binaries\Win64\UE4Editor-SideScroller-0027.dll
-  Deleted hot-reload file: D:\Unreal Projects\SideScroller2D\SideScroller\Binaries\Win64\UE4Editor-SideScroller-0029.dll
-  Deleted hot-reload file: D:\Unreal Projects\SideScroller2D\SideScroller\Binaries\Win64\UE4Editor-SideScroller-0031.dll
-  Deleted hot-reload file: D:\Unreal Projects\SideScroller2D\SideScroller\Binaries\Win64\UE4Editor-SideScroller-0034.dll
-  Deleted hot-reload file: D:\Unreal Projects\SideScroller2D\SideScroller\Binaries\Win64\UE4Editor-SideScroller-0040.dll
-  Deleted hot-reload file: D:\Unreal Projects\SideScroller2D\SideScroller\Binaries\Win64\UE4Editor-SideScroller-0042.dll
-  Deleted hot-reload file: D:\Unreal Projects\SideScroller2D\SideScroller\Binaries\Win64\UE4Editor-SideScroller-0045.dll
-  Deleted hot-reload file: D:\Unreal Projects\SideScroller2D\SideScroller\Binaries\Win64\UE4Editor-SideScroller-0047.dll
-  Deleted hot-reload file: D:\Unreal Projects\SideScroller2D\SideScroller\Binaries\Win64\UE4Editor-SideScroller-0049.dll
-  Deleted hot-reload file: D:\Unreal Projects\SideScroller2D\SideScroller\Binaries\Win64\UE4Editor-SideScroller-0050.dll
-  Deleted hot-reload file: D:\Unreal Projects\SideScroller2D\SideScroller\Binaries\Win64\UE4Editor-SideScroller-0053.dll
-  Deleted hot-reload file: D:\Unreal Projects\SideScroller2D\SideScroller\Binaries\Win64\UE4Editor-SideScroller-0056.dll
-  Deleted hot-reload file: D:\Unreal Projects\SideScroller2D\SideScroller\Binaries\Win64\UE4Editor-SideScroller-0059.dll
-  Deleted hot-reload file: D:\Unreal Projects\SideScroller2D\SideScroller\Binaries\Win64\UE4Editor-SideScroller-0062.dll
-  Deleted hot-reload file: D:\Unreal Projects\SideScroller2D\SideScroller\Binaries\Win64\UE4Editor-SideScroller-0063.dll
-  Deleted hot-reload file: D:\Unreal Projects\SideScroller2D\SideScroller\Binaries\Win64\UE4Editor-SideScroller-0065.dll
-  Deleted hot-reload file: D:\Unreal Projects\SideScroller2D\SideScroller\Binaries\Win64\UE4Editor-SideScroller-0067.dll
-  Deleted hot-reload file: D:\Unreal Projects\SideScroller2D\SideScroller\Binaries\Win64\UE4Editor-SideScroller-0071.dll
-  Deleted hot-reload file: D:\Unreal Projects\SideScroller2D\SideScroller\Binaries\Win64\UE4Editor-SideScroller-0072.dll
-  Deleted hot-reload file: D:\Unreal Projects\SideScroller2D\SideScroller\Binaries\Win64\UE4Editor-SideScroller-0074.dll
-  Deleted hot-reload file: D:\Unreal Projects\SideScroller2D\SideScroller\Binaries\Win64\UE4Editor-SideScroller-0075.dll
-  Deleted hot-reload file: D:\Unreal Projects\SideScroller2D\SideScroller\Binaries\Win64\UE4Editor-SideScroller-0076.dll
-  Deleted hot-reload file: D:\Unreal Projects\SideScroller2D\SideScroller\Binaries\Win64\UE4Editor-SideScroller-0078.dll
-  Deleted hot-reload file: D:\Unreal Projects\SideScroller2D\SideScroller\Binaries\Win64\UE4Editor-SideScroller-0079.dll
-  Deleted hot-reload file: D:\Unreal Projects\SideScroller2D\SideScroller\Binaries\Win64\UE4Editor-SideScroller-0082.dll
-  Deleted hot-reload file: D:\Unreal Projects\SideScroller2D\SideScroller\Binaries\Win64\UE4Editor-SideScroller-0084.dll
-  Deleted hot-reload file: D:\Unreal Projects\SideScroller2D\SideScroller\Binaries\Win64\UE4Editor-SideScroller-0086.dll
-  Deleted hot-reload file: D:\Unreal Projects\SideScroller2D\SideScroller\Binaries\Win64\UE4Editor-SideScroller-0088.dll
-  Deleted hot-reload file: D:\Unreal Projects\SideScroller2D\SideScroller\Binaries\Win64\UE4Editor-SideScroller-0089.dll
-  Deleted hot-reload file: D:\Unreal Projects\SideScroller2D\SideScroller\Binaries\Win64\UE4Editor-SideScroller-0091.dll
-  Deleted hot-reload file: D:\Unreal Projects\SideScroller2D\SideScroller\Binaries\Win64\UE4Editor-SideScroller-0093.dll
-  Deleted hot-reload file: D:\Unreal Projects\SideScroller2D\SideScroller\Intermediate\Build\Win64\UE4Editor\Development\SideScroller\UE4Editor-SideScroller-0005.lib
-  Deleted hot-reload file: D:\Unreal Projects\SideScroller2D\SideScroller\Intermediate\Build\Win64\UE4Editor\Development\SideScroller\UE4Editor-SideScroller-0006.lib
-  Deleted hot-reload file: D:\Unreal Projects\SideScroller2D\SideScroller\Intermediate\Build\Win64\UE4Editor\Development\SideScroller\UE4Editor-SideScroller-0008.lib
-  Deleted hot-reload file: D:\Unreal Projects\SideScroller2D\SideScroller\Intermediate\Build\Win64\UE4Editor\Development\SideScroller\UE4Editor-SideScroller-0009.lib
-  Deleted hot-reload file: D:\Unreal Projects\SideScroller2D\SideScroller\Intermediate\Build\Win64\UE4Editor\Development\SideScroller\UE4Editor-SideScroller-0012.lib
-  Deleted hot-reload file: D:\Unreal Projects\SideScroller2D\SideScroller\Intermediate\Build\Win64\UE4Editor\Development\SideScroller\UE4Editor-SideScroller-0014.lib
-  Deleted hot-reload file: D:\Unreal Projects\SideScroller2D\SideScroller\Intermediate\Build\Win64\UE4Editor\Development\SideScroller\UE4Editor-SideScroller-0015.lib
-  Deleted hot-reload file: D:\Unreal Projects\SideScroller2D\SideScroller\Intermediate\Build\Win64\UE4Editor\Development\SideScroller\UE4Editor-SideScroller-0016.lib
-  Deleted hot-reload file: D:\Unreal Projects\SideScroller2D\SideScroller\Intermediate\Build\Win64\UE4Editor\Development\SideScroller\UE4Editor-SideScroller-0017.lib
-  Deleted hot-reload file: D:\Unreal Projects\SideScroller2D\SideScroller\Intermediate\Build\Win64\UE4Editor\Development\SideScroller\UE4Editor-SideScroller-0018.lib
-  Deleted hot-reload file: D:\Unreal Projects\SideScroller2D\SideScroller\Intermediate\Build\Win64\UE4Editor\Development\SideScroller\UE4Editor-SideScroller-0019.lib
-  Deleted hot-reload file: D:\Unreal Projects\SideScroller2D\SideScroller\Intermediate\Build\Win64\UE4Editor\Development\SideScroller\UE4Editor-SideScroller-0020.lib
-  Deleted hot-reload file: D:\Unreal Projects\SideScroller2D\SideScroller\Intermediate\Build\Win64\UE4Editor\Development\SideScroller\UE4Editor-SideScroller-0021.lib
-  Deleted hot-reload file: D:\Unreal Projects\SideScroller2D\SideScroller\Intermediate\Build\Win64\UE4Editor\Development\SideScroller\UE4Editor-SideScroller-0022.lib
-  Deleted hot-reload file: D:\Unreal Projects\SideScroller2D\SideScroller\Intermediate\Build\Win64\UE4Editor\Development\SideScroller\UE4Editor-SideScroller-0023.lib
-  Deleted hot-reload file: D:\Unreal Projects\SideScroller2D\SideScroller\Intermediate\Build\Win64\UE4Editor\Development\SideScroller\UE4Editor-SideScroller-0027.lib
-  Deleted hot-reload file: D:\Unreal Projects\SideScroller2D\SideScroller\Intermediate\Build\Win64\UE4Editor\Development\SideScroller\UE4Editor-SideScroller-0029.lib
-  Deleted hot-reload file: D:\Unreal Projects\SideScroller2D\SideScroller\Intermediate\Build\Win64\UE4Editor\Development\SideScroller\UE4Editor-SideScroller-0031.lib
-  Deleted hot-reload file: D:\Unreal Projects\SideScroller2D\SideScroller\Intermediate\Build\Win64\UE4Editor\Development\SideScroller\UE4Editor-SideScroller-0034.lib
-  Deleted hot-reload file: D:\Unreal Projects\SideScroller2D\SideScroller\Intermediate\Build\Win64\UE4Editor\Development\SideScroller\UE4Editor-SideScroller-0037.lib
-  Deleted hot-reload file: D:\Unreal Projects\SideScroller2D\SideScroller\Intermediate\Build\Win64\UE4Editor\Development\SideScroller\UE4Editor-SideScroller-0040.lib
-  Deleted hot-reload file: D:\Unreal Projects\SideScroller2D\SideScroller\Intermediate\Build\Win64\UE4Editor\Development\SideScroller\UE4Editor-SideScroller-0042.lib
-  Deleted hot-reload file: D:\Unreal Projects\SideScroller2D\SideScroller\Intermediate\Build\Win64\UE4Editor\Development\SideScroller\UE4Editor-SideScroller-0045.lib
-  Deleted hot-reload file: D:\Unreal Projects\SideScroller2D\SideScroller\Intermediate\Build\Win64\UE4Editor\Development\SideScroller\UE4Editor-SideScroller-0047.lib
-  Deleted hot-reload file: D:\Unreal Projects\SideScroller2D\SideScroller\Intermediate\Build\Win64\UE4Editor\Development\SideScroller\UE4Editor-SideScroller-0049.lib
-  Deleted hot-reload file: D:\Unreal Projects\SideScroller2D\SideScroller\Intermediate\Build\Win64\UE4Editor\Development\SideScroller\UE4Editor-SideScroller-0050.lib
-  Deleted hot-reload file: D:\Unreal Projects\SideScroller2D\SideScroller\Intermediate\Build\Win64\UE4Editor\Development\SideScroller\UE4Editor-SideScroller-0053.lib
-  Deleted hot-reload file: D:\Unreal Projects\SideScroller2D\SideScroller\Intermediate\Build\Win64\UE4Editor\Development\SideScroller\UE4Editor-SideScroller-0056.lib
-  Deleted hot-reload file: D:\Unreal Projects\SideScroller2D\SideScroller\Intermediate\Build\Win64\UE4Editor\Development\SideScroller\UE4Editor-SideScroller-0059.lib
-  Deleted hot-reload file: D:\Unreal Projects\SideScroller2D\SideScroller\Intermediate\Build\Win64\UE4Editor\Development\SideScroller\UE4Editor-SideScroller-0062.lib
-  Deleted hot-reload file: D:\Unreal Projects\SideScroller2D\SideScroller\Intermediate\Build\Win64\UE4Editor\Development\SideScroller\UE4Editor-SideScroller-0063.lib
-  Deleted hot-reload file: D:\Unreal Projects\SideScroller2D\SideScroller\Intermediate\Build\Win64\UE4Editor\Development\SideScroller\UE4Editor-SideScroller-0065.lib
-  Deleted hot-reload file: D:\Unreal Projects\SideScroller2D\SideScroller\Intermediate\Build\Win64\UE4Editor\Development\SideScroller\UE4Editor-SideScroller-0067.lib
-  Deleted hot-reload file: D:\Unreal Projects\SideScroller2D\SideScroller\Intermediate\Build\Win64\UE4Editor\Development\SideScroller\UE4Editor-SideScroller-0071.lib
-  Deleted hot-reload file: D:\Unreal Projects\SideScroller2D\SideScroller\Intermediate\Build\Win64\UE4Editor\Development\SideScroller\UE4Editor-SideScroller-0072.lib
-  Deleted hot-reload file: D:\Unreal Projects\SideScroller2D\SideScroller\Intermediate\Build\Win64\UE4Editor\Development\SideScroller\UE4Editor-SideScroller-0074.lib
-  Deleted hot-reload file: D:\Unreal Projects\SideScroller2D\SideScroller\Intermediate\Build\Win64\UE4Editor\Development\SideScroller\UE4Editor-SideScroller-0075.lib
-  Deleted hot-reload file: D:\Unreal Projects\SideScroller2D\SideScroller\Intermediate\Build\Win64\UE4Editor\Development\SideScroller\UE4Editor-SideScroller-0076.lib
-  Deleted hot-reload file: D:\Unreal Projects\SideScroller2D\SideScroller\Intermediate\Build\Win64\UE4Editor\Development\SideScroller\UE4Editor-SideScroller-0078.lib
-  Deleted hot-reload file: D:\Unreal Projects\SideScroller2D\SideScroller\Intermediate\Build\Win64\UE4Editor\Development\SideScroller\UE4Editor-SideScroller-0079.lib
-  Deleted hot-reload file: D:\Unreal Projects\SideScroller2D\SideScroller\Intermediate\Build\Win64\UE4Editor\Development\SideScroller\UE4Editor-SideScroller-0082.lib
-  Deleted hot-reload file: D:\Unreal Projects\SideScroller2D\SideScroller\Intermediate\Build\Win64\UE4Editor\Development\SideScroller\UE4Editor-SideScroller-0084.lib
-  Deleted hot-reload file: D:\Unreal Projects\SideScroller2D\SideScroller\Intermediate\Build\Win64\UE4Editor\Development\SideScroller\UE4Editor-SideScroller-0086.lib
-  Deleted hot-reload file: D:\Unreal Projects\SideScroller2D\SideScroller\Intermediate\Build\Win64\UE4Editor\Development\SideScroller\UE4Editor-SideScroller-0088.lib
-  Deleted hot-reload file: D:\Unreal Projects\SideScroller2D\SideScroller\Intermediate\Build\Win64\UE4Editor\Development\SideScroller\UE4Editor-SideScroller-0089.lib
-  Deleted hot-reload file: D:\Unreal Projects\SideScroller2D\SideScroller\Intermediate\Build\Win64\UE4Editor\Development\SideScroller\UE4Editor-SideScroller-0091.lib
-  Deleted hot-reload file: D:\Unreal Projects\SideScroller2D\SideScroller\Intermediate\Build\Win64\UE4Editor\Development\SideScroller\UE4Editor-SideScroller-0093.lib
   Building SideScrollerEditor...
   Using Visual Studio 2019 14.30.30706 toolchain (C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.30.30705) and Windows 10.0.19041.0 SDK (C:\Program Files (x86)\Windows Kits\10).
-  Building 7 actions with 16 processes...
-    [1/7] Coin.cpp
-    [2/7] DeathBox.cpp
-    [3/7] PlayerCharacter.gen.cpp
-    [4/7] PlayerCharacter.cpp
-    [5/7] UE4Editor-SideScroller.lib
-       Creating library D:\Unreal Projects\SideScroller2D\SideScroller\Intermediate\Build\Win64\UE4Editor\Development\SideScroller\UE4Editor-SideScroller.lib and object D:\Unreal Projects\SideScroller2D\SideScroller\Intermediate\Build\Win64\UE4Editor\Development\SideScroller\UE4Editor-SideScroller.exp
-    [6/7] UE4Editor-SideScroller.dll
-       Creating library D:\Unreal Projects\SideScroller2D\SideScroller\Intermediate\Build\Win64\UE4Editor\Development\SideScroller\UE4Editor-SideScroller.suppressed.lib and object D:\Unreal Projects\SideScroller2D\SideScroller\Intermediate\Build\Win64\UE4Editor\Development\SideScroller\UE4Editor-SideScroller.suppressed.exp
-    [7/7] SideScrollerEditor.target
-  Total time in Parallel executor: 2.67 seconds
-  Total execution time: 5.71 seconds
+  Building 4 actions with 16 processes...
+    [1/4] DeathBox.cpp
+    [2/4] UE4Editor-SideScroller-0020.lib
+       Creating library D:\Unreal Projects\SideScroller2D\SideScroller\Intermediate\Build\Win64\UE4Editor\Development\SideScroller\UE4Editor-SideScroller-0020.lib and object D:\Unreal Projects\SideScroller2D\SideScroller\Intermediate\Build\Win64\UE4Editor\Development\SideScroller\UE4Editor-SideScroller-0020.exp
+    [3/4] UE4Editor-SideScroller-0020.dll
+       Creating library D:\Unreal Projects\SideScroller2D\SideScroller\Intermediate\Build\Win64\UE4Editor\Development\SideScroller\UE4Editor-SideScroller-0020.suppressed.lib and object D:\Unreal Projects\SideScroller2D\SideScroller\Intermediate\Build\Win64\UE4Editor\Development\SideScroller\UE4Editor-SideScroller-0020.suppressed.exp
+    [4/4] SideScrollerEditor.target
+  Total time in Parallel executor: 392.75 seconds
+  Total execution time: 393.20 seconds

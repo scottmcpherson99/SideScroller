@@ -41,6 +41,11 @@ void ADeathBox::OnTriggerBoxOverlap(UPrimitiveComponent* OverlappedComponent, AA
 			UKismetSystemLibrary::QuitGame(GetWorld(), UGameplayStatics::GetPlayerController(GetWorld(), 0), EQuitPreference::Quit, true);
 		}
 	}
+
+	else
+	{
+		OtherActor->Destroy();
+	}
 }
 
 // Called every frame
