@@ -3,7 +3,7 @@
   <ItemGroup>
     <None Include="..\..\SideScroller.uproject" />
     <Filter Include="Source">
-      <UniqueIdentifier>{DD4F6359-99A0-4489-A3C0-5169DF74B368}</UniqueIdentifier>
+      <UniqueIdentifier>{C9F18B43-34D6-446D-AD41-8730B76855DB}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Source\SideScroller.Target.cs">
       <Filter>Source</Filter>
@@ -12,7 +12,7 @@
       <Filter>Source</Filter>
     </None>
     <Filter Include="Config">
-      <UniqueIdentifier>{C8C21213-B2B8-4844-A650-4B6C449F58EE}</UniqueIdentifier>
+      <UniqueIdentifier>{91DD3C65-05EE-4540-9CAD-61F651B27C74}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Config\DefaultEditor.ini">
       <Filter>Config</Filter>
@@ -27,7 +27,7 @@
       <Filter>Config</Filter>
     </None>
     <Filter Include="Source\SideScroller">
-      <UniqueIdentifier>{7D4A84A8-69F0-4D8D-8606-5A0281DC6C89}</UniqueIdentifier>
+      <UniqueIdentifier>{89878FDA-9439-467A-B806-EA3D28ECA3C4}</UniqueIdentifier>
     </Filter>
     <ClCompile Include="..\..\Source\SideScroller\Coin.cpp">
       <Filter>Source\SideScroller</Filter>
@@ -77,6 +77,12 @@
     <ClInclude Include="..\..\Source\SideScroller\PlayerCharacter.h">
       <Filter>Source\SideScroller</Filter>
     </ClInclude>
+    <ClCompile Include="..\..\Source\SideScroller\SideEnemy.cpp">
+      <Filter>Source\SideScroller</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\SideScroller\SideEnemy.h">
+      <Filter>Source\SideScroller</Filter>
+    </ClInclude>
     <None Include="..\..\Source\SideScroller\SideScroller.Build.cs">
       <Filter>Source\SideScroller</Filter>
     </None>
@@ -90,6 +96,18 @@
       <Filter>Source\SideScroller</Filter>
     </ClCompile>
     <ClInclude Include="..\..\Source\SideScroller\SideScrollerGameModeBase.h">
+      <Filter>Source\SideScroller</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\SideScroller\Tile.cpp">
+      <Filter>Source\SideScroller</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\SideScroller\Tile.h">
+      <Filter>Source\SideScroller</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\SideScroller\Wall.cpp">
+      <Filter>Source\SideScroller</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\SideScroller\Wall.h">
       <Filter>Source\SideScroller</Filter>
     </ClInclude>
   </ItemGroup>

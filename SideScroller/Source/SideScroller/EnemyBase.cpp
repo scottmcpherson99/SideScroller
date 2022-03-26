@@ -6,6 +6,7 @@
 #include "PlayerCharacter.h"
 #include "Kismet/KismetSystemLibrary.h"
 #include "Kismet/GameplayStatics.h"
+#include "Wall.h"
 
 AEnemyBase::AEnemyBase()
 {
@@ -37,6 +38,17 @@ void AEnemyBase::OnTriggerBoxOverlap(UPrimitiveComponent* OverlappedComponent, A
 		else
 		{
 			UKismetSystemLibrary::QuitGame(GetWorld(), UGameplayStatics::GetPlayerController(GetWorld(), 0), EQuitPreference::Quit, true);
+		}
+	}
+
+	else
+	{
+		AWall* tile = Cast<AWall>(OtherActor);
+
+		if (tile)
+		{
+			movementSpeed *= -1;
+
 		}
 	}
 }
