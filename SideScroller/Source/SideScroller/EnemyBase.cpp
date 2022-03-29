@@ -14,6 +14,7 @@ AEnemyBase::AEnemyBase()
 	TriggerBox->SetupAttachment(RootComponent);
 
 	movementSpeed = -50.f;
+
 }
 
 void AEnemyBase::BeginPlay()
