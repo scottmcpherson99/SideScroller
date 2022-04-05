@@ -21,8 +21,8 @@ void EmptyLinkFunctionForGeneratedCodeSideScroller_init() {}
 				nullptr,
 				0,
 				PKG_CompiledIn | 0x00000000,
-				0x3924380F,
-				0x2F7CD69A,
+				0xC181EE39,
+				0x1F5F2E3B,
 				METADATA_PARAMS(nullptr, 0)
 			};
 			UE4CodeGen_Private::ConstructUPackage(ReturnPackage, PackageParams);

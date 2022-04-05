@@ -2,6 +2,8 @@
 
 
 #include "PlayerCharacter.h"
+#include "Kismet/GameplayStatics.h"
+#include "Kismet/KismetSystemLibrary.h"
 #include "GameFramework/SpringArmComponent.h"
 #include "Camera/CameraComponent.h"
 #include "GameFramework/CharacterMovementComponent.h"
@@ -34,6 +36,7 @@ APlayerCharacter::APlayerCharacter()
 	GetCharacterMovement()->bOrientRotationToMovement = false;
 
 	lives = 3;
+	
 	
 }
 
@@ -132,6 +135,20 @@ void APlayerCharacter::CollectCoin()
 void APlayerCharacter::IncrementLives(float lives_)
 {
 	lives += lives_;
+}
+
+
+void APlayerCharacter::PlayerDeath()
+{
+	if (lives > 0)
+	{
+		lives--;
+		UGameplayStatics::OpenLevel(GetWorld(), FName(UGameplayStatics::GetCurrentLevelName(GetWorld(), true)));
+	}
+	else
+	{
+		UKismetSystemLibrary::QuitGame(GetWorld(), UGameplayStatics::GetPlayerController(GetWorld(), 0), EQuitPreference::Quit, true);
+	}
 }
 //////////////////////////////////////////////////////////////////////////
 

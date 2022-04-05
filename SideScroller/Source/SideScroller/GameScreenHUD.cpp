@@ -2,6 +2,7 @@
 
 
 #include "GameScreenHUD.h"
+#include "Kismet/GameplayStatics.h"
 
 void UGameScreenHUD::UpdatePlayerCoins(float coins_)
 {

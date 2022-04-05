@@ -1,16 +1,20 @@
 ﻿  Using 'git status' to determine working set for adaptive non-unity build (D:\Unreal Projects\SideScroller2D).
   Parsing headers for SideScrollerEditor
     Running UnrealHeaderTool "D:\Unreal Projects\SideScroller2D\SideScroller\SideScroller.uproject" "D:\Unreal Projects\SideScroller2D\SideScroller\Intermediate\Build\Win64\SideScrollerEditor\Development\SideScrollerEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -abslog="C:\Users\scott\AppData\Local\UnrealBuildTool\Log_UHT.txt" -installed
-  Reflection code generated for SideScrollerEditor in 3.6667064 seconds
+  Reflection code generated for SideScrollerEditor in 6.4478232 seconds
   Building SideScrollerEditor...
   Using Visual Studio 2019 14.30.30706 toolchain (C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.30.30705) and Windows 10.0.19041.0 SDK (C:\Program Files (x86)\Windows Kits\10).
-  Building 5 actions with 16 processes...
-    [1/5] EnemySpawner.gen.cpp
-    [2/5] EnemySpawner.cpp
-    [3/5] UE4Editor-SideScroller-0075.lib
-       Creating library D:\Unreal Projects\SideScroller2D\SideScroller\Intermediate\Build\Win64\UE4Editor\Development\SideScroller\UE4Editor-SideScroller-0075.lib and object D:\Unreal Projects\SideScroller2D\SideScroller\Intermediate\Build\Win64\UE4Editor\Development\SideScroller\UE4Editor-SideScroller-0075.exp
-    [4/5] UE4Editor-SideScroller-0075.dll
-       Creating library D:\Unreal Projects\SideScroller2D\SideScroller\Intermediate\Build\Win64\UE4Editor\Development\SideScroller\UE4Editor-SideScroller-0075.suppressed.lib and object D:\Unreal Projects\SideScroller2D\SideScroller\Intermediate\Build\Win64\UE4Editor\Development\SideScroller\UE4Editor-SideScroller-0075.suppressed.exp
-    [5/5] SideScrollerEditor.target
-  Total time in Parallel executor: 31.52 seconds
-  Total execution time: 35.71 seconds
+  Building 9 actions with 16 processes...
+    [1/9] DeathBox.cpp
+    [2/9] EnemyBase.cpp
+    [3/9] EnemySpawner.cpp
+    [4/9] Coin.cpp
+    [5/9] PlayerCharacter.gen.cpp
+    [6/9] PlayerCharacter.cpp
+    [7/9] UE4Editor-SideScroller-0094.lib
+       Creating library D:\Unreal Projects\SideScroller2D\SideScroller\Intermediate\Build\Win64\UE4Editor\Development\SideScroller\UE4Editor-SideScroller-0094.lib and object D:\Unreal Projects\SideScroller2D\SideScroller\Intermediate\Build\Win64\UE4Editor\Development\SideScroller\UE4Editor-SideScroller-0094.exp
+    [8/9] UE4Editor-SideScroller-0094.dll
+       Creating library D:\Unreal Projects\SideScroller2D\SideScroller\Intermediate\Build\Win64\UE4Editor\Development\SideScroller\UE4Editor-SideScroller-0094.suppressed.lib and object D:\Unreal Projects\SideScroller2D\SideScroller\Intermediate\Build\Win64\UE4Editor\Development\SideScroller\UE4Editor-SideScroller-0094.suppressed.exp
+    [9/9] SideScrollerEditor.target
+  Total time in Parallel executor: 237.20 seconds
+  Total execution time: 554.28 seconds

@@ -36,6 +36,8 @@ public:
 
 	void IncrementLives(float lives_);
 
+	void PlayerDeath();
+
 protected:
 
 
