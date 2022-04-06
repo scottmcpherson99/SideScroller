@@ -67,8 +67,8 @@ protected:
 	void UpdateCharacter();
 
 
-	float coins;
+	float coins = 0;
 
-	float lives;
+	float lives = 3;
 
 };

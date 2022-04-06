@@ -1,0 +1,46 @@
+/NOLOGO
+/errorReport:prompt
+/MACHINE:x64
+/SUBSYSTEM:WINDOWS
+/DEF
+/NAME:"UE4Editor-SideScroller-Win64-DebugGame.dll"
+/IGNORE:4221
+/NODEFAULTLIB
+"D:\Unreal Projects\SideScroller2D\SideScroller\Intermediate\Build\Win64\SideScrollerEditor\DebugGame\Engine\SharedPCH.Engine.NonOptimized.ShadowErrors.h.obj"
+"D:\Unreal Projects\SideScroller2D\SideScroller\Intermediate\Build\Win64\UE4Editor\DebugGame\SideScroller\Coin.cpp.obj"
+"D:\Unreal Projects\SideScroller2D\SideScroller\Intermediate\Build\Win64\UE4Editor\DebugGame\SideScroller\Collectable.cpp.obj"
+"D:\Unreal Projects\SideScroller2D\SideScroller\Intermediate\Build\Win64\UE4Editor\DebugGame\SideScroller\DeathBox.cpp.obj"
+"D:\Unreal Projects\SideScroller2D\SideScroller\Intermediate\Build\Win64\UE4Editor\DebugGame\SideScroller\DumbEnemy.cpp.obj"
+"D:\Unreal Projects\SideScroller2D\SideScroller\Intermediate\Build\Win64\UE4Editor\DebugGame\SideScroller\EnemyBase.cpp.obj"
+"D:\Unreal Projects\SideScroller2D\SideScroller\Intermediate\Build\Win64\UE4Editor\DebugGame\SideScroller\EnemySpawner.cpp.obj"
+"D:\Unreal Projects\SideScroller2D\SideScroller\Intermediate\Build\Win64\UE4Editor\DebugGame\SideScroller\GameHUD.cpp.obj"
+"D:\Unreal Projects\SideScroller2D\SideScroller\Intermediate\Build\Win64\UE4Editor\DebugGame\SideScroller\GameScreenHUD.cpp.obj"
+"D:\Unreal Projects\SideScroller2D\SideScroller\Intermediate\Build\Win64\UE4Editor\DebugGame\SideScroller\MainMenuGameModeBase.cpp.obj"
+"D:\Unreal Projects\SideScroller2D\SideScroller\Intermediate\Build\Win64\UE4Editor\DebugGame\SideScroller\MainMenuHUD.cpp.obj"
+"D:\Unreal Projects\SideScroller2D\SideScroller\Intermediate\Build\Win64\UE4Editor\DebugGame\SideScroller\PlayerCharacter.cpp.obj"
+"D:\Unreal Projects\SideScroller2D\SideScroller\Intermediate\Build\Win64\UE4Editor\DebugGame\SideScroller\SavePlayerStats.cpp.obj"
+"D:\Unreal Projects\SideScroller2D\SideScroller\Intermediate\Build\Win64\UE4Editor\DebugGame\SideScroller\SideEnemy.cpp.obj"
+"D:\Unreal Projects\SideScroller2D\SideScroller\Intermediate\Build\Win64\UE4Editor\DebugGame\SideScroller\SideScroller.cpp.obj"
+"D:\Unreal Projects\SideScroller2D\SideScroller\Intermediate\Build\Win64\UE4Editor\DebugGame\SideScroller\SideScrollerGameModeBase.cpp.obj"
+"D:\Unreal Projects\SideScroller2D\SideScroller\Intermediate\Build\Win64\UE4Editor\DebugGame\SideScroller\Tile.cpp.obj"
+"D:\Unreal Projects\SideScroller2D\SideScroller\Intermediate\Build\Win64\UE4Editor\DebugGame\SideScroller\Wall.cpp.obj"
+"D:\Unreal Projects\SideScroller2D\SideScroller\Intermediate\Build\Win64\UE4Editor\DebugGame\SideScroller\Coin.gen.cpp.obj"
+"D:\Unreal Projects\SideScroller2D\SideScroller\Intermediate\Build\Win64\UE4Editor\DebugGame\SideScroller\Collectable.gen.cpp.obj"
+"D:\Unreal Projects\SideScroller2D\SideScroller\Intermediate\Build\Win64\UE4Editor\DebugGame\SideScroller\DeathBox.gen.cpp.obj"
+"D:\Unreal Projects\SideScroller2D\SideScroller\Intermediate\Build\Win64\UE4Editor\DebugGame\SideScroller\DumbEnemy.gen.cpp.obj"
+"D:\Unreal Projects\SideScroller2D\SideScroller\Intermediate\Build\Win64\UE4Editor\DebugGame\SideScroller\EnemyBase.gen.cpp.obj"
+"D:\Unreal Projects\SideScroller2D\SideScroller\Intermediate\Build\Win64\UE4Editor\DebugGame\SideScroller\EnemySpawner.gen.cpp.obj"
+"D:\Unreal Projects\SideScroller2D\SideScroller\Intermediate\Build\Win64\UE4Editor\DebugGame\SideScroller\GameHUD.gen.cpp.obj"
+"D:\Unreal Projects\SideScroller2D\SideScroller\Intermediate\Build\Win64\UE4Editor\DebugGame\SideScroller\GameScreenHUD.gen.cpp.obj"
+"D:\Unreal Projects\SideScroller2D\SideScroller\Intermediate\Build\Win64\UE4Editor\DebugGame\SideScroller\MainMenuGameModeBase.gen.cpp.obj"
+"D:\Unreal Projects\SideScroller2D\SideScroller\Intermediate\Build\Win64\UE4Editor\DebugGame\SideScroller\MainMenuHUD.gen.cpp.obj"
+"D:\Unreal Projects\SideScroller2D\SideScroller\Intermediate\Build\Win64\UE4Editor\DebugGame\SideScroller\PlayerCharacter.gen.cpp.obj"
+"D:\Unreal Projects\SideScroller2D\SideScroller\Intermediate\Build\Win64\UE4Editor\DebugGame\SideScroller\SavePlayerStats.gen.cpp.obj"
+"D:\Unreal Projects\SideScroller2D\SideScroller\Intermediate\Build\Win64\UE4Editor\DebugGame\SideScroller\SideEnemy.gen.cpp.obj"
+"D:\Unreal Projects\SideScroller2D\SideScroller\Intermediate\Build\Win64\UE4Editor\DebugGame\SideScroller\SideScroller.init.gen.cpp.obj"
+"D:\Unreal Projects\SideScroller2D\SideScroller\Intermediate\Build\Win64\UE4Editor\DebugGame\SideScroller\SideScrollerGameModeBase.gen.cpp.obj"
+"D:\Unreal Projects\SideScroller2D\SideScroller\Intermediate\Build\Win64\UE4Editor\DebugGame\SideScroller\Tile.gen.cpp.obj"
+"D:\Unreal Projects\SideScroller2D\SideScroller\Intermediate\Build\Win64\UE4Editor\DebugGame\SideScroller\Wall.gen.cpp.obj"
+"D:\Unreal Projects\SideScroller2D\SideScroller\Intermediate\Build\Win64\UE4Editor\DebugGame\SideScroller\Default.rc2.res"
+/OUT:"D:\Unreal Projects\SideScroller2D\SideScroller\Intermediate\Build\Win64\UE4Editor\DebugGame\SideScroller\UE4Editor-SideScroller-Win64-DebugGame.lib"
+/INCLUDE:IMPLEMENT_MODULE_SideScroller

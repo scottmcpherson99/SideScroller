@@ -10,3 +10,4 @@ bin/*
 
 .vs
 SharedPCH.Engine.ShadowErrors.h.pch
+SharedPCH.Engine.NonOptimized.ShadowErrors.h.pch

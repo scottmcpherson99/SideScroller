@@ -35,8 +35,6 @@ APlayerCharacter::APlayerCharacter()
 	SideViewCameraComponent->bAutoActivate = true;
 	GetCharacterMovement()->bOrientRotationToMovement = false;
 
-	lives = 3;
-	
 	
 }
 
