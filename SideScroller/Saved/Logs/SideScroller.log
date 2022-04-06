@@ -6291,3 +6291,1038 @@ LogConfig: Setting CVar [[r.setres:1280x720]]
 [2022.04.06-20.36.40:654][  0]AssetCheck: New page: Asset Save: multiple assets
 [2022.04.06-20.36.40:654][  0]LogContentValidation: Display: Validating World /Game/Levels/Level1.Level1
 [2022.04.06-20.36.40:654][  0]LogContentValidation: Display: Validating MapBuildDataRegistry /Game/Levels/Level1_BuiltData.Level1_BuiltData
+[2022.04.06-20.46.40:748][ 81]LogUObjectHash: Compacting FUObjectHashTables data took   1.46ms
+[2022.04.06-20.46.40:752][ 81]LogFileHelpers: Editor autosave (incl. external actors) for '/Game/Levels/Level1' took 0.022
+[2022.04.06-20.56.41:168][868]LogUObjectHash: Compacting FUObjectHashTables data took   1.18ms
+[2022.04.06-20.56.41:170][868]LogFileHelpers: Editor autosave (incl. external actors) for '/Game/Levels/Level1' took 0.014
+[2022.04.06-21.06.41:742][663]LogUObjectHash: Compacting FUObjectHashTables data took   0.30ms
+[2022.04.06-21.06.41:743][663]LogFileHelpers: Editor autosave (incl. external actors) for '/Game/Levels/Level1' took 0.012
+[2022.04.06-21.16.42:283][461]LogUObjectHash: Compacting FUObjectHashTables data took   0.34ms
+[2022.04.06-21.16.42:283][461]LogFileHelpers: Editor autosave (incl. external actors) for '/Game/Levels/Level1' took 0.013
+[2022.04.06-21.26.42:792][259]LogUObjectHash: Compacting FUObjectHashTables data took   0.47ms
+[2022.04.06-21.26.42:793][259]LogFileHelpers: Editor autosave (incl. external actors) for '/Game/Levels/Level1' took 0.016
+[2022.04.06-21.36.43:629][445]LogUObjectHash: Compacting FUObjectHashTables data took   0.38ms
+[2022.04.06-21.36.43:630][445]LogFileHelpers: Editor autosave (incl. external actors) for '/Game/Levels/Level1' took 0.014
+[2022.04.06-21.39.50:658][265]LogEditorViewport: Clicking on Actor (LMB): BP_DumbEnemy_C (BP_DumbEnemy)
+[2022.04.06-21.45.51:895][690]LogHotReload: New module detected: UE4Editor-SideScroller-0121.dll
+[2022.04.06-21.45.53:580][696]LogHotReload: Starting Hot-Reload from IDE
+[2022.04.06-21.45.53:663][696]LogNativeClassHierarchy: Verbose: Native class hierarchy updated for 'SideScroller' in 0.0005 seconds. Added 17 classes and 2 folders.
+[2022.04.06-21.45.53:665][696]Display: HotReload successful (7 functions remapped  0 scriptstructs remapped)
+[2022.04.06-21.45.53:733][696]LogNativeClassHierarchy: Verbose: Native class hierarchy populated in 0.0118 seconds. Added 3618 classes and 861 folders.
+[2022.04.06-21.45.53:752][696]Display: HotReload took  0.2s.
+[2022.04.06-21.46.34:308][817]LogHotReload: New module detected: UE4Editor-SideScroller-0122.dll
+[2022.04.06-21.46.35:682][822]LogHotReload: Starting Hot-Reload from IDE
+[2022.04.06-21.46.35:741][822]LogNativeClassHierarchy: Verbose: Native class hierarchy updated for 'SideScroller' in 0.0002 seconds. Added 17 classes and 2 folders.
+[2022.04.06-21.46.35:743][822]Display: HotReload successful (7 functions remapped  0 scriptstructs remapped)
+[2022.04.06-21.46.35:800][822]LogNativeClassHierarchy: Verbose: Native class hierarchy populated in 0.0073 seconds. Added 3618 classes and 861 folders.
+[2022.04.06-21.46.35:807][822]Display: HotReload took  0.1s.
+[2022.04.06-21.46.44:754][848]LogUObjectHash: Compacting FUObjectHashTables data took   2.47ms
+[2022.04.06-21.46.44:756][848]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Levels/Level1" FILE="D:/Unreal Projects/SideScroller2D/SideScroller/Saved/Autosaves/Game/Levels/Level1_Auto3.umap" SILENT=true AUTOSAVING=true KEEPDIRTY=false
+[2022.04.06-21.46.44:776][848]LogSavePackage: Moving 'D:/Unreal Projects/SideScroller2D/SideScroller/Saved/Level1_Auto3FC51676A480FB06F716F0DBBFF5FF7E5.tmp' to 'D:/Unreal Projects/SideScroller2D/SideScroller/Saved/Autosaves/Game/Levels/Level1_Auto3.umap'
+[2022.04.06-21.46.44:777][848]LogFileHelpers: Editor autosave (incl. external actors) for '/Game/Levels/Level1' took 0.100
+[2022.04.06-21.46.44:777][848]LogFileHelpers: Editor autosave (incl. sublevels & external actors) for all levels took 0.100
+[2022.04.06-21.46.51:998][960]LogTemp: Repeating last play command: Selected Viewport
+[2022.04.06-21.46.52:015][960]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2022.04.06-21.46.52:015][960]PIE: New page: PIE session: Level1 (6 Apr 2022, 23:46:52)
+[2022.04.06-21.46.52:015][960]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_Level1
+[2022.04.06-21.46.52:021][960]LogPlayLevel: PIE: StaticDuplicateObject took: (0.006681s)
+[2022.04.06-21.46.52:022][960]LogAIModule: Creating AISystem for world Level1
+[2022.04.06-21.46.52:022][960]LogPlayLevel: PIE: World Init took: (0.001309s)
+[2022.04.06-21.46.52:023][960]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/Level1.Level1 to /Game/Levels/UEDPIE_0_Level1.Level1 (0.008113s)
+[2022.04.06-21.46.52:045][960]LogUObjectHash: Compacting FUObjectHashTables data took   1.78ms
+[2022.04.06-21.46.52:046][960]LogAudio: Display: Creating Audio Device:                 Id: 52, Scope: Unique, Realtime: True
+[2022.04.06-21.46.52:046][960]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2022.04.06-21.46.52:046][960]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2022.04.06-21.46.52:046][960]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2022.04.06-21.46.52:046][960]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2022.04.06-21.46.52:046][960]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2022.04.06-21.46.52:046][960]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2022.04.06-21.46.52:046][960]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2022.04.06-21.46.52:046][960]LogAudio: Display: AudioDevice MaxSources: 32
+[2022.04.06-21.46.52:046][960]LogAudio: Display: Using built-in audio occlusion.
+[2022.04.06-21.46.52:046][960]LogAudioMixer: Display: Initializing audio mixer.
+[2022.04.06-21.46.52:048][960]LogAudioMixer: Display: 0: FrontLeft
+[2022.04.06-21.46.52:048][960]LogAudioMixer: Display: 1: FrontRight
+[2022.04.06-21.46.52:055][960]LogAudioMixer: Display: Using Audio Device Acer GR235H (NVIDIA High Definition Audio)
+[2022.04.06-21.46.52:055][960]LogAudioMixer: Display: Initializing Sound Submixes...
+[2022.04.06-21.46.52:055][960]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2022.04.06-21.46.52:055][960]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2022.04.06-21.46.52:056][960]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2022.04.06-21.46.52:056][960]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called
+[2022.04.06-21.46.52:056][960]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048
+[2022.04.06-21.46.52:065][960]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal()
+[2022.04.06-21.46.52:065][960]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time
+[2022.04.06-21.46.52:065][960]LogInit: FAudioDevice initialized.
+[2022.04.06-21.46.52:065][960]LogAudio: Display: Audio Device (ID: 52) registered with world 'Level1'.
+[2022.04.06-21.46.52:070][960]LogLoad: Game class is 'BP_SideScrollerGameModeBase_C'
+[2022.04.06-21.46.52:073][960]LogWorld: Bringing World /Game/Levels/UEDPIE_0_Level1.Level1 up for play (max tick rate 0) at 2022.04.06-22.46.52
+[2022.04.06-21.46.52:074][960]LogWorld: Bringing up level for play took: 0.002826
+[2022.04.06-21.46.52:074][960]LogOnline: OSS: Creating online subsystem instance for: :Context_58
+[2022.04.06-21.46.52:076][960]PIE: Server logged in
+[2022.04.06-21.46.52:076][960]PIE: Play in editor total start time 0.074 seconds.
+[2022.04.06-21.46.52:765][ 42]LogTemp: Warning: Overlap Occured, Checking if it's a player.
+[2022.04.06-21.46.52:797][ 46]LogTemp: Warning: Overlap Occured, Checking if it's a player.
+[2022.04.06-21.46.53:805][167]LogTemp: Warning: Overlap Occured, Checking if it's a player.
+[2022.04.06-21.46.53:839][171]LogTemp: Warning: Overlap Occured, Checking if it's a player.
+[2022.04.06-21.46.54:014][192]LogTemp: Warning: Overlap Occured, Checking if it's a player.
+[2022.04.06-21.46.54:014][192]LogTemp: Warning: Overlap is a player.
+[2022.04.06-21.46.54:422][241]LogTemp: Warning: Overlap Occured, Checking if it's a player.
+[2022.04.06-21.46.54:422][241]LogTemp: Warning: Overlap is a player.
+[2022.04.06-21.46.55:180][332]LogTemp: Warning: Overlap Occured, Checking if it's a player.
+[2022.04.06-21.46.55:180][332]LogTemp: Warning: Overlap is a player.
+[2022.04.06-21.46.59:678][869]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.04.06-21.46.59:678][869]LogWorld: BeginTearingDown for /Game/Levels/UEDPIE_0_Level1
+[2022.04.06-21.46.59:678][869]LogWorld: UWorld::CleanupWorld for Level1, bSessionEnded=true, bCleanupResources=true
+[2022.04.06-21.46.59:679][869]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.04.06-21.46.59:688][869]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2022.04.06-21.46.59:716][869]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.04.06-21.46.59:730][869]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2022.04.06-21.46.59:731][869]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2022.04.06-21.46.59:731][869]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2022.04.06-21.46.59:742][869]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.04.06-21.46.59:745][869]LogUObjectHash: Compacting FUObjectHashTables data took   1.40ms
+[2022.04.06-21.46.59:786][870]LogPlayLevel: Display: Destroying online subsystem :Context_58
+[2022.04.06-21.47.07:673][952]LogHotReload: New module detected: UE4Editor-SideScroller-0123.dll
+[2022.04.06-21.47.08:354][955]LogHotReload: Starting Hot-Reload from IDE
+[2022.04.06-21.47.08:417][955]LogNativeClassHierarchy: Verbose: Native class hierarchy updated for 'SideScroller' in 0.0002 seconds. Added 17 classes and 2 folders.
+[2022.04.06-21.47.08:420][955]Display: HotReload successful (7 functions remapped  0 scriptstructs remapped)
+[2022.04.06-21.47.08:486][955]LogNativeClassHierarchy: Verbose: Native class hierarchy populated in 0.0068 seconds. Added 3618 classes and 861 folders.
+[2022.04.06-21.47.08:495][955]Display: HotReload took  0.1s.
+[2022.04.06-21.47.12:110][245]LogEditorViewport: Clicking on Actor (LMB): BP_PlayerCharacter_C (BP_PlayerCharacter)
+[2022.04.06-21.47.15:197][583]LogEditorViewport: Clicking on Actor (LMB): BP_DumbEnemy_C (BP_DumbEnemy)
+[2022.04.06-21.47.17:699][867]LogTemp: Repeating last play command: Selected Viewport
+[2022.04.06-21.47.17:704][867]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2022.04.06-21.47.17:704][867]PIE: New page: PIE session: Level1 (6 Apr 2022, 23:47:17)
+[2022.04.06-21.47.17:741][867]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_Level1
+[2022.04.06-21.47.17:747][867]LogPlayLevel: PIE: StaticDuplicateObject took: (0.005823s)
+[2022.04.06-21.47.17:749][867]LogAIModule: Creating AISystem for world Level1
+[2022.04.06-21.47.17:749][867]LogPlayLevel: PIE: World Init took: (0.002755s)
+[2022.04.06-21.47.17:749][867]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/Level1.Level1 to /Game/Levels/UEDPIE_0_Level1.Level1 (0.008719s)
+[2022.04.06-21.47.17:794][867]LogUObjectHash: Compacting FUObjectHashTables data took   2.50ms
+[2022.04.06-21.47.17:796][867]LogAudio: Display: Creating Audio Device:                 Id: 53, Scope: Unique, Realtime: True
+[2022.04.06-21.47.17:797][867]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2022.04.06-21.47.17:797][867]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2022.04.06-21.47.17:797][867]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2022.04.06-21.47.17:797][867]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2022.04.06-21.47.17:797][867]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2022.04.06-21.47.17:797][867]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2022.04.06-21.47.17:797][867]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2022.04.06-21.47.17:797][867]LogAudio: Display: AudioDevice MaxSources: 32
+[2022.04.06-21.47.17:797][867]LogAudio: Display: Using built-in audio occlusion.
+[2022.04.06-21.47.17:797][867]LogAudioMixer: Display: Initializing audio mixer.
+[2022.04.06-21.47.17:799][867]LogAudioMixer: Display: 0: FrontLeft
+[2022.04.06-21.47.17:799][867]LogAudioMixer: Display: 1: FrontRight
+[2022.04.06-21.47.17:805][867]LogAudioMixer: Display: Using Audio Device Acer GR235H (NVIDIA High Definition Audio)
+[2022.04.06-21.47.17:806][867]LogAudioMixer: Display: Initializing Sound Submixes...
+[2022.04.06-21.47.17:806][867]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2022.04.06-21.47.17:806][867]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2022.04.06-21.47.17:806][867]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2022.04.06-21.47.17:806][867]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called
+[2022.04.06-21.47.17:806][867]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048
+[2022.04.06-21.47.17:816][867]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal()
+[2022.04.06-21.47.17:816][867]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time
+[2022.04.06-21.47.17:816][867]LogInit: FAudioDevice initialized.
+[2022.04.06-21.47.17:816][867]LogAudio: Display: Audio Device (ID: 53) registered with world 'Level1'.
+[2022.04.06-21.47.17:825][867]LogLoad: Game class is 'BP_SideScrollerGameModeBase_C'
+[2022.04.06-21.47.17:828][867]LogWorld: Bringing World /Game/Levels/UEDPIE_0_Level1.Level1 up for play (max tick rate 0) at 2022.04.06-22.47.17
+[2022.04.06-21.47.17:829][867]LogWorld: Bringing up level for play took: 0.002402
+[2022.04.06-21.47.17:829][867]LogOnline: OSS: Creating online subsystem instance for: :Context_59
+[2022.04.06-21.47.17:831][867]PIE: Server logged in
+[2022.04.06-21.47.17:832][867]PIE: Play in editor total start time 0.128 seconds.
+[2022.04.06-21.47.18:461][942]LogTemp: Warning: Overlap Occured, Checking if it's a player.
+[2022.04.06-21.47.18:494][946]LogTemp: Warning: Overlap Occured, Checking if it's a player.
+[2022.04.06-21.47.18:619][961]LogTemp: Warning: Overlap Occured, Checking if it's a player.
+[2022.04.06-21.47.18:719][973]LogTemp: Warning: Overlap Occured, Checking if it's a player.
+[2022.04.06-21.47.19:504][ 67]LogTemp: Warning: Overlap Occured, Checking if it's a player.
+[2022.04.06-21.47.19:535][ 71]LogTemp: Warning: Overlap Occured, Checking if it's a player.
+[2022.04.06-21.47.19:577][ 76]LogTemp: Warning: Overlap Occured, Checking if it's a player.
+[2022.04.06-21.47.19:661][ 86]LogTemp: Warning: Overlap Occured, Checking if it's a player.
+[2022.04.06-21.47.19:677][ 88]LogTemp: Warning: Overlap Occured, Checking if it's a player.
+[2022.04.06-21.47.19:761][ 98]LogTemp: Warning: Overlap Occured, Checking if it's a player.
+[2022.04.06-21.47.21:410][296]LogTemp: Warning: Overlap Occured, Checking if it's a player.
+[2022.04.06-21.47.21:511][308]LogTemp: Warning: Overlap Occured, Checking if it's a player.
+[2022.04.06-21.47.22:452][421]LogTemp: Warning: Overlap Occured, Checking if it's a player.
+[2022.04.06-21.47.22:552][433]LogTemp: Warning: Overlap Occured, Checking if it's a player.
+[2022.04.06-21.47.23:094][498]LogTemp: Warning: Overlap Occured, Checking if it's a player.
+[2022.04.06-21.47.23:127][502]LogTemp: Warning: Overlap Occured, Checking if it's a player.
+[2022.04.06-21.47.24:094][618]LogTemp: Warning: Overlap Occured, Checking if it's a player.
+[2022.04.06-21.47.24:127][622]LogTemp: Warning: Overlap Occured, Checking if it's a player.
+[2022.04.06-21.47.25:094][738]LogTemp: Warning: Overlap Occured, Checking if it's a player.
+[2022.04.06-21.47.25:127][742]LogTemp: Warning: Overlap Occured, Checking if it's a player.
+[2022.04.06-21.47.27:561][ 31]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.04.06-21.47.27:561][ 31]LogWorld: BeginTearingDown for /Game/Levels/UEDPIE_0_Level1
+[2022.04.06-21.47.27:561][ 31]LogWorld: UWorld::CleanupWorld for Level1, bSessionEnded=true, bCleanupResources=true
+[2022.04.06-21.47.27:562][ 31]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.04.06-21.47.27:573][ 31]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2022.04.06-21.47.27:600][ 31]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.04.06-21.47.27:618][ 31]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.04.06-21.47.27:618][ 31]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2022.04.06-21.47.27:619][ 31]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2022.04.06-21.47.27:659][ 31]LogUObjectHash: Compacting FUObjectHashTables data took   1.99ms
+[2022.04.06-21.47.27:689][ 32]LogPlayLevel: Display: Destroying online subsystem :Context_59
+[2022.04.06-21.47.28:871][170]LogTemp: Repeating last play command: Selected Viewport
+[2022.04.06-21.47.28:876][170]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2022.04.06-21.47.28:876][170]PIE: New page: PIE session: Level1 (6 Apr 2022, 23:47:28)
+[2022.04.06-21.47.28:902][170]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_Level1
+[2022.04.06-21.47.28:908][170]LogPlayLevel: PIE: StaticDuplicateObject took: (0.006595s)
+[2022.04.06-21.47.28:909][170]LogAIModule: Creating AISystem for world Level1
+[2022.04.06-21.47.28:909][170]LogPlayLevel: PIE: World Init took: (0.000672s)
+[2022.04.06-21.47.28:909][170]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/Level1.Level1 to /Game/Levels/UEDPIE_0_Level1.Level1 (0.007435s)
+[2022.04.06-21.47.28:938][170]LogUObjectHash: Compacting FUObjectHashTables data took   1.81ms
+[2022.04.06-21.47.28:939][170]LogAudio: Display: Creating Audio Device:                 Id: 54, Scope: Unique, Realtime: True
+[2022.04.06-21.47.28:939][170]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2022.04.06-21.47.28:939][170]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2022.04.06-21.47.28:939][170]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2022.04.06-21.47.28:939][170]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2022.04.06-21.47.28:939][170]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2022.04.06-21.47.28:939][170]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2022.04.06-21.47.28:939][170]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2022.04.06-21.47.28:939][170]LogAudio: Display: AudioDevice MaxSources: 32
+[2022.04.06-21.47.28:940][170]LogAudio: Display: Using built-in audio occlusion.
+[2022.04.06-21.47.28:940][170]LogAudioMixer: Display: Initializing audio mixer.
+[2022.04.06-21.47.28:941][170]LogAudioMixer: Display: 0: FrontLeft
+[2022.04.06-21.47.28:941][170]LogAudioMixer: Display: 1: FrontRight
+[2022.04.06-21.47.28:947][170]LogAudioMixer: Display: Using Audio Device Acer GR235H (NVIDIA High Definition Audio)
+[2022.04.06-21.47.28:948][170]LogAudioMixer: Display: Initializing Sound Submixes...
+[2022.04.06-21.47.28:948][170]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2022.04.06-21.47.28:948][170]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2022.04.06-21.47.28:948][170]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2022.04.06-21.47.28:948][170]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called
+[2022.04.06-21.47.28:948][170]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048
+[2022.04.06-21.47.28:958][170]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal()
+[2022.04.06-21.47.28:958][170]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time
+[2022.04.06-21.47.28:958][170]LogInit: FAudioDevice initialized.
+[2022.04.06-21.47.28:958][170]LogAudio: Display: Audio Device (ID: 54) registered with world 'Level1'.
+[2022.04.06-21.47.28:967][170]LogLoad: Game class is 'BP_SideScrollerGameModeBase_C'
+[2022.04.06-21.47.28:970][170]LogWorld: Bringing World /Game/Levels/UEDPIE_0_Level1.Level1 up for play (max tick rate 0) at 2022.04.06-22.47.28
+[2022.04.06-21.47.28:970][170]LogWorld: Bringing up level for play took: 0.002274
+[2022.04.06-21.47.28:970][170]LogOnline: OSS: Creating online subsystem instance for: :Context_60
+[2022.04.06-21.47.28:973][170]PIE: Server logged in
+[2022.04.06-21.47.28:973][170]PIE: Play in editor total start time 0.097 seconds.
+[2022.04.06-21.47.29:565][234]LogTemp: Warning: Overlap Occured, Checking if it's a player.
+[2022.04.06-21.47.29:599][238]LogTemp: Warning: Overlap Occured, Checking if it's a player.
+[2022.04.06-21.47.29:732][254]LogTemp: Warning: Overlap Occured, Checking if it's a player.
+[2022.04.06-21.47.29:832][266]LogTemp: Warning: Overlap Occured, Checking if it's a player.
+[2022.04.06-21.47.30:607][359]LogTemp: Warning: Overlap Occured, Checking if it's a player.
+[2022.04.06-21.47.30:641][363]LogTemp: Warning: Overlap Occured, Checking if it's a player.
+[2022.04.06-21.47.30:699][370]LogTemp: Warning: Overlap Occured, Checking if it's a player.
+[2022.04.06-21.47.30:774][379]LogTemp: Warning: Overlap Occured, Checking if it's a player.
+[2022.04.06-21.47.30:799][382]LogTemp: Warning: Overlap Occured, Checking if it's a player.
+[2022.04.06-21.47.30:874][391]LogTemp: Warning: Overlap Occured, Checking if it's a player.
+[2022.04.06-21.47.32:496][584]LogTemp: Warning: Overlap Occured, Checking if it's a player.
+[2022.04.06-21.47.32:596][596]LogTemp: Warning: Overlap Occured, Checking if it's a player.
+[2022.04.06-21.47.33:537][709]LogTemp: Warning: Overlap Occured, Checking if it's a player.
+[2022.04.06-21.47.33:638][721]LogTemp: Warning: Overlap Occured, Checking if it's a player.
+[2022.04.06-21.47.33:688][727]LogTemp: Warning: Overlap Occured, Checking if it's a player.
+[2022.04.06-21.47.33:721][731]LogTemp: Warning: Overlap Occured, Checking if it's a player.
+[2022.04.06-21.47.34:442][813]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.04.06-21.47.34:442][813]LogWorld: BeginTearingDown for /Game/Levels/UEDPIE_0_Level1
+[2022.04.06-21.47.34:442][813]LogWorld: UWorld::CleanupWorld for Level1, bSessionEnded=true, bCleanupResources=true
+[2022.04.06-21.47.34:443][813]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.04.06-21.47.34:451][813]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2022.04.06-21.47.34:480][813]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.04.06-21.47.34:495][813]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2022.04.06-21.47.34:495][813]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2022.04.06-21.47.34:495][813]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2022.04.06-21.47.34:506][813]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.04.06-21.47.34:509][813]LogUObjectHash: Compacting FUObjectHashTables data took   1.42ms
+[2022.04.06-21.47.34:538][814]LogPlayLevel: Display: Destroying online subsystem :Context_60
+[2022.04.06-21.48.25:582][ 36]LogHotReload: New module detected: UE4Editor-SideScroller-0124.dll
+[2022.04.06-21.48.26:266][ 39]LogHotReload: Starting Hot-Reload from IDE
+[2022.04.06-21.48.26:325][ 39]LogNativeClassHierarchy: Verbose: Native class hierarchy updated for 'SideScroller' in 0.0003 seconds. Added 17 classes and 2 folders.
+[2022.04.06-21.48.26:327][ 39]Display: HotReload successful (7 functions remapped  0 scriptstructs remapped)
+[2022.04.06-21.48.26:395][ 39]LogNativeClassHierarchy: Verbose: Native class hierarchy populated in 0.0077 seconds. Added 3618 classes and 861 folders.
+[2022.04.06-21.48.26:405][ 39]Display: HotReload took  0.1s.
+[2022.04.06-21.48.29:450][190]Candidate modules for hot reload:
+[2022.04.06-21.48.29:450][190]  SideScroller
+[2022.04.06-21.48.29:450][190]Launching UnrealBuildTool... [C:/Program Files/Epic Games/UE_4.26/Engine/Binaries/DotNET/UnrealBuildTool.exe  -ModuleWithSuffix=SideScroller,1128 SideScrollerEditor Win64 Development -Project="D:/Unreal Projects/SideScroller2D/SideScroller/SideScroller.uproject" "D:/Unreal Projects/SideScroller2D/SideScroller/SideScroller.uproject"  -IgnoreJunk]
+[2022.04.06-21.48.29:452][190]Warning: Starting HotReload took  0.0s.
+[2022.04.06-21.48.30:844][300]CompilerResultsLog: New page: Compilation - 6 Apr 2022, 23:48:30
+[2022.04.06-21.48.30:844][300]CompilerResultsLog: Using 'git status' to determine working set for adaptive non-unity build (D:\Unreal Projects\SideScroller2D).
+[2022.04.06-21.48.30:844][300]CompilerResultsLog: Building SideScrollerEditor...
+[2022.04.06-21.48.30:844][300]CompilerResultsLog: Using Visual Studio 2019 14.30.30706 toolchain (C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.30.30705) and Windows 10.0.19041.0 SDK (C:\Program Files (x86)\Windows Kits\10).
+[2022.04.06-21.48.30:844][300]CompilerResultsLog: Building 3 actions with 16 processes...
+[2022.04.06-21.48.30:844][300]CompilerResultsLog:   [1/3] UE4Editor-SideScroller-1128.lib
+[2022.04.06-21.48.30:844][300]CompilerResultsLog:      Creating library D:\Unreal Projects\SideScroller2D\SideScroller\Intermediate\Build\Win64\UE4Editor\Development\SideScroller\UE4Editor-SideScroller-1128.lib and object D:\Unreal Projects\SideScroller2D\SideScroller\Intermediate\Build\Win64\UE4Editor\Development\SideScroller\UE4Editor-SideScroller-1128.exp
+[2022.04.06-21.48.30:844][300]CompilerResultsLog:   [2/3] UE4Editor-SideScroller-1128.dll
+[2022.04.06-21.48.30:844][300]CompilerResultsLog:      Creating library D:\Unreal Projects\SideScroller2D\SideScroller\Intermediate\Build\Win64\UE4Editor\Development\SideScroller\UE4Editor-SideScroller-1128.suppressed.lib and object D:\Unreal Projects\SideScroller2D\SideScroller\Intermediate\Build\Win64\UE4Editor\Development\SideScroller\UE4Editor-SideScroller-1128.suppressed.exp
+[2022.04.06-21.48.30:844][300]CompilerResultsLog:   [3/3] SideScrollerEditor.target
+[2022.04.06-21.48.30:844][300]CompilerResultsLog: Total time in Parallel executor: 0.85 seconds
+[2022.04.06-21.48.30:844][300]CompilerResultsLog: Total execution time: 1.32 seconds
+[2022.04.06-21.48.30:844][300]LogMainFrame: MainFrame: Module compiling took 1.397 seconds
+[2022.04.06-21.48.30:903][300]LogNativeClassHierarchy: Verbose: Native class hierarchy updated for 'SideScroller' in 0.0002 seconds. Added 17 classes and 2 folders.
+[2022.04.06-21.48.30:907][300]Display: HotReload successful (7 functions remapped  0 scriptstructs remapped)
+[2022.04.06-21.48.30:980][300]LogNativeClassHierarchy: Verbose: Native class hierarchy populated in 0.0069 seconds. Added 3618 classes and 861 folders.
+[2022.04.06-21.48.30:984][300]Display: HotReload took  1.6s.
+[2022.04.06-21.48.31:764][349]LogTemp: Repeating last play command: Selected Viewport
+[2022.04.06-21.48.31:768][349]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2022.04.06-21.48.31:768][349]PIE: New page: PIE session: Level1 (6 Apr 2022, 23:48:31)
+[2022.04.06-21.48.31:795][349]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_Level1
+[2022.04.06-21.48.31:802][349]LogPlayLevel: PIE: StaticDuplicateObject took: (0.006562s)
+[2022.04.06-21.48.31:802][349]LogAIModule: Creating AISystem for world Level1
+[2022.04.06-21.48.31:802][349]LogPlayLevel: PIE: World Init took: (0.000887s)
+[2022.04.06-21.48.31:802][349]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/Level1.Level1 to /Game/Levels/UEDPIE_0_Level1.Level1 (0.007598s)
+[2022.04.06-21.48.31:883][349]LogUObjectHash: Compacting FUObjectHashTables data took   2.79ms
+[2022.04.06-21.48.31:884][349]LogAudio: Display: Creating Audio Device:                 Id: 55, Scope: Unique, Realtime: True
+[2022.04.06-21.48.31:884][349]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2022.04.06-21.48.31:884][349]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2022.04.06-21.48.31:884][349]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2022.04.06-21.48.31:884][349]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2022.04.06-21.48.31:884][349]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2022.04.06-21.48.31:884][349]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2022.04.06-21.48.31:884][349]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2022.04.06-21.48.31:884][349]LogAudio: Display: AudioDevice MaxSources: 32
+[2022.04.06-21.48.31:884][349]LogAudio: Display: Using built-in audio occlusion.
+[2022.04.06-21.48.31:885][349]LogAudioMixer: Display: Initializing audio mixer.
+[2022.04.06-21.48.31:886][349]LogAudioMixer: Display: 0: FrontLeft
+[2022.04.06-21.48.31:886][349]LogAudioMixer: Display: 1: FrontRight
+[2022.04.06-21.48.31:892][349]LogAudioMixer: Display: Using Audio Device Acer GR235H (NVIDIA High Definition Audio)
+[2022.04.06-21.48.31:892][349]LogAudioMixer: Display: Initializing Sound Submixes...
+[2022.04.06-21.48.31:892][349]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2022.04.06-21.48.31:892][349]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2022.04.06-21.48.31:892][349]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2022.04.06-21.48.31:892][349]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called
+[2022.04.06-21.48.31:892][349]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048
+[2022.04.06-21.48.31:903][349]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal()
+[2022.04.06-21.48.31:903][349]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time
+[2022.04.06-21.48.31:903][349]LogInit: FAudioDevice initialized.
+[2022.04.06-21.48.31:903][349]LogAudio: Display: Audio Device (ID: 55) registered with world 'Level1'.
+[2022.04.06-21.48.31:910][349]LogLoad: Game class is 'BP_SideScrollerGameModeBase_C'
+[2022.04.06-21.48.31:913][349]LogWorld: Bringing World /Game/Levels/UEDPIE_0_Level1.Level1 up for play (max tick rate 0) at 2022.04.06-22.48.31
+[2022.04.06-21.48.31:913][349]LogWorld: Bringing up level for play took: 0.002519
+[2022.04.06-21.48.31:913][349]LogOnline: OSS: Creating online subsystem instance for: :Context_61
+[2022.04.06-21.48.31:916][349]PIE: Server logged in
+[2022.04.06-21.48.31:916][349]PIE: Play in editor total start time 0.15 seconds.
+[2022.04.06-21.48.32:516][414]LogTemp: Warning: Overlap Occured, Checking if it's a player.
+[2022.04.06-21.48.32:549][418]LogTemp: Warning: Overlap Occured, Checking if it's a player.
+[2022.04.06-21.48.32:683][434]LogTemp: Warning: Overlap Occured, Checking if it's a player.
+[2022.04.06-21.48.32:782][446]LogTemp: Warning: Overlap Occured, Checking if it's a player.
+[2022.04.06-21.48.33:558][539]LogTemp: Warning: Overlap Occured, Checking if it's a player.
+[2022.04.06-21.48.33:591][543]LogTemp: Warning: Overlap Occured, Checking if it's a player.
+[2022.04.06-21.48.33:633][548]LogTemp: Warning: Overlap Occured, Checking if it's a player.
+[2022.04.06-21.48.33:724][559]LogTemp: Warning: Overlap Occured, Checking if it's a player.
+[2022.04.06-21.48.33:733][560]LogTemp: Warning: Overlap Occured, Checking if it's a player.
+[2022.04.06-21.48.33:824][571]LogTemp: Warning: Overlap Occured, Checking if it's a player.
+[2022.04.06-21.48.35:458][767]LogTemp: Warning: Overlap Occured, Checking if it's a player.
+[2022.04.06-21.48.35:558][779]LogTemp: Warning: Overlap Occured, Checking if it's a player.
+[2022.04.06-21.48.36:432][874]LogTemp: Warning: Overlap Occured, Checking if it's a player.
+[2022.04.06-21.48.36:532][886]LogTemp: Warning: Overlap Occured, Checking if it's a player.
+[2022.04.06-21.48.37:057][949]LogTemp: Warning: Overlap Occured, Checking if it's a player.
+[2022.04.06-21.48.37:090][953]LogTemp: Warning: Overlap Occured, Checking if it's a player.
+[2022.04.06-21.48.38:057][ 69]LogTemp: Warning: Overlap Occured, Checking if it's a player.
+[2022.04.06-21.48.38:090][ 73]LogTemp: Warning: Overlap Occured, Checking if it's a player.
+[2022.04.06-21.48.39:057][189]LogTemp: Warning: Overlap Occured, Checking if it's a player.
+[2022.04.06-21.48.39:090][193]LogTemp: Warning: Overlap Occured, Checking if it's a player.
+[2022.04.06-21.48.39:965][298]LogNet: Browse: /Game/Levels/Level1
+[2022.04.06-21.48.39:965][298]LogLoad: LoadMap: /Game/Levels/Level1
+[2022.04.06-21.48.39:965][298]LogWorld: BeginTearingDown for /Game/Levels/UEDPIE_0_Level1
+[2022.04.06-21.48.39:966][298]LogWorld: UWorld::CleanupWorld for Level1, bSessionEnded=true, bCleanupResources=true
+[2022.04.06-21.48.39:966][298]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.04.06-21.48.40:022][298]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2022.04.06-21.48.40:051][298]LogUObjectHash: Compacting FUObjectHashTables data took   1.96ms
+[2022.04.06-21.48.40:053][298]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_Level1
+[2022.04.06-21.48.40:059][298]LogPlayLevel: PIE: StaticDuplicateObject took: (0.006595s)
+[2022.04.06-21.48.40:059][298]LogAIModule: Creating AISystem for world Level1
+[2022.04.06-21.48.40:060][298]LogPlayLevel: PIE: World Init took: (0.000671s)
+[2022.04.06-21.48.40:060][298]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/Level1.Level1 to /Game/Levels/UEDPIE_0_Level1.Level1 (0.007394s)
+[2022.04.06-21.48.40:060][298]LogAudio: Display: Audio Device (ID: 55) registered with world 'Level1'.
+[2022.04.06-21.48.40:060][298]LogLoad: Game class is 'BP_SideScrollerGameModeBase_C'
+[2022.04.06-21.48.40:062][298]LogWorld: Bringing World /Game/Levels/UEDPIE_0_Level1.Level1 up for play (max tick rate 0) at 2022.04.06-22.48.40
+[2022.04.06-21.48.40:062][298]LogWorld: Bringing up level for play took: 0.001751
+[2022.04.06-21.48.40:063][298]LogGameMode: FindPlayerStart: PATHS NOT DEFINED or NO PLAYERSTART with positive rating
+[2022.04.06-21.48.40:064][298]LogLoad: Took 0.098445 seconds to LoadMap(/Game/Levels/UEDPIE_0_Level1)
+[2022.04.06-21.48.40:685][368]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.04.06-21.48.40:686][368]LogWorld: BeginTearingDown for /Game/Levels/UEDPIE_0_Level1
+[2022.04.06-21.48.40:686][368]LogWorld: UWorld::CleanupWorld for Level1, bSessionEnded=true, bCleanupResources=true
+[2022.04.06-21.48.40:686][368]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.04.06-21.48.40:692][368]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2022.04.06-21.48.40:723][368]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.04.06-21.48.40:737][368]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.04.06-21.48.40:738][368]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2022.04.06-21.48.40:739][368]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2022.04.06-21.48.40:751][368]LogUObjectHash: Compacting FUObjectHashTables data took   1.47ms
+[2022.04.06-21.48.40:779][369]LogPlayLevel: Display: Destroying online subsystem :Context_61
+[2022.04.06-21.48.50:593][486]LogHotReload: New module detected: UE4Editor-SideScroller-0126.dll
+[2022.04.06-21.48.51:272][489]LogHotReload: Starting Hot-Reload from IDE
+[2022.04.06-21.48.51:342][489]LogNativeClassHierarchy: Verbose: Native class hierarchy updated for 'SideScroller' in 0.0002 seconds. Added 17 classes and 2 folders.
+[2022.04.06-21.48.51:345][489]Display: HotReload successful (7 functions remapped  0 scriptstructs remapped)
+[2022.04.06-21.48.51:411][489]LogNativeClassHierarchy: Verbose: Native class hierarchy populated in 0.0075 seconds. Added 3618 classes and 861 folders.
+[2022.04.06-21.48.51:418][489]Display: HotReload took  0.1s.
+[2022.04.06-21.48.52:923][584]LogTemp: Repeating last play command: Selected Viewport
+[2022.04.06-21.48.52:927][584]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2022.04.06-21.48.52:927][584]PIE: New page: PIE session: Level1 (6 Apr 2022, 23:48:52)
+[2022.04.06-21.48.52:957][584]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_Level1
+[2022.04.06-21.48.52:963][584]LogPlayLevel: PIE: StaticDuplicateObject took: (0.005862s)
+[2022.04.06-21.48.52:963][584]LogAIModule: Creating AISystem for world Level1
+[2022.04.06-21.48.52:963][584]LogPlayLevel: PIE: World Init took: (0.000741s)
+[2022.04.06-21.48.52:963][584]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/Level1.Level1 to /Game/Levels/UEDPIE_0_Level1.Level1 (0.006727s)
+[2022.04.06-21.48.53:007][584]LogUObjectHash: Compacting FUObjectHashTables data took   2.71ms
+[2022.04.06-21.48.53:008][584]LogAudio: Display: Creating Audio Device:                 Id: 56, Scope: Unique, Realtime: True
+[2022.04.06-21.48.53:008][584]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2022.04.06-21.48.53:008][584]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2022.04.06-21.48.53:008][584]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2022.04.06-21.48.53:008][584]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2022.04.06-21.48.53:008][584]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2022.04.06-21.48.53:008][584]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2022.04.06-21.48.53:008][584]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2022.04.06-21.48.53:008][584]LogAudio: Display: AudioDevice MaxSources: 32
+[2022.04.06-21.48.53:008][584]LogAudio: Display: Using built-in audio occlusion.
+[2022.04.06-21.48.53:008][584]LogAudioMixer: Display: Initializing audio mixer.
+[2022.04.06-21.48.53:010][584]LogAudioMixer: Display: 0: FrontLeft
+[2022.04.06-21.48.53:010][584]LogAudioMixer: Display: 1: FrontRight
+[2022.04.06-21.48.53:016][584]LogAudioMixer: Display: Using Audio Device Acer GR235H (NVIDIA High Definition Audio)
+[2022.04.06-21.48.53:016][584]LogAudioMixer: Display: Initializing Sound Submixes...
+[2022.04.06-21.48.53:016][584]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2022.04.06-21.48.53:016][584]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2022.04.06-21.48.53:016][584]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2022.04.06-21.48.53:016][584]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called
+[2022.04.06-21.48.53:016][584]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048
+[2022.04.06-21.48.53:017][584]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal()
+[2022.04.06-21.48.53:017][584]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time
+[2022.04.06-21.48.53:017][584]LogInit: FAudioDevice initialized.
+[2022.04.06-21.48.53:017][584]LogAudio: Display: Audio Device (ID: 56) registered with world 'Level1'.
+[2022.04.06-21.48.53:031][584]LogLoad: Game class is 'BP_SideScrollerGameModeBase_C'
+[2022.04.06-21.48.53:034][584]LogWorld: Bringing World /Game/Levels/UEDPIE_0_Level1.Level1 up for play (max tick rate 0) at 2022.04.06-22.48.53
+[2022.04.06-21.48.53:035][584]LogWorld: Bringing up level for play took: 0.002389
+[2022.04.06-21.48.53:035][584]LogOnline: OSS: Creating online subsystem instance for: :Context_62
+[2022.04.06-21.48.53:037][584]PIE: Server logged in
+[2022.04.06-21.48.53:037][584]PIE: Play in editor total start time 0.111 seconds.
+[2022.04.06-21.48.53:691][662]LogTemp: Warning: Overlap Occured, Checking if it's a player.
+[2022.04.06-21.48.53:716][665]LogTemp: Warning: Overlap Occured, Checking if it's a player.
+[2022.04.06-21.48.53:866][683]LogTemp: Warning: Overlap Occured, Checking if it's a player.
+[2022.04.06-21.48.53:958][694]LogTemp: Warning: Overlap Occured, Checking if it's a player.
+[2022.04.06-21.48.54:724][786]LogTemp: Warning: Overlap Occured, Checking if it's a player.
+[2022.04.06-21.48.54:758][790]LogTemp: Warning: Overlap Occured, Checking if it's a player.
+[2022.04.06-21.48.54:833][799]LogTemp: Warning: Overlap Occured, Checking if it's a player.
+[2022.04.06-21.48.54:908][808]LogTemp: Warning: Overlap Occured, Checking if it's a player.
+[2022.04.06-21.48.54:924][810]LogTemp: Warning: Overlap Occured, Checking if it's a player.
+[2022.04.06-21.48.54:999][819]LogTemp: Warning: Overlap Occured, Checking if it's a player.
+[2022.04.06-21.48.56:624][ 14]LogTemp: Warning: Overlap Occured, Checking if it's a player.
+[2022.04.06-21.48.56:716][ 25]LogTemp: Warning: Overlap Occured, Checking if it's a player.
+[2022.04.06-21.48.57:008][ 60]LogTemp: Warning: Overlap Occured, Checking if it's a player.
+[2022.04.06-21.48.57:108][ 72]LogTemp: Warning: Overlap Occured, Checking if it's a player.
+[2022.04.06-21.48.57:183][ 81]LogTemp: Warning: Overlap Occured, Checking if it's a player.
+[2022.04.06-21.48.57:283][ 93]LogTemp: Warning: Overlap Occured, Checking if it's a player.
+[2022.04.06-21.48.57:658][138]LogTemp: Warning: Overlap Occured, Checking if it's a player.
+[2022.04.06-21.48.57:749][149]LogTemp: Warning: Overlap Occured, Checking if it's a player.
+[2022.04.06-21.48.57:849][161]LogTemp: Warning: Overlap Occured, Checking if it's a player.
+[2022.04.06-21.48.57:883][165]LogTemp: Warning: Overlap Occured, Checking if it's a player.
+[2022.04.06-21.48.58:049][185]LogTemp: Warning: Overlap Occured, Checking if it's a player.
+[2022.04.06-21.48.58:150][197]LogTemp: Warning: Overlap Occured, Checking if it's a player.
+[2022.04.06-21.48.58:850][281]LogTemp: Warning: Overlap Occured, Checking if it's a player.
+[2022.04.06-21.48.58:883][285]LogTemp: Warning: Overlap Occured, Checking if it's a player.
+[2022.04.06-21.48.59:483][357]LogTemp: Warning: Overlap Occured, Checking if it's a player.
+[2022.04.06-21.48.59:542][364]LogTemp: Warning: Overlap Occured, Checking if it's a player.
+[2022.04.06-21.48.59:775][392]LogTemp: Warning: Overlap Occured, Checking if it's a player.
+[2022.04.06-21.48.59:850][401]LogTemp: Warning: Overlap Occured, Checking if it's a player.
+[2022.04.06-21.48.59:875][404]LogTemp: Warning: Overlap Occured, Checking if it's a player.
+[2022.04.06-21.48.59:884][405]LogTemp: Warning: Overlap Occured, Checking if it's a player.
+[2022.04.06-21.48.59:934][411]LogTemp: Warning: Overlap Occured, Checking if it's a player.
+[2022.04.06-21.48.59:993][418]LogTemp: Warning: Overlap Occured, Checking if it's a player.
+[2022.04.06-21.49.00:808][516]LogTemp: Warning: Overlap Occured, Checking if it's a player.
+[2022.04.06-21.49.00:908][528]LogTemp: Warning: Overlap Occured, Checking if it's a player.
+[2022.04.06-21.49.00:975][536]LogTemp: Warning: Overlap Occured, Checking if it's a player.
+[2022.04.06-21.49.01:033][543]LogTemp: Warning: Overlap Occured, Checking if it's a player.
+[2022.04.06-21.49.01:891][646]LogTemp: Warning: Overlap Occured, Checking if it's a player.
+[2022.04.06-21.49.01:966][655]LogTemp: Warning: Overlap Occured, Checking if it's a player.
+[2022.04.06-21.49.02:708][744]LogTemp: Warning: Overlap Occured, Checking if it's a player.
+[2022.04.06-21.49.02:767][751]LogTemp: Warning: Overlap Occured, Checking if it's a player.
+[2022.04.06-21.49.03:150][797]LogTemp: Warning: Overlap Occured, Checking if it's a player.
+[2022.04.06-21.49.03:225][806]LogTemp: Warning: Overlap Occured, Checking if it's a player.
+[2022.04.06-21.49.03:741][868]LogTemp: Warning: Overlap Occured, Checking if it's a player.
+[2022.04.06-21.49.03:800][875]LogTemp: Warning: Overlap Occured, Checking if it's a player.
+[2022.04.06-21.49.04:175][920]LogTemp: Warning: Overlap Occured, Checking if it's a player.
+[2022.04.06-21.49.04:191][922]LogTemp: Warning: Overlap Occured, Checking if it's a player.
+[2022.04.06-21.49.04:267][931]LogTemp: Warning: Overlap Occured, Checking if it's a player.
+[2022.04.06-21.49.04:274][932]LogTemp: Warning: Overlap Occured, Checking if it's a player.
+[2022.04.06-21.49.05:917][129]LogTemp: Warning: Overlap Occured, Checking if it's a player.
+[2022.04.06-21.49.05:991][138]LogTemp: Warning: Overlap Occured, Checking if it's a player.
+[2022.04.06-21.49.06:075][148]LogTemp: Warning: Overlap Occured, Checking if it's a player.
+[2022.04.06-21.49.06:175][160]LogTemp: Warning: Overlap Occured, Checking if it's a player.
+[2022.04.06-21.49.06:617][213]LogTemp: Warning: Overlap Occured, Checking if it's a player.
+[2022.04.06-21.49.06:716][225]LogTemp: Warning: Overlap Occured, Checking if it's a player.
+[2022.04.06-21.49.06:958][254]LogTemp: Warning: Overlap Occured, Checking if it's a player.
+[2022.04.06-21.49.07:025][262]LogTemp: Warning: Overlap Occured, Checking if it's a player.
+[2022.04.06-21.49.07:116][273]LogTemp: Warning: Overlap Occured, Checking if it's a player.
+[2022.04.06-21.49.07:217][285]LogTemp: Warning: Overlap Occured, Checking if it's a player.
+[2022.04.06-21.49.08:842][480]LogTemp: Warning: Overlap Occured, Checking if it's a player.
+[2022.04.06-21.49.08:883][485]LogTemp: Warning: Overlap Occured, Checking if it's a player.
+[2022.04.06-21.49.08:942][492]LogTemp: Warning: Overlap Occured, Checking if it's a player.
+[2022.04.06-21.49.08:975][496]LogTemp: Warning: Overlap Occured, Checking if it's a player.
+[2022.04.06-21.49.09:316][537]LogTemp: Warning: Overlap Occured, Checking if it's a player.
+[2022.04.06-21.49.09:408][548]LogTemp: Warning: Overlap Occured, Checking if it's a player.
+[2022.04.06-21.49.09:883][605]LogTemp: Warning: Overlap Occured, Checking if it's a player.
+[2022.04.06-21.49.09:983][617]LogTemp: Warning: Overlap Occured, Checking if it's a player.
+[2022.04.06-21.49.10:350][661]LogTemp: Warning: Overlap Occured, Checking if it's a player.
+[2022.04.06-21.49.10:450][673]LogTemp: Warning: Overlap Occured, Checking if it's a player.
+[2022.04.06-21.49.11:275][772]LogTemp: Warning: Overlap Occured, Checking if it's a player.
+[2022.04.06-21.49.11:317][777]LogTemp: Warning: Overlap Occured, Checking if it's a player.
+[2022.04.06-21.49.12:092][870]LogTemp: Warning: Overlap Occured, Checking if it's a player.
+[2022.04.06-21.49.12:192][882]LogTemp: Warning: Overlap Occured, Checking if it's a player.
+[2022.04.06-21.49.12:217][885]LogTemp: Warning: Overlap Occured, Checking if it's a player.
+[2022.04.06-21.49.12:308][896]LogTemp: Warning: Overlap Occured, Checking if it's a player.
+[2022.04.06-21.49.12:998][976]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.04.06-21.49.12:998][976]LogWorld: BeginTearingDown for /Game/Levels/UEDPIE_0_Level1
+[2022.04.06-21.49.12:998][976]LogWorld: UWorld::CleanupWorld for Level1, bSessionEnded=true, bCleanupResources=true
+[2022.04.06-21.49.12:999][976]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.04.06-21.49.13:004][976]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2022.04.06-21.49.13:031][976]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.04.06-21.49.13:046][976]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2022.04.06-21.49.13:051][976]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2022.04.06-21.49.13:052][976]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2022.04.06-21.49.13:064][976]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.04.06-21.49.13:079][976]LogUObjectHash: Compacting FUObjectHashTables data took   2.10ms
+[2022.04.06-21.49.13:109][977]LogPlayLevel: Display: Destroying online subsystem :Context_62
+[2022.04.06-21.49.43:617][507]LogHotReload: New module detected: UE4Editor-SideScroller-0127.dll
+[2022.04.06-21.49.44:967][512]LogHotReload: Starting Hot-Reload from IDE
+[2022.04.06-21.49.45:024][512]LogNativeClassHierarchy: Verbose: Native class hierarchy updated for 'SideScroller' in 0.0002 seconds. Added 17 classes and 2 folders.
+[2022.04.06-21.49.45:026][512]Display: HotReload successful (7 functions remapped  0 scriptstructs remapped)
+[2022.04.06-21.49.45:095][512]LogNativeClassHierarchy: Verbose: Native class hierarchy populated in 0.0075 seconds. Added 3618 classes and 861 folders.
+[2022.04.06-21.49.45:103][512]Display: HotReload took  0.1s.
+[2022.04.06-21.49.49:092][583]Candidate modules for hot reload:
+[2022.04.06-21.49.49:092][583]  SideScroller
+[2022.04.06-21.49.49:092][583]Launching UnrealBuildTool... [C:/Program Files/Epic Games/UE_4.26/Engine/Binaries/DotNET/UnrealBuildTool.exe  -ModuleWithSuffix=SideScroller,7802 SideScrollerEditor Win64 Development -Project="D:/Unreal Projects/SideScroller2D/SideScroller/SideScroller.uproject" "D:/Unreal Projects/SideScroller2D/SideScroller/SideScroller.uproject"  -IgnoreJunk]
+[2022.04.06-21.49.49:093][583]Warning: Starting HotReload took  0.1s.
+[2022.04.06-21.49.50:488][674]CompilerResultsLog: New page: Compilation - 6 Apr 2022, 23:49:50
+[2022.04.06-21.49.50:488][674]CompilerResultsLog: Using 'git status' to determine working set for adaptive non-unity build (D:\Unreal Projects\SideScroller2D).
+[2022.04.06-21.49.50:488][674]CompilerResultsLog: Building SideScrollerEditor...
+[2022.04.06-21.49.50:488][674]CompilerResultsLog: Using Visual Studio 2019 14.30.30706 toolchain (C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.30.30705) and Windows 10.0.19041.0 SDK (C:\Program Files (x86)\Windows Kits\10).
+[2022.04.06-21.49.50:488][674]CompilerResultsLog: Building 3 actions with 16 processes...
+[2022.04.06-21.49.50:488][674]CompilerResultsLog:   [1/3] UE4Editor-SideScroller-7802.lib
+[2022.04.06-21.49.50:488][674]CompilerResultsLog:      Creating library D:\Unreal Projects\SideScroller2D\SideScroller\Intermediate\Build\Win64\UE4Editor\Development\SideScroller\UE4Editor-SideScroller-7802.lib and object D:\Unreal Projects\SideScroller2D\SideScroller\Intermediate\Build\Win64\UE4Editor\Development\SideScroller\UE4Editor-SideScroller-7802.exp
+[2022.04.06-21.49.50:488][674]CompilerResultsLog:   [2/3] UE4Editor-SideScroller-7802.dll
+[2022.04.06-21.49.50:488][674]CompilerResultsLog:      Creating library D:\Unreal Projects\SideScroller2D\SideScroller\Intermediate\Build\Win64\UE4Editor\Development\SideScroller\UE4Editor-SideScroller-7802.suppressed.lib and object D:\Unreal Projects\SideScroller2D\SideScroller\Intermediate\Build\Win64\UE4Editor\Development\SideScroller\UE4Editor-SideScroller-7802.suppressed.exp
+[2022.04.06-21.49.50:488][674]CompilerResultsLog:   [3/3] SideScrollerEditor.target
+[2022.04.06-21.49.50:488][674]CompilerResultsLog: Total time in Parallel executor: 0.88 seconds
+[2022.04.06-21.49.50:488][674]CompilerResultsLog: Total execution time: 1.34 seconds
+[2022.04.06-21.49.50:488][674]LogMainFrame: MainFrame: Module compiling took 1.444 seconds
+[2022.04.06-21.49.50:542][674]LogNativeClassHierarchy: Verbose: Native class hierarchy updated for 'SideScroller' in 0.0002 seconds. Added 17 classes and 2 folders.
+[2022.04.06-21.49.50:545][674]Display: HotReload successful (7 functions remapped  0 scriptstructs remapped)
+[2022.04.06-21.49.50:619][674]LogNativeClassHierarchy: Verbose: Native class hierarchy populated in 0.0066 seconds. Added 3618 classes and 861 folders.
+[2022.04.06-21.49.50:622][674]Display: HotReload took  1.6s.
+[2022.04.06-21.49.51:282][722]LogTemp: Repeating last play command: Selected Viewport
+[2022.04.06-21.49.51:286][722]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2022.04.06-21.49.51:286][722]PIE: New page: PIE session: Level1 (6 Apr 2022, 23:49:51)
+[2022.04.06-21.49.51:311][722]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_Level1
+[2022.04.06-21.49.51:317][722]LogPlayLevel: PIE: StaticDuplicateObject took: (0.006239s)
+[2022.04.06-21.49.51:318][722]LogAIModule: Creating AISystem for world Level1
+[2022.04.06-21.49.51:318][722]LogPlayLevel: PIE: World Init took: (0.000721s)
+[2022.04.06-21.49.51:318][722]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/Level1.Level1 to /Game/Levels/UEDPIE_0_Level1.Level1 (0.007121s)
+[2022.04.06-21.49.51:391][722]LogUObjectHash: Compacting FUObjectHashTables data took   3.40ms
+[2022.04.06-21.49.51:392][722]LogAudio: Display: Creating Audio Device:                 Id: 57, Scope: Unique, Realtime: True
+[2022.04.06-21.49.51:392][722]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2022.04.06-21.49.51:392][722]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2022.04.06-21.49.51:392][722]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2022.04.06-21.49.51:392][722]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2022.04.06-21.49.51:392][722]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2022.04.06-21.49.51:392][722]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2022.04.06-21.49.51:392][722]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2022.04.06-21.49.51:392][722]LogAudio: Display: AudioDevice MaxSources: 32
+[2022.04.06-21.49.51:392][722]LogAudio: Display: Using built-in audio occlusion.
+[2022.04.06-21.49.51:392][722]LogAudioMixer: Display: Initializing audio mixer.
+[2022.04.06-21.49.51:394][722]LogAudioMixer: Display: 0: FrontLeft
+[2022.04.06-21.49.51:394][722]LogAudioMixer: Display: 1: FrontRight
+[2022.04.06-21.49.51:400][722]LogAudioMixer: Display: Using Audio Device Acer GR235H (NVIDIA High Definition Audio)
+[2022.04.06-21.49.51:400][722]LogAudioMixer: Display: Initializing Sound Submixes...
+[2022.04.06-21.49.51:400][722]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2022.04.06-21.49.51:400][722]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2022.04.06-21.49.51:401][722]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2022.04.06-21.49.51:401][722]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called
+[2022.04.06-21.49.51:401][722]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048
+[2022.04.06-21.49.51:411][722]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal()
+[2022.04.06-21.49.51:411][722]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time
+[2022.04.06-21.49.51:411][722]LogInit: FAudioDevice initialized.
+[2022.04.06-21.49.51:411][722]LogAudio: Display: Audio Device (ID: 57) registered with world 'Level1'.
+[2022.04.06-21.49.51:419][722]LogLoad: Game class is 'BP_SideScrollerGameModeBase_C'
+[2022.04.06-21.49.51:421][722]LogWorld: Bringing World /Game/Levels/UEDPIE_0_Level1.Level1 up for play (max tick rate 0) at 2022.04.06-22.49.51
+[2022.04.06-21.49.51:422][722]LogWorld: Bringing up level for play took: 0.002623
+[2022.04.06-21.49.51:422][722]LogOnline: OSS: Creating online subsystem instance for: :Context_63
+[2022.04.06-21.49.51:424][722]PIE: Server logged in
+[2022.04.06-21.49.51:424][722]PIE: Play in editor total start time 0.139 seconds.
+[2022.04.06-21.49.52:018][785]LogTemp: Warning: Overlap Occured, Checking if it's a player.
+[2022.04.06-21.49.52:051][789]LogTemp: Warning: Overlap Occured, Checking if it's a player.
+[2022.04.06-21.49.52:159][802]LogTemp: Warning: Overlap Occured, Checking if it's a player.
+[2022.04.06-21.49.52:234][811]LogTemp: Warning: Overlap Occured, Checking if it's a player.
+[2022.04.06-21.49.53:059][910]LogTemp: Warning: Overlap Occured, Checking if it's a player.
+[2022.04.06-21.49.53:093][914]LogTemp: Warning: Overlap Occured, Checking if it's a player.
+[2022.04.06-21.49.53:176][924]LogTemp: Warning: Overlap Occured, Checking if it's a player.
+[2022.04.06-21.49.53:201][927]LogTemp: Warning: Overlap Occured, Checking if it's a player.
+[2022.04.06-21.49.53:251][933]LogTemp: Warning: Overlap Occured, Checking if it's a player.
+[2022.04.06-21.49.53:276][936]LogTemp: Warning: Overlap Occured, Checking if it's a player.
+[2022.04.06-21.49.54:959][138]LogTemp: Warning: Overlap Occured, Checking if it's a player.
+[2022.04.06-21.49.55:035][147]LogTemp: Warning: Overlap Occured, Checking if it's a player.
+[2022.04.06-21.49.55:334][183]LogTemp: Warning: Overlap Occured, Checking if it's a player.
+[2022.04.06-21.49.55:434][195]LogTemp: Warning: Overlap Occured, Checking if it's a player.
+[2022.04.06-21.49.55:558][206]LogTemp: Warning: Overlap Occured, Checking if it's a player.
+[2022.04.06-21.49.55:625][208]LogTemp: Warning: Overlap Occured, Checking if it's a player.
+[2022.04.06-21.49.55:941][246]LogTemp: Warning: Overlap Occured, Checking if it's a player.
+[2022.04.06-21.49.56:016][255]LogTemp: Warning: Overlap Occured, Checking if it's a player.
+[2022.04.06-21.49.56:308][290]LogTemp: Warning: Overlap Occured, Checking if it's a player.
+[2022.04.06-21.49.56:315][291]LogTemp: Warning: Overlap Occured, Checking if it's a player.
+[2022.04.06-21.49.56:341][294]LogTemp: Warning: Overlap Occured, Checking if it's a player.
+[2022.04.06-21.49.56:416][303]LogTemp: Warning: Overlap Occured, Checking if it's a player.
+[2022.04.06-21.49.57:308][410]LogTemp: Warning: Overlap Occured, Checking if it's a player.
+[2022.04.06-21.49.57:341][414]LogTemp: Warning: Overlap Occured, Checking if it's a player.
+[2022.04.06-21.49.57:741][462]LogTemp: Warning: Overlap Occured, Checking if it's a player.
+[2022.04.06-21.49.57:841][474]LogTemp: Warning: Overlap Occured, Checking if it's a player.
+[2022.04.06-21.49.58:068][501]LogTemp: Warning: Overlap Occured, Checking if it's a player.
+[2022.04.06-21.49.58:159][512]LogTemp: Warning: Overlap Occured, Checking if it's a player.
+[2022.04.06-21.49.58:175][514]LogTemp: Warning: Overlap Occured, Checking if it's a player.
+[2022.04.06-21.49.58:275][526]LogTemp: Warning: Overlap Occured, Checking if it's a player.
+[2022.04.06-21.49.58:308][530]LogTemp: Warning: Overlap Occured, Checking if it's a player.
+[2022.04.06-21.49.58:341][534]LogTemp: Warning: Overlap Occured, Checking if it's a player.
+[2022.04.06-21.49.59:108][626]LogTemp: Warning: Overlap Occured, Checking if it's a player.
+[2022.04.06-21.49.59:200][637]LogTemp: Warning: Overlap Occured, Checking if it's a player.
+[2022.04.06-21.49.59:216][639]LogTemp: Warning: Overlap Occured, Checking if it's a player.
+[2022.04.06-21.49.59:316][651]LogTemp: Warning: Overlap Occured, Checking if it's a player.
+[2022.04.06-21.49.59:881][714]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.04.06-21.49.59:881][714]LogWorld: BeginTearingDown for /Game/Levels/UEDPIE_0_Level1
+[2022.04.06-21.49.59:881][714]LogWorld: UWorld::CleanupWorld for Level1, bSessionEnded=true, bCleanupResources=true
+[2022.04.06-21.49.59:882][714]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.04.06-21.49.59:890][714]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2022.04.06-21.49.59:918][714]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.04.06-21.49.59:934][714]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2022.04.06-21.49.59:935][714]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2022.04.06-21.49.59:935][714]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2022.04.06-21.49.59:946][714]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.04.06-21.49.59:964][714]LogUObjectHash: Compacting FUObjectHashTables data took   2.07ms
+[2022.04.06-21.49.59:994][715]LogPlayLevel: Display: Destroying online subsystem :Context_63
+[2022.04.06-21.50.47:760][892]LogHotReload: New module detected: UE4Editor-SideScroller-0129.dll
+[2022.04.06-21.50.48:437][895]LogHotReload: Starting Hot-Reload from IDE
+[2022.04.06-21.50.48:507][895]LogNativeClassHierarchy: Verbose: Native class hierarchy updated for 'SideScroller' in 0.0002 seconds. Added 17 classes and 2 folders.
+[2022.04.06-21.50.48:509][895]Display: HotReload successful (7 functions remapped  0 scriptstructs remapped)
+[2022.04.06-21.50.48:575][895]LogNativeClassHierarchy: Verbose: Native class hierarchy populated in 0.0072 seconds. Added 3618 classes and 861 folders.
+[2022.04.06-21.50.48:582][895]Display: HotReload took  0.1s.
+[2022.04.06-21.50.55:803][916]LogHotReload: New module detected: UE4Editor-SideScroller-0130.dll
+[2022.04.06-21.50.56:486][919]LogHotReload: Starting Hot-Reload from IDE
+[2022.04.06-21.50.56:546][919]LogNativeClassHierarchy: Verbose: Native class hierarchy updated for 'SideScroller' in 0.0002 seconds. Added 17 classes and 2 folders.
+[2022.04.06-21.50.56:550][919]Display: HotReload successful (7 functions remapped  0 scriptstructs remapped)
+[2022.04.06-21.50.56:621][919]LogNativeClassHierarchy: Verbose: Native class hierarchy populated in 0.0067 seconds. Added 3618 classes and 861 folders.
+[2022.04.06-21.50.56:628][919]Display: HotReload took  0.1s.
+[2022.04.06-21.50.59:067][  3]Candidate modules for hot reload:
+[2022.04.06-21.50.59:067][  3]  SideScroller
+[2022.04.06-21.50.59:067][  3]Launching UnrealBuildTool... [C:/Program Files/Epic Games/UE_4.26/Engine/Binaries/DotNET/UnrealBuildTool.exe  -ModuleWithSuffix=SideScroller,8356 SideScrollerEditor Win64 Development -Project="D:/Unreal Projects/SideScroller2D/SideScroller/SideScroller.uproject" "D:/Unreal Projects/SideScroller2D/SideScroller/SideScroller.uproject"  -IgnoreJunk]
+[2022.04.06-21.50.59:069][  3]Warning: Starting HotReload took  0.0s.
+[2022.04.06-21.51.00:339][ 86]CompilerResultsLog: New page: Compilation - 6 Apr 2022, 23:51:00
+[2022.04.06-21.51.00:339][ 86]CompilerResultsLog: Using 'git status' to determine working set for adaptive non-unity build (D:\Unreal Projects\SideScroller2D).
+[2022.04.06-21.51.00:339][ 86]CompilerResultsLog: Building SideScrollerEditor...
+[2022.04.06-21.51.00:339][ 86]CompilerResultsLog: Using Visual Studio 2019 14.30.30706 toolchain (C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.30.30705) and Windows 10.0.19041.0 SDK (C:\Program Files (x86)\Windows Kits\10).
+[2022.04.06-21.51.00:339][ 86]CompilerResultsLog: Building 3 actions with 16 processes...
+[2022.04.06-21.51.00:339][ 86]CompilerResultsLog:   [1/3] UE4Editor-SideScroller-8356.lib
+[2022.04.06-21.51.00:339][ 86]CompilerResultsLog:      Creating library D:\Unreal Projects\SideScroller2D\SideScroller\Intermediate\Build\Win64\UE4Editor\Development\SideScroller\UE4Editor-SideScroller-8356.lib and object D:\Unreal Projects\SideScroller2D\SideScroller\Intermediate\Build\Win64\UE4Editor\Development\SideScroller\UE4Editor-SideScroller-8356.exp
+[2022.04.06-21.51.00:339][ 86]CompilerResultsLog:   [2/3] UE4Editor-SideScroller-8356.dll
+[2022.04.06-21.51.00:339][ 86]CompilerResultsLog:      Creating library D:\Unreal Projects\SideScroller2D\SideScroller\Intermediate\Build\Win64\UE4Editor\Development\SideScroller\UE4Editor-SideScroller-8356.suppressed.lib and object D:\Unreal Projects\SideScroller2D\SideScroller\Intermediate\Build\Win64\UE4Editor\Development\SideScroller\UE4Editor-SideScroller-8356.suppressed.exp
+[2022.04.06-21.51.00:339][ 86]CompilerResultsLog:   [3/3] SideScrollerEditor.target
+[2022.04.06-21.51.00:339][ 86]CompilerResultsLog: Total time in Parallel executor: 0.76 seconds
+[2022.04.06-21.51.00:339][ 86]CompilerResultsLog: Total execution time: 1.22 seconds
+[2022.04.06-21.51.00:339][ 86]LogMainFrame: MainFrame: Module compiling took 1.274 seconds
+[2022.04.06-21.51.00:395][ 86]LogNativeClassHierarchy: Verbose: Native class hierarchy updated for 'SideScroller' in 0.0002 seconds. Added 17 classes and 2 folders.
+[2022.04.06-21.51.00:398][ 86]Display: HotReload successful (7 functions remapped  0 scriptstructs remapped)
+[2022.04.06-21.51.00:477][ 86]LogNativeClassHierarchy: Verbose: Native class hierarchy populated in 0.0072 seconds. Added 3618 classes and 861 folders.
+[2022.04.06-21.51.00:481][ 86]Display: HotReload took  1.4s.
+[2022.04.06-21.51.01:077][127]LogTemp: Repeating last play command: Selected Viewport
+[2022.04.06-21.51.01:081][127]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2022.04.06-21.51.01:081][127]PIE: New page: PIE session: Level1 (6 Apr 2022, 23:51:01)
+[2022.04.06-21.51.01:114][127]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_Level1
+[2022.04.06-21.51.01:120][127]LogPlayLevel: PIE: StaticDuplicateObject took: (0.006041s)
+[2022.04.06-21.51.01:121][127]LogAIModule: Creating AISystem for world Level1
+[2022.04.06-21.51.01:121][127]LogPlayLevel: PIE: World Init took: (0.001071s)
+[2022.04.06-21.51.01:121][127]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/Level1.Level1 to /Game/Levels/UEDPIE_0_Level1.Level1 (0.007276s)
+[2022.04.06-21.51.01:213][127]LogUObjectHash: Compacting FUObjectHashTables data took   3.26ms
+[2022.04.06-21.51.01:213][127]LogAudio: Display: Creating Audio Device:                 Id: 58, Scope: Unique, Realtime: True
+[2022.04.06-21.51.01:213][127]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2022.04.06-21.51.01:213][127]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2022.04.06-21.51.01:213][127]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2022.04.06-21.51.01:213][127]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2022.04.06-21.51.01:213][127]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2022.04.06-21.51.01:213][127]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2022.04.06-21.51.01:213][127]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2022.04.06-21.51.01:214][127]LogAudio: Display: AudioDevice MaxSources: 32
+[2022.04.06-21.51.01:214][127]LogAudio: Display: Using built-in audio occlusion.
+[2022.04.06-21.51.01:214][127]LogAudioMixer: Display: Initializing audio mixer.
+[2022.04.06-21.51.01:216][127]LogAudioMixer: Display: 0: FrontLeft
+[2022.04.06-21.51.01:216][127]LogAudioMixer: Display: 1: FrontRight
+[2022.04.06-21.51.01:222][127]LogAudioMixer: Display: Using Audio Device Acer GR235H (NVIDIA High Definition Audio)
+[2022.04.06-21.51.01:222][127]LogAudioMixer: Display: Initializing Sound Submixes...
+[2022.04.06-21.51.01:222][127]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2022.04.06-21.51.01:222][127]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2022.04.06-21.51.01:223][127]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2022.04.06-21.51.01:223][127]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called
+[2022.04.06-21.51.01:223][127]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048
+[2022.04.06-21.51.01:234][127]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal()
+[2022.04.06-21.51.01:234][127]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time
+[2022.04.06-21.51.01:234][127]LogInit: FAudioDevice initialized.
+[2022.04.06-21.51.01:234][127]LogAudio: Display: Audio Device (ID: 58) registered with world 'Level1'.
+[2022.04.06-21.51.01:243][127]LogLoad: Game class is 'BP_SideScrollerGameModeBase_C'
+[2022.04.06-21.51.01:246][127]LogWorld: Bringing World /Game/Levels/UEDPIE_0_Level1.Level1 up for play (max tick rate 0) at 2022.04.06-22.51.01
+[2022.04.06-21.51.01:246][127]LogWorld: Bringing up level for play took: 0.002995
+[2022.04.06-21.51.01:247][127]LogOnline: OSS: Creating online subsystem instance for: :Context_64
+[2022.04.06-21.51.01:248][127]PIE: Server logged in
+[2022.04.06-21.51.01:249][127]PIE: Play in editor total start time 0.169 seconds.
+[2022.04.06-21.51.01:811][187]LogTemp: Warning: Overlap Occured, Checking if it's a player.
+[2022.04.06-21.51.01:844][191]LogTemp: Warning: Overlap Occured, Checking if it's a player.
+[2022.04.06-21.51.01:994][209]LogTemp: Warning: Overlap Occured, Checking if it's a player.
+[2022.04.06-21.51.02:027][213]LogTemp: Warning: Overlap Occured, Checking if it's a player.
+[2022.04.06-21.51.02:852][312]LogTemp: Warning: Overlap Occured, Checking if it's a player.
+[2022.04.06-21.51.02:885][316]LogTemp: Warning: Overlap Occured, Checking if it's a player.
+[2022.04.06-21.51.03:002][330]LogTemp: Warning: Overlap Occured, Checking if it's a player.
+[2022.04.06-21.51.03:036][334]LogTemp: Warning: Overlap Occured, Checking if it's a player.
+[2022.04.06-21.51.03:036][334]LogTemp: Warning: Overlap Occured, Checking if it's a player.
+[2022.04.06-21.51.03:069][338]LogTemp: Warning: Overlap Occured, Checking if it's a player.
+[2022.04.06-21.51.04:794][545]LogTemp: Warning: Overlap Occured, Checking if it's a player.
+[2022.04.06-21.51.04:827][549]LogTemp: Warning: Overlap Occured, Checking if it's a player.
+[2022.04.06-21.51.05:227][597]LogTemp: Warning: Overlap Occured, Checking if it's a player.
+[2022.04.06-21.51.05:260][601]LogTemp: Warning: Overlap Occured, Checking if it's a player.
+[2022.04.06-21.51.05:443][616]LogTemp: Warning: Overlap Occured, Checking if it's a player.
+[2022.04.06-21.51.05:443][616]LogTemp: Warning: Overlap Occured, Checking if it's a player.
+[2022.04.06-21.51.05:515][617]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.04.06-21.51.05:515][617]LogWorld: BeginTearingDown for /Game/Levels/UEDPIE_0_Level1
+[2022.04.06-21.51.05:515][617]LogWorld: UWorld::CleanupWorld for Level1, bSessionEnded=true, bCleanupResources=true
+[2022.04.06-21.51.05:516][617]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.04.06-21.51.05:522][617]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2022.04.06-21.51.05:551][617]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.04.06-21.51.05:565][617]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.04.06-21.51.05:570][617]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2022.04.06-21.51.05:571][617]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2022.04.06-21.51.05:599][617]LogUObjectHash: Compacting FUObjectHashTables data took   2.68ms
+[2022.04.06-21.51.05:630][618]LogPlayLevel: Display: Destroying online subsystem :Context_64
+[2022.04.06-21.51.09:644][ 79]LogTemp: Repeating last play command: Selected Viewport
+[2022.04.06-21.51.09:648][ 79]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2022.04.06-21.51.09:648][ 79]PIE: New page: PIE session: Level1 (6 Apr 2022, 23:51:09)
+[2022.04.06-21.51.09:696][ 79]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_Level1
+[2022.04.06-21.51.09:702][ 79]LogPlayLevel: PIE: StaticDuplicateObject took: (0.006111s)
+[2022.04.06-21.51.09:703][ 79]LogAIModule: Creating AISystem for world Level1
+[2022.04.06-21.51.09:703][ 79]LogPlayLevel: PIE: World Init took: (0.000803s)
+[2022.04.06-21.51.09:703][ 79]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/Level1.Level1 to /Game/Levels/UEDPIE_0_Level1.Level1 (0.007065s)
+[2022.04.06-21.51.09:719][ 79]LogUObjectHash: Compacting FUObjectHashTables data took   1.78ms
+[2022.04.06-21.51.09:722][ 79]LogAudio: Display: Creating Audio Device:                 Id: 59, Scope: Unique, Realtime: True
+[2022.04.06-21.51.09:722][ 79]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2022.04.06-21.51.09:722][ 79]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2022.04.06-21.51.09:722][ 79]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2022.04.06-21.51.09:722][ 79]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2022.04.06-21.51.09:722][ 79]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2022.04.06-21.51.09:722][ 79]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2022.04.06-21.51.09:722][ 79]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2022.04.06-21.51.09:722][ 79]LogAudio: Display: AudioDevice MaxSources: 32
+[2022.04.06-21.51.09:722][ 79]LogAudio: Display: Using built-in audio occlusion.
+[2022.04.06-21.51.09:722][ 79]LogAudioMixer: Display: Initializing audio mixer.
+[2022.04.06-21.51.09:724][ 79]LogAudioMixer: Display: 0: FrontLeft
+[2022.04.06-21.51.09:724][ 79]LogAudioMixer: Display: 1: FrontRight
+[2022.04.06-21.51.09:730][ 79]LogAudioMixer: Display: Using Audio Device Acer GR235H (NVIDIA High Definition Audio)
+[2022.04.06-21.51.09:730][ 79]LogAudioMixer: Display: Initializing Sound Submixes...
+[2022.04.06-21.51.09:730][ 79]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2022.04.06-21.51.09:730][ 79]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2022.04.06-21.51.09:731][ 79]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2022.04.06-21.51.09:731][ 79]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called
+[2022.04.06-21.51.09:731][ 79]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048
+[2022.04.06-21.51.09:742][ 79]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal()
+[2022.04.06-21.51.09:742][ 79]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time
+[2022.04.06-21.51.09:742][ 79]LogInit: FAudioDevice initialized.
+[2022.04.06-21.51.09:742][ 79]LogAudio: Display: Audio Device (ID: 59) registered with world 'Level1'.
+[2022.04.06-21.51.09:746][ 79]LogLoad: Game class is 'BP_SideScrollerGameModeBase_C'
+[2022.04.06-21.51.09:749][ 79]LogWorld: Bringing World /Game/Levels/UEDPIE_0_Level1.Level1 up for play (max tick rate 0) at 2022.04.06-22.51.09
+[2022.04.06-21.51.09:749][ 79]LogWorld: Bringing up level for play took: 0.002386
+[2022.04.06-21.51.09:749][ 79]LogOnline: OSS: Creating online subsystem instance for: :Context_65
+[2022.04.06-21.51.09:751][ 79]PIE: Server logged in
+[2022.04.06-21.51.09:752][ 79]PIE: Play in editor total start time 0.104 seconds.
+[2022.04.06-21.51.10:395][149]LogTemp: Warning: Overlap Occured, Checking if it's a player.
+[2022.04.06-21.51.10:427][153]LogTemp: Warning: Overlap Occured, Checking if it's a player.
+[2022.04.06-21.51.10:593][173]LogTemp: Warning: Overlap Occured, Checking if it's a player.
+[2022.04.06-21.51.10:627][177]LogTemp: Warning: Overlap Occured, Checking if it's a player.
+[2022.04.06-21.51.11:435][274]LogTemp: Warning: Overlap Occured, Checking if it's a player.
+[2022.04.06-21.51.11:468][278]LogTemp: Warning: Overlap Occured, Checking if it's a player.
+[2022.04.06-21.51.11:577][291]LogTemp: Warning: Overlap Occured, Checking if it's a player.
+[2022.04.06-21.51.11:610][295]LogTemp: Warning: Overlap Occured, Checking if it's a player.
+[2022.04.06-21.51.11:635][298]LogTemp: Warning: Overlap Occured, Checking if it's a player.
+[2022.04.06-21.51.11:668][302]LogTemp: Warning: Overlap Occured, Checking if it's a player.
+[2022.04.06-21.51.11:977][336]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.04.06-21.51.11:977][336]LogWorld: BeginTearingDown for /Game/Levels/UEDPIE_0_Level1
+[2022.04.06-21.51.11:977][336]LogWorld: UWorld::CleanupWorld for Level1, bSessionEnded=true, bCleanupResources=true
+[2022.04.06-21.51.11:977][336]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.04.06-21.51.11:986][336]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2022.04.06-21.51.12:015][336]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.04.06-21.51.12:030][336]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.04.06-21.51.12:030][336]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2022.04.06-21.51.12:031][336]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2022.04.06-21.51.12:044][336]LogUObjectHash: Compacting FUObjectHashTables data took   1.77ms
+[2022.04.06-21.51.12:074][337]LogPlayLevel: Display: Destroying online subsystem :Context_65
+[2022.04.06-21.51.43:000][488]LogHotReload: New module detected: UE4Editor-SideScroller-0132.dll
+[2022.04.06-21.51.43:681][491]LogHotReload: Starting Hot-Reload from IDE
+[2022.04.06-21.51.43:742][491]LogNativeClassHierarchy: Verbose: Native class hierarchy updated for 'SideScroller' in 0.0002 seconds. Added 17 classes and 2 folders.
+[2022.04.06-21.51.43:745][491]Display: HotReload successful (7 functions remapped  0 scriptstructs remapped)
+[2022.04.06-21.51.43:811][491]LogNativeClassHierarchy: Verbose: Native class hierarchy populated in 0.0066 seconds. Added 3618 classes and 861 folders.
+[2022.04.06-21.51.43:818][491]Display: HotReload took  0.1s.
+[2022.04.06-21.51.46:661][638]LogTemp: Repeating last play command: Selected Viewport
+[2022.04.06-21.51.46:665][638]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2022.04.06-21.51.46:665][638]PIE: New page: PIE session: Level1 (6 Apr 2022, 23:51:46)
+[2022.04.06-21.51.46:688][638]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_Level1
+[2022.04.06-21.51.46:694][638]LogPlayLevel: PIE: StaticDuplicateObject took: (0.006098s)
+[2022.04.06-21.51.46:695][638]LogAIModule: Creating AISystem for world Level1
+[2022.04.06-21.51.46:695][638]LogPlayLevel: PIE: World Init took: (0.000720s)
+[2022.04.06-21.51.46:695][638]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/Level1.Level1 to /Game/Levels/UEDPIE_0_Level1.Level1 (0.006943s)
+[2022.04.06-21.51.46:737][638]LogUObjectHash: Compacting FUObjectHashTables data took   2.55ms
+[2022.04.06-21.51.46:739][638]LogAudio: Display: Creating Audio Device:                 Id: 60, Scope: Unique, Realtime: True
+[2022.04.06-21.51.46:739][638]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2022.04.06-21.51.46:739][638]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2022.04.06-21.51.46:739][638]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2022.04.06-21.51.46:739][638]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2022.04.06-21.51.46:739][638]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2022.04.06-21.51.46:739][638]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2022.04.06-21.51.46:739][638]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2022.04.06-21.51.46:739][638]LogAudio: Display: AudioDevice MaxSources: 32
+[2022.04.06-21.51.46:739][638]LogAudio: Display: Using built-in audio occlusion.
+[2022.04.06-21.51.46:739][638]LogAudioMixer: Display: Initializing audio mixer.
+[2022.04.06-21.51.46:741][638]LogAudioMixer: Display: 0: FrontLeft
+[2022.04.06-21.51.46:741][638]LogAudioMixer: Display: 1: FrontRight
+[2022.04.06-21.51.46:747][638]LogAudioMixer: Display: Using Audio Device Acer GR235H (NVIDIA High Definition Audio)
+[2022.04.06-21.51.46:747][638]LogAudioMixer: Display: Initializing Sound Submixes...
+[2022.04.06-21.51.46:747][638]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2022.04.06-21.51.46:747][638]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2022.04.06-21.51.46:748][638]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2022.04.06-21.51.46:748][638]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called
+[2022.04.06-21.51.46:748][638]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048
+[2022.04.06-21.51.46:759][638]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal()
+[2022.04.06-21.51.46:759][638]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time
+[2022.04.06-21.51.46:759][638]LogInit: FAudioDevice initialized.
+[2022.04.06-21.51.46:759][638]LogAudio: Display: Audio Device (ID: 60) registered with world 'Level1'.
+[2022.04.06-21.51.46:765][638]LogLoad: Game class is 'BP_SideScrollerGameModeBase_C'
+[2022.04.06-21.51.46:768][638]LogWorld: Bringing World /Game/Levels/UEDPIE_0_Level1.Level1 up for play (max tick rate 0) at 2022.04.06-22.51.46
+[2022.04.06-21.51.46:769][638]LogWorld: Bringing up level for play took: 0.002549
+[2022.04.06-21.51.46:769][638]LogOnline: OSS: Creating online subsystem instance for: :Context_66
+[2022.04.06-21.51.46:771][638]PIE: Server logged in
+[2022.04.06-21.51.46:772][638]PIE: Play in editor total start time 0.107 seconds.
+[2022.04.06-21.51.47:426][716]LogTemp: Warning: Overlap Occured, Checking if it's a player.
+[2022.04.06-21.51.47:459][720]LogTemp: Warning: Overlap Occured, Checking if it's a player.
+[2022.04.06-21.51.47:592][736]LogTemp: Warning: Overlap Occured, Checking if it's a player.
+[2022.04.06-21.51.47:692][748]LogTemp: Warning: Overlap Occured, Checking if it's a player.
+[2022.04.06-21.51.48:467][841]LogTemp: Warning: Overlap Occured, Checking if it's a player.
+[2022.04.06-21.51.48:501][845]LogTemp: Warning: Overlap Occured, Checking if it's a player.
+[2022.04.06-21.51.48:550][851]LogTemp: Warning: Overlap Occured, Checking if it's a player.
+[2022.04.06-21.51.48:633][861]LogTemp: Warning: Overlap Occured, Checking if it's a player.
+[2022.04.06-21.51.48:650][863]LogTemp: Warning: Overlap Occured, Checking if it's a player.
+[2022.04.06-21.51.48:726][872]LogTemp: Warning: Overlap Occured, Checking if it's a player.
+[2022.04.06-21.51.50:359][ 68]LogTemp: Warning: Overlap Occured, Checking if it's a player.
+[2022.04.06-21.51.50:459][ 80]LogTemp: Warning: Overlap Occured, Checking if it's a player.
+[2022.04.06-21.51.50:826][124]LogTemp: Warning: Overlap Occured, Checking if it's a player.
+[2022.04.06-21.51.50:926][136]LogTemp: Warning: Overlap Occured, Checking if it's a player.
+[2022.04.06-21.51.50:984][143]LogTemp: Warning: Overlap Occured, Checking if it's a player.
+[2022.04.06-21.51.51:084][155]LogTemp: Warning: Overlap Occured, Checking if it's a player.
+[2022.04.06-21.51.51:401][193]LogTemp: Warning: Overlap Occured, Checking if it's a player.
+[2022.04.06-21.51.51:500][205]LogTemp: Warning: Overlap Occured, Checking if it's a player.
+[2022.04.06-21.51.51:675][226]LogTemp: Warning: Overlap Occured, Checking if it's a player.
+[2022.04.06-21.51.51:709][230]LogTemp: Warning: Overlap Occured, Checking if it's a player.
+[2022.04.06-21.51.51:859][248]LogTemp: Warning: Overlap Occured, Checking if it's a player.
+[2022.04.06-21.51.51:967][261]LogTemp: Warning: Overlap Occured, Checking if it's a player.
+[2022.04.06-21.51.52:676][346]LogTemp: Warning: Overlap Occured, Checking if it's a player.
+[2022.04.06-21.51.52:710][350]LogTemp: Warning: Overlap Occured, Checking if it's a player.
+[2022.04.06-21.51.53:252][415]LogTemp: Warning: Overlap Occured, Checking if it's a player.
+[2022.04.06-21.51.53:352][427]LogTemp: Warning: Overlap Occured, Checking if it's a player.
+[2022.04.06-21.51.53:601][457]LogTemp: Warning: Overlap Occured, Checking if it's a player.
+[2022.04.06-21.51.53:676][466]LogTemp: Warning: Overlap Occured, Checking if it's a player.
+[2022.04.06-21.51.53:701][469]LogTemp: Warning: Overlap Occured, Checking if it's a player.
+[2022.04.06-21.51.53:709][470]LogTemp: Warning: Overlap Occured, Checking if it's a player.
+[2022.04.06-21.51.53:726][472]LogTemp: Warning: Overlap Occured, Checking if it's a player.
+[2022.04.06-21.51.53:826][484]LogTemp: Warning: Overlap Occured, Checking if it's a player.
+[2022.04.06-21.51.54:642][582]LogTemp: Warning: Overlap Occured, Checking if it's a player.
+[2022.04.06-21.51.54:742][594]LogTemp: Warning: Overlap Occured, Checking if it's a player.
+[2022.04.06-21.51.54:767][597]LogTemp: Warning: Overlap Occured, Checking if it's a player.
+[2022.04.06-21.51.54:869][609]LogTemp: Warning: Overlap Occured, Checking if it's a player.
+[2022.04.06-21.51.55:229][649]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.04.06-21.51.55:229][649]LogWorld: BeginTearingDown for /Game/Levels/UEDPIE_0_Level1
+[2022.04.06-21.51.55:229][649]LogWorld: UWorld::CleanupWorld for Level1, bSessionEnded=true, bCleanupResources=true
+[2022.04.06-21.51.55:230][649]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.04.06-21.51.55:240][649]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2022.04.06-21.51.55:267][649]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.04.06-21.51.55:284][649]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2022.04.06-21.51.55:289][649]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2022.04.06-21.51.55:290][649]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2022.04.06-21.51.55:302][649]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.04.06-21.51.55:316][649]LogUObjectHash: Compacting FUObjectHashTables data took   2.14ms
+[2022.04.06-21.51.55:346][650]LogPlayLevel: Display: Destroying online subsystem :Context_66
+[2022.04.06-21.52.15:828][813]LogHotReload: New module detected: UE4Editor-SideScroller-0133.dll
+[2022.04.06-21.52.16:177][815]LogHotReload: Starting Hot-Reload from IDE
+[2022.04.06-21.52.16:241][815]LogNativeClassHierarchy: Verbose: Native class hierarchy updated for 'SideScroller' in 0.0002 seconds. Added 17 classes and 2 folders.
+[2022.04.06-21.52.16:244][815]Display: HotReload successful (7 functions remapped  0 scriptstructs remapped)
+[2022.04.06-21.52.16:312][815]LogNativeClassHierarchy: Verbose: Native class hierarchy populated in 0.0069 seconds. Added 3618 classes and 861 folders.
+[2022.04.06-21.52.16:319][815]Display: HotReload took  0.1s.
+[2022.04.06-21.52.18:352][886]Candidate modules for hot reload:
+[2022.04.06-21.52.18:352][886]  SideScroller
+[2022.04.06-21.52.18:352][886]Launching UnrealBuildTool... [C:/Program Files/Epic Games/UE_4.26/Engine/Binaries/DotNET/UnrealBuildTool.exe  -ModuleWithSuffix=SideScroller,929 SideScrollerEditor Win64 Development -Project="D:/Unreal Projects/SideScroller2D/SideScroller/SideScroller.uproject" "D:/Unreal Projects/SideScroller2D/SideScroller/SideScroller.uproject"  -IgnoreJunk]
+[2022.04.06-21.52.18:353][886]Warning: Starting HotReload took  0.0s.
+[2022.04.06-21.52.19:574][967]CompilerResultsLog: New page: Compilation - 6 Apr 2022, 23:52:19
+[2022.04.06-21.52.19:574][967]CompilerResultsLog: Using 'git status' to determine working set for adaptive non-unity build (D:\Unreal Projects\SideScroller2D).
+[2022.04.06-21.52.19:574][967]CompilerResultsLog: Building SideScrollerEditor...
+[2022.04.06-21.52.19:574][967]CompilerResultsLog: Using Visual Studio 2019 14.30.30706 toolchain (C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.30.30705) and Windows 10.0.19041.0 SDK (C:\Program Files (x86)\Windows Kits\10).
+[2022.04.06-21.52.19:574][967]CompilerResultsLog: Building 3 actions with 16 processes...
+[2022.04.06-21.52.19:574][967]CompilerResultsLog:   [1/3] UE4Editor-SideScroller-0929.lib
+[2022.04.06-21.52.19:574][967]CompilerResultsLog:      Creating library D:\Unreal Projects\SideScroller2D\SideScroller\Intermediate\Build\Win64\UE4Editor\Development\SideScroller\UE4Editor-SideScroller-0929.lib and object D:\Unreal Projects\SideScroller2D\SideScroller\Intermediate\Build\Win64\UE4Editor\Development\SideScroller\UE4Editor-SideScroller-0929.exp
+[2022.04.06-21.52.19:574][967]CompilerResultsLog:   [2/3] UE4Editor-SideScroller-0929.dll
+[2022.04.06-21.52.19:574][967]CompilerResultsLog:      Creating library D:\Unreal Projects\SideScroller2D\SideScroller\Intermediate\Build\Win64\UE4Editor\Development\SideScroller\UE4Editor-SideScroller-0929.suppressed.lib and object D:\Unreal Projects\SideScroller2D\SideScroller\Intermediate\Build\Win64\UE4Editor\Development\SideScroller\UE4Editor-SideScroller-0929.suppressed.exp
+[2022.04.06-21.52.19:574][967]CompilerResultsLog:   [3/3] SideScrollerEditor.target
+[2022.04.06-21.52.19:574][967]CompilerResultsLog: Total time in Parallel executor: 0.72 seconds
+[2022.04.06-21.52.19:575][967]CompilerResultsLog: Total execution time: 1.17 seconds
+[2022.04.06-21.52.19:575][967]LogMainFrame: MainFrame: Module compiling took 1.225 seconds
+[2022.04.06-21.52.19:582][967]LogNativeClassHierarchy: Verbose: Native class hierarchy populated in 0.0070 seconds. Added 3618 classes and 861 folders.
+[2022.04.06-21.52.19:585][967]Display: HotReload took  1.2s.
+[2022.04.06-21.52.20:325][ 20]LogTemp: Repeating last play command: Selected Viewport
+[2022.04.06-21.52.20:329][ 20]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2022.04.06-21.52.20:329][ 20]PIE: New page: PIE session: Level1 (6 Apr 2022, 23:52:20)
+[2022.04.06-21.52.20:353][ 20]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_Level1
+[2022.04.06-21.52.20:358][ 20]LogPlayLevel: PIE: StaticDuplicateObject took: (0.005835s)
+[2022.04.06-21.52.20:359][ 20]LogAIModule: Creating AISystem for world Level1
+[2022.04.06-21.52.20:359][ 20]LogPlayLevel: PIE: World Init took: (0.000690s)
+[2022.04.06-21.52.20:359][ 20]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/Level1.Level1 to /Game/Levels/UEDPIE_0_Level1.Level1 (0.006655s)
+[2022.04.06-21.52.20:430][ 20]LogUObjectHash: Compacting FUObjectHashTables data took   2.71ms
+[2022.04.06-21.52.20:431][ 20]LogAudio: Display: Creating Audio Device:                 Id: 61, Scope: Unique, Realtime: True
+[2022.04.06-21.52.20:431][ 20]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2022.04.06-21.52.20:431][ 20]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2022.04.06-21.52.20:431][ 20]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2022.04.06-21.52.20:431][ 20]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2022.04.06-21.52.20:431][ 20]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2022.04.06-21.52.20:431][ 20]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2022.04.06-21.52.20:431][ 20]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2022.04.06-21.52.20:431][ 20]LogAudio: Display: AudioDevice MaxSources: 32
+[2022.04.06-21.52.20:431][ 20]LogAudio: Display: Using built-in audio occlusion.
+[2022.04.06-21.52.20:431][ 20]LogAudioMixer: Display: Initializing audio mixer.
+[2022.04.06-21.52.20:433][ 20]LogAudioMixer: Display: 0: FrontLeft
+[2022.04.06-21.52.20:433][ 20]LogAudioMixer: Display: 1: FrontRight
+[2022.04.06-21.52.20:438][ 20]LogAudioMixer: Display: Using Audio Device Acer GR235H (NVIDIA High Definition Audio)
+[2022.04.06-21.52.20:439][ 20]LogAudioMixer: Display: Initializing Sound Submixes...
+[2022.04.06-21.52.20:439][ 20]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2022.04.06-21.52.20:439][ 20]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2022.04.06-21.52.20:439][ 20]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2022.04.06-21.52.20:439][ 20]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called
+[2022.04.06-21.52.20:439][ 20]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048
+[2022.04.06-21.52.20:450][ 20]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal()
+[2022.04.06-21.52.20:450][ 20]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time
+[2022.04.06-21.52.20:450][ 20]LogInit: FAudioDevice initialized.
+[2022.04.06-21.52.20:451][ 20]LogAudio: Display: Audio Device (ID: 61) registered with world 'Level1'.
+[2022.04.06-21.52.20:459][ 20]LogLoad: Game class is 'BP_SideScrollerGameModeBase_C'
+[2022.04.06-21.52.20:461][ 20]LogWorld: Bringing World /Game/Levels/UEDPIE_0_Level1.Level1 up for play (max tick rate 0) at 2022.04.06-22.52.20
+[2022.04.06-21.52.20:462][ 20]LogWorld: Bringing up level for play took: 0.002486
+[2022.04.06-21.52.20:462][ 20]LogOnline: OSS: Creating online subsystem instance for: :Context_67
+[2022.04.06-21.52.20:464][ 20]PIE: Server logged in
+[2022.04.06-21.52.20:465][ 20]PIE: Play in editor total start time 0.137 seconds.
+[2022.04.06-21.52.21:031][ 76]LogTemp: Warning: Overlap Occured, Checking if it's a player.
+[2022.04.06-21.52.21:065][ 80]LogTemp: Warning: Overlap Occured, Checking if it's a player.
+[2022.04.06-21.52.21:248][102]LogTemp: Warning: Overlap Occured, Checking if it's a player.
+[2022.04.06-21.52.21:281][106]LogTemp: Warning: Overlap Occured, Checking if it's a player.
+[2022.04.06-21.52.22:073][201]LogTemp: Warning: Overlap Occured, Checking if it's a player.
+[2022.04.06-21.52.22:107][205]LogTemp: Warning: Overlap Occured, Checking if it's a player.
+[2022.04.06-21.52.22:215][218]LogTemp: Warning: Overlap Occured, Checking if it's a player.
+[2022.04.06-21.52.22:248][222]LogTemp: Warning: Overlap Occured, Checking if it's a player.
+[2022.04.06-21.52.22:290][227]LogTemp: Warning: Overlap Occured, Checking if it's a player.
+[2022.04.06-21.52.22:323][231]LogTemp: Warning: Overlap Occured, Checking if it's a player.
+[2022.04.06-21.52.24:040][437]LogTemp: Warning: Overlap Occured, Checking if it's a player.
+[2022.04.06-21.52.24:073][441]LogTemp: Warning: Overlap Occured, Checking if it's a player.
+[2022.04.06-21.52.24:490][491]LogTemp: Warning: Overlap Occured, Checking if it's a player.
+[2022.04.06-21.52.24:515][494]LogTemp: Warning: Overlap Occured, Checking if it's a player.
+[2022.04.06-21.52.24:627][507]LogTemp: Warning: Overlap Occured, Checking if it's a player.
+[2022.04.06-21.52.24:660][508]LogTemp: Warning: Overlap Occured, Checking if it's a player.
+[2022.04.06-21.52.25:052][552]LogTemp: Warning: Overlap Occured, Checking if it's a player.
+[2022.04.06-21.52.25:085][556]LogTemp: Warning: Overlap Occured, Checking if it's a player.
+[2022.04.06-21.52.25:260][577]LogTemp: Warning: Overlap Occured, Checking if it's a player.
+[2022.04.06-21.52.25:293][581]LogTemp: Warning: Overlap Occured, Checking if it's a player.
+[2022.04.06-21.52.25:502][606]LogTemp: Warning: Overlap Occured, Checking if it's a player.
+[2022.04.06-21.52.25:535][610]LogTemp: Warning: Overlap Occured, Checking if it's a player.
+[2022.04.06-21.52.26:262][694]LogTemp: Warning: Overlap Occured, Checking if it's a player.
+[2022.04.06-21.52.26:295][698]LogTemp: Warning: Overlap Occured, Checking if it's a player.
+[2022.04.06-21.52.26:945][776]LogTemp: Warning: Overlap Occured, Checking if it's a player.
+[2022.04.06-21.52.26:978][780]LogTemp: Warning: Overlap Occured, Checking if it's a player.
+[2022.04.06-21.52.27:247][812]LogTemp: Warning: Overlap Occured, Checking if it's a player.
+[2022.04.06-21.52.27:263][814]LogTemp: Warning: Overlap Occured, Checking if it's a player.
+[2022.04.06-21.52.27:280][816]LogTemp: Warning: Overlap Occured, Checking if it's a player.
+[2022.04.06-21.52.27:296][818]LogTemp: Warning: Overlap Occured, Checking if it's a player.
+[2022.04.06-21.52.27:454][837]LogTemp: Warning: Overlap Occured, Checking if it's a player.
+[2022.04.06-21.52.27:487][841]LogTemp: Warning: Overlap Occured, Checking if it's a player.
+[2022.04.06-21.52.28:287][937]LogTemp: Warning: Overlap Occured, Checking if it's a player.
+[2022.04.06-21.52.28:321][941]LogTemp: Warning: Overlap Occured, Checking if it's a player.
+[2022.04.06-21.52.28:496][962]LogTemp: Warning: Overlap Occured, Checking if it's a player.
+[2022.04.06-21.52.28:529][966]LogTemp: Warning: Overlap Occured, Checking if it's a player.
+[2022.04.06-21.52.29:362][ 66]LogTemp: Warning: Overlap Occured, Checking if it's a player.
+[2022.04.06-21.52.29:396][ 70]LogTemp: Warning: Overlap Occured, Checking if it's a player.
+[2022.04.06-21.52.30:262][174]LogTemp: Warning: Overlap Occured, Checking if it's a player.
+[2022.04.06-21.52.30:295][178]LogTemp: Warning: Overlap Occured, Checking if it's a player.
+[2022.04.06-21.52.30:687][225]LogTemp: Warning: Overlap Occured, Checking if it's a player.
+[2022.04.06-21.52.30:721][229]LogTemp: Warning: Overlap Occured, Checking if it's a player.
+[2022.04.06-21.52.31:304][299]LogTemp: Warning: Overlap Occured, Checking if it's a player.
+[2022.04.06-21.52.31:337][303]LogTemp: Warning: Overlap Occured, Checking if it's a player.
+[2022.04.06-21.52.31:695][346]LogTemp: Warning: Overlap Occured, Checking if it's a player.
+[2022.04.06-21.52.31:729][350]LogTemp: Warning: Overlap Occured, Checking if it's a player.
+[2022.04.06-21.52.31:729][350]LogTemp: Warning: Overlap Occured, Checking if it's a player.
+[2022.04.06-21.52.31:762][354]LogTemp: Warning: Overlap Occured, Checking if it's a player.
+[2022.04.06-21.52.32:112][396]LogTemp: Warning: Overlap Occured, Checking if it's a player.
+[2022.04.06-21.52.32:112][396]LogTemp: Warning: Overlap is a player.
+[2022.04.06-21.52.32:212][408]LogTemp: Warning: Overlap Occured, Checking if it's a player.
+[2022.04.06-21.52.32:245][412]LogTemp: Warning: Overlap Occured, Checking if it's a player.
+[2022.04.06-21.52.32:521][445]LogTemp: Warning: Overlap Occured, Checking if it's a player.
+[2022.04.06-21.52.32:521][445]LogTemp: Warning: Overlap is a player.
+[2022.04.06-21.52.33:495][562]LogTemp: Warning: Overlap Occured, Checking if it's a player.
+[2022.04.06-21.52.33:529][566]LogTemp: Warning: Overlap Occured, Checking if it's a player.
+[2022.04.06-21.52.33:604][575]LogTemp: Warning: Overlap Occured, Checking if it's a player.
+[2022.04.06-21.52.33:605][575]LogTemp: Warning: Overlap is a player.
+[2022.04.06-21.52.33:679][584]LogTemp: Warning: Overlap Occured, Checking if it's a player.
+[2022.04.06-21.52.33:712][588]LogTemp: Warning: Overlap Occured, Checking if it's a player.
+[2022.04.06-21.52.34:154][641]LogTemp: Warning: Overlap Occured, Checking if it's a player.
+[2022.04.06-21.52.34:187][645]LogTemp: Warning: Overlap Occured, Checking if it's a player.
+[2022.04.06-21.52.34:537][687]LogTemp: Warning: Overlap Occured, Checking if it's a player.
+[2022.04.06-21.52.34:571][691]LogTemp: Warning: Overlap Occured, Checking if it's a player.
+[2022.04.06-21.52.34:720][709]LogTemp: Warning: Overlap Occured, Checking if it's a player.
+[2022.04.06-21.52.34:754][713]LogTemp: Warning: Overlap Occured, Checking if it's a player.
+[2022.04.06-21.52.36:504][923]LogTemp: Warning: Overlap Occured, Checking if it's a player.
+[2022.04.06-21.52.36:513][924]LogTemp: Warning: Overlap Occured, Checking if it's a player.
+[2022.04.06-21.52.36:537][927]LogTemp: Warning: Overlap Occured, Checking if it's a player.
+[2022.04.06-21.52.36:546][928]LogTemp: Warning: Overlap Occured, Checking if it's a player.
+[2022.04.06-21.52.36:912][972]LogTemp: Warning: Overlap Occured, Checking if it's a player.
+[2022.04.06-21.52.36:954][977]LogTemp: Warning: Overlap Occured, Checking if it's a player.
+[2022.04.06-21.52.37:554][ 49]LogTemp: Warning: Overlap Occured, Checking if it's a player.
+[2022.04.06-21.52.37:587][ 53]LogTemp: Warning: Overlap Occured, Checking if it's a player.
+[2022.04.06-21.52.37:954][ 97]LogTemp: Warning: Overlap Occured, Checking if it's a player.
+[2022.04.06-21.52.37:987][101]LogTemp: Warning: Overlap Occured, Checking if it's a player.
+[2022.04.06-21.52.38:929][214]LogTemp: Warning: Overlap Occured, Checking if it's a player.
+[2022.04.06-21.52.38:971][219]LogTemp: Warning: Overlap Occured, Checking if it's a player.
+[2022.04.06-21.52.39:746][312]LogTemp: Warning: Overlap Occured, Checking if it's a player.
+[2022.04.06-21.52.39:779][316]LogTemp: Warning: Overlap Occured, Checking if it's a player.
+[2022.04.06-21.52.39:904][331]LogTemp: Warning: Overlap Occured, Checking if it's a player.
+[2022.04.06-21.52.39:937][335]LogTemp: Warning: Overlap Occured, Checking if it's a player.
+[2022.04.06-21.52.40:054][349]LogNet: Browse: /Game/Levels/Level1
+[2022.04.06-21.52.40:054][349]LogLoad: LoadMap: /Game/Levels/Level1
+[2022.04.06-21.52.40:054][349]LogWorld: BeginTearingDown for /Game/Levels/UEDPIE_0_Level1
+[2022.04.06-21.52.40:054][349]LogWorld: UWorld::CleanupWorld for Level1, bSessionEnded=true, bCleanupResources=true
+[2022.04.06-21.52.40:055][349]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.04.06-21.52.40:109][349]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2022.04.06-21.52.40:112][349]LogUObjectHash: Compacting FUObjectHashTables data took   1.90ms
+[2022.04.06-21.52.40:114][349]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_Level1
+[2022.04.06-21.52.40:120][349]LogPlayLevel: PIE: StaticDuplicateObject took: (0.005702s)
+[2022.04.06-21.52.40:121][349]LogAIModule: Creating AISystem for world Level1
+[2022.04.06-21.52.40:121][349]LogPlayLevel: PIE: World Init took: (0.000656s)
+[2022.04.06-21.52.40:121][349]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/Level1.Level1 to /Game/Levels/UEDPIE_0_Level1.Level1 (0.006477s)
+[2022.04.06-21.52.40:121][349]LogAudio: Display: Audio Device (ID: 61) registered with world 'Level1'.
+[2022.04.06-21.52.40:121][349]LogLoad: Game class is 'BP_SideScrollerGameModeBase_C'
+[2022.04.06-21.52.40:123][349]LogWorld: Bringing World /Game/Levels/UEDPIE_0_Level1.Level1 up for play (max tick rate 0) at 2022.04.06-22.52.40
+[2022.04.06-21.52.40:124][349]LogWorld: Bringing up level for play took: 0.002035
+[2022.04.06-21.52.40:135][349]LogGameMode: FindPlayerStart: PATHS NOT DEFINED or NO PLAYERSTART with positive rating
+[2022.04.06-21.52.40:136][349]LogLoad: Took 0.081844 seconds to LoadMap(/Game/Levels/UEDPIE_0_Level1)
+[2022.04.06-21.52.40:818][430]LogTemp: Warning: Overlap Occured, Checking if it's a player.
+[2022.04.06-21.52.40:852][434]LogTemp: Warning: Overlap Occured, Checking if it's a player.
+[2022.04.06-21.52.41:073][457]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.04.06-21.52.41:073][457]LogWorld: BeginTearingDown for /Game/Levels/UEDPIE_0_Level1
+[2022.04.06-21.52.41:074][457]LogWorld: UWorld::CleanupWorld for Level1, bSessionEnded=true, bCleanupResources=true
+[2022.04.06-21.52.41:074][457]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.04.06-21.52.41:080][457]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2022.04.06-21.52.41:107][457]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.04.06-21.52.41:124][457]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2022.04.06-21.52.41:124][457]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2022.04.06-21.52.41:124][457]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2022.04.06-21.52.41:136][457]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.04.06-21.52.41:139][457]LogUObjectHash: Compacting FUObjectHashTables data took   1.70ms
+[2022.04.06-21.52.41:167][458]LogPlayLevel: Display: Destroying online subsystem :Context_67
+[2022.04.06-21.52.43:841][764]LogEditorViewport: Clicking on Actor (LMB): BP_PlayerCharacter_C (BP_PlayerCharacter)
+[2022.04.06-21.52.52:463][449]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Levels/Level1" FILE="D:/Unreal Projects/SideScroller2D/SideScroller/Content/Levels/Level1.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2022.04.06-21.52.52:479][449]LogUObjectHash: Compacting FUObjectHashTables data took   1.55ms
+[2022.04.06-21.52.52:502][449]LogSavePackage: Moving 'D:/Unreal Projects/SideScroller2D/SideScroller/Saved/Level146BEFEFA45C4D32E5BC081BB190745C0.tmp' to 'D:/Unreal Projects/SideScroller2D/SideScroller/Content/Levels/Level1.umap'
+[2022.04.06-21.52.52:507][449]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Levels/Level1_BuiltData" FILE="D:/Unreal Projects/SideScroller2D/SideScroller/Content/Levels/Level1_BuiltData.uasset" SILENT=true
+[2022.04.06-21.52.52:509][449]LogSavePackage: Moving 'D:/Unreal Projects/SideScroller2D/SideScroller/Saved/Level1_BuiltData0C3442614D6CB48F16D8458EEA3B1E37.tmp' to 'D:/Unreal Projects/SideScroller2D/SideScroller/Content/Levels/Level1_BuiltData.uasset'
+[2022.04.06-21.52.52:516][449]AssetCheck: New page: Asset Save: multiple assets
+[2022.04.06-21.52.52:516][449]LogContentValidation: Display: Validating World /Game/Levels/Level1.Level1
+[2022.04.06-21.52.52:516][449]LogContentValidation: Display: Validating MapBuildDataRegistry /Game/Levels/Level1_BuiltData.Level1_BuiltData

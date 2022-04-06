@@ -41,6 +41,7 @@ void AEnemyBase::OnTriggerBoxOverlap(UPrimitiveComponent* OverlappedComponent, A
 		if (tile)
 		{
 			movementSpeed *= -1;
+			RootComponent->AddLocalRotation(FQuat(FVector(0.0f, 0.0f, 1.0f), 3.14));
 
 		}
 	}
