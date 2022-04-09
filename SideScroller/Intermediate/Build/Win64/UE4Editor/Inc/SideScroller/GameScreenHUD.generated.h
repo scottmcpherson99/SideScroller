@@ -62,7 +62,8 @@ DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(UGameScreenHUD); \
 
 #define SideScroller_Source_SideScroller_GameScreenHUD_h_16_PRIVATE_PROPERTY_OFFSET \
 	FORCEINLINE static uint32 __PPO__PlayerCoins() { return STRUCT_OFFSET(UGameScreenHUD, PlayerCoins); } \
-	FORCEINLINE static uint32 __PPO__PlayerLives() { return STRUCT_OFFSET(UGameScreenHUD, PlayerLives); }
+	FORCEINLINE static uint32 __PPO__PlayerLives() { return STRUCT_OFFSET(UGameScreenHUD, PlayerLives); } \
+	FORCEINLINE static uint32 __PPO__LevelName() { return STRUCT_OFFSET(UGameScreenHUD, LevelName); }
 
 
 #define SideScroller_Source_SideScroller_GameScreenHUD_h_13_PROLOG

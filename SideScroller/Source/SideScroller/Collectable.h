@@ -24,7 +24,7 @@ protected:
 		class UPaperFlipbookComponent* spriteComponent;
 
 
-	UPROPERTY(VisibleAnywhere, BlueprintReadOnly, Category = "Collision")
+	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Collision")
 		class UBoxComponent* TriggerBox;
 
 public:	

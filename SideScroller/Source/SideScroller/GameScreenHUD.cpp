@@ -13,3 +13,9 @@ void UGameScreenHUD::UpdatePlayerLives(float lives_)
 {
 	PlayerLives->SetText(FText::AsNumber(lives_));
 }
+
+
+void UGameScreenHUD::UpdateLevelName(FName name_)
+{
+	LevelName->SetText(FText::FromName(name_));
+}

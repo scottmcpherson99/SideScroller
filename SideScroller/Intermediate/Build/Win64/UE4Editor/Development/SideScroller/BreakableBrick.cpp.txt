@@ -1,0 +1,3 @@
+D:\Unreal Projects\SideScroller2D\SideScroller\Intermediate\Build\Win64\UE4Editor\Development\SideScroller\Definitions.SideScroller.h
+D:\Unreal Projects\SideScroller2D\SideScroller\Source\SideScroller\BreakableBrick.h
+D:\Unreal Projects\SideScroller2D\SideScroller\Intermediate\Build\Win64\UE4Editor\Inc\SideScroller\BreakableBrick.generated.h

@@ -17,6 +17,7 @@ void ASideScrollerGameModeBase::BeginPlay()
 	{
 		gameWidget = Cast<UGameScreenHUD>(CreateWidget(GetWorld(), GameScreenHUDWidget));
 		gameWidget->AddToViewport();
+		gameWidget->UpdateLevelName(FName(UGameplayStatics::GetCurrentLevelName(GetWorld(), true)));
 	}
 }
 

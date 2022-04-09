@@ -22,7 +22,11 @@ protected:
 	UPROPERTY(BlueprintReadWrite, meta = (BindWidget))
 		class UTextBlock* PlayerLives;
 
+	UPROPERTY(BlueprintReadWrite, meta = (BindWidget))
+		class UTextBlock* LevelName;
+
 public:
+	void UpdateLevelName(FName name_);
 	void UpdatePlayerCoins(float coins_);
 	void UpdatePlayerLives(float lives_);
 };

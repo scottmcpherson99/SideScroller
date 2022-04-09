@@ -178,7 +178,7 @@ void EmptyLinkFunctionForGeneratedCodeCoin() {}
 		}
 		return OuterClass;
 	}
-	IMPLEMENT_CLASS(ACoin, 1421687325);
+	IMPLEMENT_CLASS(ACoin, 3481206036);
 	template<> SIDESCROLLER_API UClass* StaticClass<ACoin>()
 	{
 		return ACoin::StaticClass();
