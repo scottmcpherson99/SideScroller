@@ -30,5 +30,14 @@ protected:
 	UPROPERTY(VisibleInstanceOnly, Category = "Widget")
 		class UGameScreenHUD* gameWidget;
 
+
+	UPROPERTY(EditAnywhere, Category = "Game Settings")
+		float levelTimeLength = 100;
+
 	FName levelNames[3] = { FName("Level1"), FName("Level2"), FName("MainMenu")};
+
+
+	FTimerHandle levelTimer;
+
+	void LevelTime();
 };

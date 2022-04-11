@@ -25,8 +25,12 @@ protected:
 	UPROPERTY(BlueprintReadWrite, meta = (BindWidget))
 		class UTextBlock* LevelName;
 
+	UPROPERTY(BlueprintReadWrite, meta = (BindWidget))
+		class UTextBlock* Timer;
+
 public:
 	void UpdateLevelName(FName name_);
 	void UpdatePlayerCoins(float coins_);
 	void UpdatePlayerLives(float lives_);
+	void UpdateTimer(float timer_);
 };

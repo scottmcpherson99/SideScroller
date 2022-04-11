@@ -14,6 +14,11 @@ void UGameScreenHUD::UpdatePlayerLives(float lives_)
 	PlayerLives->SetText(FText::AsNumber(lives_));
 }
 
+void UGameScreenHUD::UpdateTimer(float timer_)
+{
+	Timer->SetText(FText::AsNumber(timer_));
+}
+
 
 void UGameScreenHUD::UpdateLevelName(FName name_)
 {

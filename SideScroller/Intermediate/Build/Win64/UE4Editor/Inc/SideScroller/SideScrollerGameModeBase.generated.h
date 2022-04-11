@@ -60,7 +60,8 @@ DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(ASideScrollerGameModeBase); \
 
 #define SideScroller_Source_SideScroller_SideScrollerGameModeBase_h_15_PRIVATE_PROPERTY_OFFSET \
 	FORCEINLINE static uint32 __PPO__GameScreenHUDWidget() { return STRUCT_OFFSET(ASideScrollerGameModeBase, GameScreenHUDWidget); } \
-	FORCEINLINE static uint32 __PPO__gameWidget() { return STRUCT_OFFSET(ASideScrollerGameModeBase, gameWidget); }
+	FORCEINLINE static uint32 __PPO__gameWidget() { return STRUCT_OFFSET(ASideScrollerGameModeBase, gameWidget); } \
+	FORCEINLINE static uint32 __PPO__levelTimeLength() { return STRUCT_OFFSET(ASideScrollerGameModeBase, levelTimeLength); }
 
 
 #define SideScroller_Source_SideScroller_SideScrollerGameModeBase_h_12_PROLOG
