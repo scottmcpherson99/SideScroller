@@ -17,4 +17,6 @@ class SIDESCROLLER_API ADumbEnemy : public AEnemyBase
 public:
 	// Called every frame
 	virtual void Tick(float DeltaTime) override;
+
+	bool bPause;
 };

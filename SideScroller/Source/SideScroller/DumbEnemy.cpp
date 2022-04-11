@@ -8,5 +8,7 @@
 
 void ADumbEnemy::Tick(float DeltaTime)
 {
-	AddMovementInput(FVector(movementSpeed * DeltaTime, 0.0f, 0.0f));
+	
+		AddMovementInput(FVector(movementSpeed * DeltaTime, 0.0f, 0.0f));
+	
 }

@@ -56,6 +56,8 @@ void APlayerCharacter::SetupPlayerInputComponent(UInputComponent* PlayerInputCom
 
 	PlayerInputComponent->BindAxis("MoveRight", this, &APlayerCharacter::MoveRight);
 
+	PlayerInputComponent->BindAction("Pause", IE_Pressed, this, &APlayerCharacter::PauseGame);
+
 	PlayerInputComponent->BindAction("Jump", IE_Pressed, this, &APlayerCharacter::Jump);
 	PlayerInputComponent->BindAction("Jump", IE_Released, this, &APlayerCharacter::StopJumping);
 }
@@ -65,6 +67,15 @@ void APlayerCharacter::MoveRight(float value_)
 	if (Controller && (value_ != 0.0f))
 	{
 		AddMovementInput(FVector(1.0f * value_, 0.0f, 0.0f));
+	}
+}
+
+void APlayerCharacter::PauseGame()
+{
+	ASideScrollerGameModeBase* gameMode = (ASideScrollerGameModeBase*)GetWorld()->GetAuthGameMode();
+	if (gameMode)
+	{
+		gameMode->Pause();
 	}
 }
 //////////////////////////////////////////////////////////////////////////

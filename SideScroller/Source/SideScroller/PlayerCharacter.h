@@ -47,6 +47,8 @@ protected:
 	//move the character sideways
 	void MoveRight(float value_);
 
+	//pause the game
+	void PauseGame();
 
 	// The animation to play while running around
 	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = Animations)

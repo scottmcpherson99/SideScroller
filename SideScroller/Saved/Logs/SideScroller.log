@@ -1208,3 +1208,76 @@ LogConfig: Setting CVar [[r.setres:1280x720]]
 [2022.04.11-19.28.37:915][303]Display: HotReload successful (8 functions remapped  0 scriptstructs remapped)
 [2022.04.11-19.28.37:962][303]LogNativeClassHierarchy: Verbose: Native class hierarchy populated in 0.0064 seconds. Added 3621 classes and 861 folders.
 [2022.04.11-19.28.37:964][303]Display: HotReload took  0.1s.
+[2022.04.11-20.01.10:642][279]LogHotReload: New module detected: UE4Editor-SideScroller-0166.dll
+[2022.04.11-20.01.11:319][282]LogHotReload: Starting Hot-Reload from IDE
+[2022.04.11-20.01.11:402][282]LogClass: Could not find existing class SideScrollerGameModeBase in package /Script/SideScroller for HotReload, assuming new class
+[2022.04.11-20.01.11:403][282]LogClass: Function GetCurrentState is new.
+[2022.04.11-20.01.11:406][282]LogClass: Could not find existing type ESideScrollerPlayState for HotReload. Assuming new
+[2022.04.11-20.01.11:421][282]LogHotReload: Re-instancing SideScrollerGameModeBase after hot-reload.
+[2022.04.11-20.01.11:453][282]LogNativeClassHierarchy: Verbose: Native class hierarchy updated for 'SideScroller' in 0.0002 seconds. Added 20 classes and 2 folders.
+[2022.04.11-20.01.11:456][282]Display: HotReload successful (8 functions remapped  0 scriptstructs remapped)
+[2022.04.11-20.01.11:531][282]LogNativeClassHierarchy: Verbose: Native class hierarchy populated in 0.0067 seconds. Added 3621 classes and 861 folders.
+[2022.04.11-20.01.11:535][282]Display: HotReload took  0.2s.
+[2022.04.11-20.01.20:326][406]Candidate modules for hot reload:
+[2022.04.11-20.01.20:326][406]  SideScroller
+[2022.04.11-20.01.20:326][406]Launching UnrealBuildTool... [C:/Program Files/Epic Games/UE_4.26/Engine/Binaries/DotNET/UnrealBuildTool.exe  -ModuleWithSuffix=SideScroller,2676 SideScrollerEditor Win64 Development -Project="D:/Unreal Projects/SideScroller2D/SideScroller/SideScroller.uproject" "D:/Unreal Projects/SideScroller2D/SideScroller/SideScroller.uproject"  -IgnoreJunk]
+[2022.04.11-20.01.20:328][406]Warning: Starting HotReload took  0.0s.
+[2022.04.11-20.01.21:575][505]CompilerResultsLog: New page: Compilation - 11 Apr 2022, 22:01:21
+[2022.04.11-20.01.21:575][505]CompilerResultsLog: Using 'git status' to determine working set for adaptive non-unity build (D:\Unreal Projects\SideScroller2D).
+[2022.04.11-20.01.21:575][505]CompilerResultsLog: Building SideScrollerEditor...
+[2022.04.11-20.01.21:575][505]CompilerResultsLog: Using Visual Studio 2019 14.30.30706 toolchain (C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.30.30705) and Windows 10.0.19041.0 SDK (C:\Program Files (x86)\Windows Kits\10).
+[2022.04.11-20.01.21:575][505]CompilerResultsLog: Building 3 actions with 16 processes...
+[2022.04.11-20.01.21:575][505]CompilerResultsLog:   [1/3] UE4Editor-SideScroller-2676.lib
+[2022.04.11-20.01.21:575][505]CompilerResultsLog:      Creating library D:\Unreal Projects\SideScroller2D\SideScroller\Intermediate\Build\Win64\UE4Editor\Development\SideScroller\UE4Editor-SideScroller-2676.lib and object D:\Unreal Projects\SideScroller2D\SideScroller\Intermediate\Build\Win64\UE4Editor\Development\SideScroller\UE4Editor-SideScroller-2676.exp
+[2022.04.11-20.01.21:575][505]CompilerResultsLog:   [2/3] UE4Editor-SideScroller-2676.dll
+[2022.04.11-20.01.21:575][505]CompilerResultsLog:      Creating library D:\Unreal Projects\SideScroller2D\SideScroller\Intermediate\Build\Win64\UE4Editor\Development\SideScroller\UE4Editor-SideScroller-2676.suppressed.lib and object D:\Unreal Projects\SideScroller2D\SideScroller\Intermediate\Build\Win64\UE4Editor\Development\SideScroller\UE4Editor-SideScroller-2676.suppressed.exp
+[2022.04.11-20.01.21:575][505]CompilerResultsLog:   [3/3] SideScrollerEditor.target
+[2022.04.11-20.01.21:575][505]CompilerResultsLog: Total time in Parallel executor: 0.73 seconds
+[2022.04.11-20.01.21:575][505]CompilerResultsLog: Total execution time: 1.19 seconds
+[2022.04.11-20.01.21:575][505]LogMainFrame: MainFrame: Module compiling took 1.251 seconds
+[2022.04.11-20.01.21:614][505]LogOutputDevice: Warning: 
+
+Script Stack (0 frames):
+
+[2022.04.11-20.01.21:614][505]LogWindows: Windows GetLastError: The operation completed successfully. (0)
+[2022.04.11-20.01.25:625][505]LogWindows: Error: === Critical error: ===
+[2022.04.11-20.01.25:625][505]LogWindows: Error: 
+[2022.04.11-20.01.25:625][505]LogWindows: Error: Fatal error: [File:D:/Build/++UE4/Sync/Engine/Source/Runtime/CoreUObject/Private/UObject/UObjectGlobals.cpp] [Line: 2381] 
+[2022.04.11-20.01.25:625][505]LogWindows: Error: Objects have the same fully qualified name but different paths.
+[2022.04.11-20.01.25:625][505]LogWindows: Error: 	New Object: SideScrollerGameModeBase /Engine/Transient.Default__SideScrollerGameModeBase
+[2022.04.11-20.01.25:625][505]LogWindows: Error: 	Existing Object: HOTRELOADED_SideScrollerGameModeBase_0 /Engine/Transient.Default__SideScrollerGameModeBase
+[2022.04.11-20.01.25:625][505]LogWindows: Error: 
+[2022.04.11-20.01.25:625][505]LogWindows: Error: 
+[2022.04.11-20.01.25:625][505]LogWindows: Error: [Callstack] 0x00007ffd46ac4f69 KERNELBASE.dll!UnknownFunction []
+[2022.04.11-20.01.25:625][505]LogWindows: Error: [Callstack] 0x00007ffca0d6d066 UE4Editor-Core.dll!UnknownFunction []
+[2022.04.11-20.01.25:625][505]LogWindows: Error: [Callstack] 0x00007ffca0d707a8 UE4Editor-Core.dll!UnknownFunction []
+[2022.04.11-20.01.25:625][505]LogWindows: Error: [Callstack] 0x00007ffca0a7e8cd UE4Editor-Core.dll!UnknownFunction []
+[2022.04.11-20.01.25:625][505]LogWindows: Error: [Callstack] 0x00007ffca19ebe77 UE4Editor-CoreUObject.dll!UnknownFunction []
+[2022.04.11-20.01.25:625][505]LogWindows: Error: [Callstack] 0x00007ffd434c9851 UE4Editor-SideScroller-2676.dll!ASideScrollerGameModeBase::__VTableCtorCaller() [D:\Unreal Projects\SideScroller2D\SideScroller\Source\SideScroller\SideScrollerGameModeBase.h:24]
+[2022.04.11-20.01.25:625][505]LogWindows: Error: [Callstack] 0x00007ffca16f01db UE4Editor-CoreUObject.dll!UnknownFunction []
+[2022.04.11-20.01.25:625][505]LogWindows: Error: [Callstack] 0x00007ffca16ed6ed UE4Editor-CoreUObject.dll!UnknownFunction []
+[2022.04.11-20.01.25:625][505]LogWindows: Error: [Callstack] 0x00007ffd434d16bb UE4Editor-SideScroller-2676.dll!ASideScrollerGameModeBase::GetPrivateStaticClass() [D:\Unreal Projects\SideScroller2D\SideScroller\Intermediate\Build\Win64\UE4Editor\Inc\SideScroller\SideScrollerGameModeBase.gen.cpp:234]
+[2022.04.11-20.01.25:626][505]LogWindows: Error: [Callstack] 0x00007ffd434d146f UE4Editor-SideScroller-2676.dll!TClassCompiledInDefer<ASideScrollerGameModeBase>::Register() [C:\Program Files\Epic Games\UE_4.26\Engine\Source\Runtime\CoreUObject\Public\UObject\UObjectBase.h:301]
+[2022.04.11-20.01.25:626][505]LogWindows: Error: [Callstack] 0x00007ffca199d8ed UE4Editor-CoreUObject.dll!UnknownFunction []
+[2022.04.11-20.01.25:626][505]LogWindows: Error: [Callstack] 0x00007ffca1982831 UE4Editor-CoreUObject.dll!UnknownFunction []
+[2022.04.11-20.01.25:626][505]LogWindows: Error: [Callstack] 0x00007ffca18b2305 UE4Editor-CoreUObject.dll!UnknownFunction []
+[2022.04.11-20.01.25:626][505]LogWindows: Error: [Callstack] 0x00007ffca0ab99ea UE4Editor-Core.dll!UnknownFunction []
+[2022.04.11-20.01.25:626][505]LogWindows: Error: [Callstack] 0x00007ffca0ae12a8 UE4Editor-Core.dll!UnknownFunction []
+[2022.04.11-20.01.25:626][505]LogWindows: Error: [Callstack] 0x00007ffca0ae0328 UE4Editor-Core.dll!UnknownFunction []
+[2022.04.11-20.01.25:626][505]LogWindows: Error: [Callstack] 0x00007ffc855fafc7 UE4Editor-HotReload.dll!UnknownFunction []
+[2022.04.11-20.01.25:626][505]LogWindows: Error: [Callstack] 0x00007ffc855f8f27 UE4Editor-HotReload.dll!UnknownFunction []
+[2022.04.11-20.01.25:626][505]LogWindows: Error: [Callstack] 0x00007ffc855f9aed UE4Editor-HotReload.dll!UnknownFunction []
+[2022.04.11-20.01.25:626][505]LogWindows: Error: [Callstack] 0x00007ffc8560c644 UE4Editor-HotReload.dll!UnknownFunction []
+[2022.04.11-20.01.25:626][505]LogWindows: Error: [Callstack] 0x00007ffca083e708 UE4Editor-Core.dll!UnknownFunction []
+[2022.04.11-20.01.25:626][505]LogWindows: Error: [Callstack] 0x00007ff789acd07d UE4Editor.exe!UnknownFunction []
+[2022.04.11-20.01.25:626][505]LogWindows: Error: [Callstack] 0x00007ff789ae117c UE4Editor.exe!UnknownFunction []
+[2022.04.11-20.01.25:626][505]LogWindows: Error: [Callstack] 0x00007ff789ae125a UE4Editor.exe!UnknownFunction []
+[2022.04.11-20.01.25:626][505]LogWindows: Error: [Callstack] 0x00007ff789af52bd UE4Editor.exe!UnknownFunction []
+[2022.04.11-20.01.25:626][505]LogWindows: Error: [Callstack] 0x00007ff789af7fea UE4Editor.exe!UnknownFunction []
+[2022.04.11-20.01.25:626][505]LogWindows: Error: [Callstack] 0x00007ffd473e7034 KERNEL32.DLL!UnknownFunction []
+[2022.04.11-20.01.25:626][505]LogWindows: Error: [Callstack] 0x00007ffd493c2651 ntdll.dll!UnknownFunction []
+[2022.04.11-20.01.25:626][505]LogWindows: Error: 
+[2022.04.11-20.01.25:647][505]LogExit: Executing StaticShutdownAfterError
+[2022.04.11-20.01.25:673][505]LogWindows: FPlatformMisc::RequestExit(1)
+[2022.04.11-20.01.25:673][505]LogCore: Engine exit requested (reason: Win RequestExit)
+[2022.04.11-20.01.25:725][505]Log file closed, 04/11/22 21:01:25
