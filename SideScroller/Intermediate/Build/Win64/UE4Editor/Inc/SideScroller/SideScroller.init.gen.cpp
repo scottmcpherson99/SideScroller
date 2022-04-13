@@ -21,7 +21,7 @@ void EmptyLinkFunctionForGeneratedCodeSideScroller_init() {}
 				nullptr,
 				0,
 				PKG_CompiledIn | 0x00000000,
-				0x6D540293,
+				0xC49C11E9,
 				0x8EFB62C9,
 				METADATA_PARAMS(nullptr, 0)
 			};

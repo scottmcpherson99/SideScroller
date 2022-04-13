@@ -70,8 +70,7 @@ DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(AEnemyBase); \
 
 
 #define SideScroller_Source_SideScroller_EnemyBase_h_15_PRIVATE_PROPERTY_OFFSET \
-	FORCEINLINE static uint32 __PPO__TriggerBox() { return STRUCT_OFFSET(AEnemyBase, TriggerBox); } \
-	FORCEINLINE static uint32 __PPO__movementSpeed() { return STRUCT_OFFSET(AEnemyBase, movementSpeed); }
+	FORCEINLINE static uint32 __PPO__TriggerBox() { return STRUCT_OFFSET(AEnemyBase, TriggerBox); }
 
 
 #define SideScroller_Source_SideScroller_EnemyBase_h_12_PROLOG

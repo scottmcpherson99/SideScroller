@@ -16,13 +16,14 @@ class SIDESCROLLER_API AEnemyBase : public APaperCharacter
 public:
 		AEnemyBase();
 
-		
+		UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Movement")
+			float movementSpeed;
+
+		bool bForward = true;
 protected:
 	UPROPERTY(VisibleAnywhere, BlueprintReadOnly, Category = "Collision")
 		class UBoxComponent* TriggerBox;
 
-	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Movement")
-		float movementSpeed;
 
 	// Called when the game starts or when spawned
 	virtual void BeginPlay() override;

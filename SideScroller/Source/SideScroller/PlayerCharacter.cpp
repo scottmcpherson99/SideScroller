@@ -77,6 +77,7 @@ void APlayerCharacter::PauseGame()
 	{
 		gameMode->Pause();
 	}
+
 }
 //////////////////////////////////////////////////////////////////////////
 
@@ -159,6 +160,7 @@ void APlayerCharacter::PlayerDeath()
 		UKismetSystemLibrary::QuitGame(GetWorld(), UGameplayStatics::GetPlayerController(GetWorld(), 0), EQuitPreference::Quit, true);
 	}
 }
+
 //////////////////////////////////////////////////////////////////////////
 
 

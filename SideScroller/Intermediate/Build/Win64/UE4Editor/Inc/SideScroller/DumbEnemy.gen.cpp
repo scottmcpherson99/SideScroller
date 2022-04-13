@@ -73,7 +73,7 @@ void EmptyLinkFunctionForGeneratedCodeDumbEnemy() {}
 		}
 		return OuterClass;
 	}
-	IMPLEMENT_CLASS(ADumbEnemy, 2897594309);
+	IMPLEMENT_CLASS(ADumbEnemy, 522998493);
 	template<> SIDESCROLLER_API UClass* StaticClass<ADumbEnemy>()
 	{
 		return ADumbEnemy::StaticClass();

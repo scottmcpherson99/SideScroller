@@ -7,6 +7,7 @@
 #include "PauseHUD.h"
 #include "Kismet/GameplayStatics.h"
 #include "PlayerCharacter.h"
+#include "DumbEnemy.h"
 
 ASideScrollerGameModeBase::ASideScrollerGameModeBase()
 {
@@ -81,10 +82,43 @@ void ASideScrollerGameModeBase::HandleNewState(ESideScrollerPlayState newState)
 	case ESideScrollerPlayState::EPlaying :
 		playerController->bShowMouseCursor = false;
 
+		//resume the enemy movement
+		UGameplayStatics::GetAllActorsOfClass(GetWorld(), ADumbEnemy::StaticClass(), foundActors);
+
+		for (auto Actor : foundActors)
+		{
+			ADumbEnemy* enemyActor = Cast<ADumbEnemy>(Actor);
+
+			if (enemyActor != nullptr)
+			{
+				enemyActor->bPause = false;
+				if (enemyActor->bForward == true)
+				{
+					enemyActor->movementSpeed = -50.f;
+				}
+				else if (enemyActor->bForward == false)
+				{
+					enemyActor->movementSpeed = 50.f;
+				}
+			}
+		}
 		break;
 
 	case ESideScrollerPlayState::EPAUSE :
 		playerController->bShowMouseCursor = true;
+
+		// stop the enemy movemnet
+		UGameplayStatics::GetAllActorsOfClass(GetWorld(), ADumbEnemy::StaticClass(), foundActors);
+		
+		for (auto Actor : foundActors)
+		{
+			ADumbEnemy* enemyActor = Cast<ADumbEnemy>(Actor);
+
+			if (enemyActor != nullptr)
+			{
+				enemyActor->movementSpeed = 0.f;
+			}
+		}
 		break;
 	}
 }
@@ -124,15 +158,18 @@ void ASideScrollerGameModeBase::UnPause()
 //////////////////////////////////////////////////////////////////////////
 void ASideScrollerGameModeBase::LevelTime()
 {
-	if (IsValid(GameScreenHUDWidget))
+	if (currentState == ESideScrollerPlayState::EPlaying)
 	{
-		levelTimeLength--;
-		gameWidget->UpdateTimer(levelTimeLength);
-
-		if (levelTimeLength <= 0)
+		if (IsValid(GameScreenHUDWidget))
 		{
-			APlayerCharacter* playerCharacter = Cast<APlayerCharacter>(UGameplayStatics::GetPlayerCharacter(GetWorld(), 0));
-			playerCharacter->PlayerDeath();
+			levelTimeLength--;
+			gameWidget->UpdateTimer(levelTimeLength);
+
+			if (levelTimeLength <= 0)
+			{
+				APlayerCharacter* playerCharacter = Cast<APlayerCharacter>(UGameplayStatics::GetPlayerCharacter(GetWorld(), 0));
+				playerCharacter->PlayerDeath();
+			}
 		}
 	}
 }

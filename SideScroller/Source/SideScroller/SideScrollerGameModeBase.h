@@ -68,6 +68,8 @@ protected:
 	void LevelTime();
 
 
+	//turn off movement for enemies
+	TArray<AActor*> foundActors;
 private:
 	//keeps track of the current state
 	ESideScrollerPlayState currentState;
