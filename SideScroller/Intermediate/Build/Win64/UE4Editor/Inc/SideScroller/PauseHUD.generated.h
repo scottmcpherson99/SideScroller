@@ -16,11 +16,15 @@ PRAGMA_DISABLE_DEPRECATION_WARNINGS
 #define SideScroller_Source_SideScroller_PauseHUD_h_17_SPARSE_DATA
 #define SideScroller_Source_SideScroller_PauseHUD_h_17_RPC_WRAPPERS \
  \
+	DECLARE_FUNCTION(execOnQuitClicked); \
+	DECLARE_FUNCTION(execOnMainMenuClicked); \
 	DECLARE_FUNCTION(execOnResumeClicked);
 
 
 #define SideScroller_Source_SideScroller_PauseHUD_h_17_RPC_WRAPPERS_NO_PURE_DECLS \
  \
+	DECLARE_FUNCTION(execOnQuitClicked); \
+	DECLARE_FUNCTION(execOnMainMenuClicked); \
 	DECLARE_FUNCTION(execOnResumeClicked);
 
 
@@ -69,7 +73,9 @@ DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(UPauseHUD); \
 
 
 #define SideScroller_Source_SideScroller_PauseHUD_h_17_PRIVATE_PROPERTY_OFFSET \
-	FORCEINLINE static uint32 __PPO__ResumeButton() { return STRUCT_OFFSET(UPauseHUD, ResumeButton); }
+	FORCEINLINE static uint32 __PPO__ResumeButton() { return STRUCT_OFFSET(UPauseHUD, ResumeButton); } \
+	FORCEINLINE static uint32 __PPO__MainMenuButton() { return STRUCT_OFFSET(UPauseHUD, MainMenuButton); } \
+	FORCEINLINE static uint32 __PPO__QuitButton() { return STRUCT_OFFSET(UPauseHUD, QuitButton); }
 
 
 #define SideScroller_Source_SideScroller_PauseHUD_h_14_PROLOG

@@ -20,9 +20,21 @@ protected:
 	UPROPERTY(BlueprintReadOnly, meta = (BindWidget))
 		class UButton* ResumeButton;
 
+	UPROPERTY(BlueprintReadOnly, meta = (BindWidget))
+		class UButton* MainMenuButton;
+
+	UPROPERTY(BlueprintReadOnly, meta = (BindWidget))
+		class UButton* QuitButton;
+
 
 	UFUNCTION()
 		void OnResumeClicked();
+
+	UFUNCTION()
+		void OnMainMenuClicked();
+
+	UFUNCTION()
+		void OnQuitClicked();
 
 	virtual void NativeConstruct() override;
 };
