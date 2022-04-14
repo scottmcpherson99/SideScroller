@@ -4,6 +4,7 @@
 #include "MainMenuHUD.h"
 #include "Kismet/GameplayStatics.h"
 #include "Kismet/KismetSystemLibrary.h"
+#include "MainMenuGameModeBase.h"
 
 
 void UMainMenuHUD::NativeConstruct()
@@ -17,6 +18,11 @@ void UMainMenuHUD::NativeConstruct()
 	{
 		QuitButton->OnClicked.AddDynamic(this, &UMainMenuHUD::OnQuitClicked);
 	}
+
+	if (ControlButton)
+	{
+		ControlButton->OnClicked.AddDynamic(this, &UMainMenuHUD::OnControlClicked);
+	}
 }
 
 
@@ -28,4 +34,13 @@ void UMainMenuHUD::OnNewGameClicked()
 void UMainMenuHUD::OnQuitClicked()
 {
 	UKismetSystemLibrary::QuitGame(GetWorld(), UGameplayStatics::GetPlayerController(GetWorld(), 0), EQuitPreference::Quit, true);
+}
+
+void UMainMenuHUD::OnControlClicked()
+{
+	AMainMenuGameModeBase* gameMode = (AMainMenuGameModeBase*)GetWorld()->GetAuthGameMode();
+	if (gameMode)
+	{
+		gameMode->SwitchWidget(1);
+	}
 }

@@ -133,11 +133,6 @@ void ASideScrollerGameModeBase::Pause()
 
 		ACharacter* playerCharacter = UGameplayStatics::GetPlayerCharacter(this, 0);
 		APlayerController* playerController = UGameplayStatics::GetPlayerController(this, 0);
-
-		if (playerCharacter != nullptr)
-		{
-			playerCharacter->DisableInput(playerController);
-		}
 	}
 }
 

@@ -3,7 +3,7 @@
   <ItemGroup>
     <None Include="..\..\SideScroller.uproject" />
     <Filter Include="Source">
-      <UniqueIdentifier>{ADAA6CA6-49EE-46C8-8351-2A7C93A7F491}</UniqueIdentifier>
+      <UniqueIdentifier>{32E84E2C-5E17-4324-A9C6-B5BF618BA790}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Source\SideScroller.Target.cs">
       <Filter>Source</Filter>
@@ -12,7 +12,7 @@
       <Filter>Source</Filter>
     </None>
     <Filter Include="Config">
-      <UniqueIdentifier>{CF0ECD53-00C6-401F-9432-D141FF1900A3}</UniqueIdentifier>
+      <UniqueIdentifier>{6AE71D85-175E-4593-A611-0F1604A62021}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Config\DefaultEditor.ini">
       <Filter>Config</Filter>
@@ -27,7 +27,7 @@
       <Filter>Config</Filter>
     </None>
     <Filter Include="Source\SideScroller">
-      <UniqueIdentifier>{8839318F-6994-4BBB-B8B4-18AF8F9F6C78}</UniqueIdentifier>
+      <UniqueIdentifier>{591058F7-F63D-4ABE-9B17-6CDDA83DDB79}</UniqueIdentifier>
     </Filter>
     <ClCompile Include="..\..\Source\SideScroller\BreakableBrick.cpp">
       <Filter>Source\SideScroller</Filter>
@@ -57,6 +57,12 @@
       <Filter>Source\SideScroller</Filter>
     </ClCompile>
     <ClInclude Include="..\..\Source\SideScroller\Collectable.h">
+      <Filter>Source\SideScroller</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\SideScroller\ControlWidget.cpp">
+      <Filter>Source\SideScroller</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\SideScroller\ControlWidget.h">
       <Filter>Source\SideScroller</Filter>
     </ClInclude>
     <ClCompile Include="..\..\Source\SideScroller\DeathBox.cpp">

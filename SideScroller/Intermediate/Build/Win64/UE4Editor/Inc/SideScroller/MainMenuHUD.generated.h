@@ -13,20 +13,22 @@ PRAGMA_DISABLE_DEPRECATION_WARNINGS
 #endif
 #define SIDESCROLLER_MainMenuHUD_generated_h
 
-#define SideScroller_Source_SideScroller_MainMenuHUD_h_17_SPARSE_DATA
-#define SideScroller_Source_SideScroller_MainMenuHUD_h_17_RPC_WRAPPERS \
+#define SideScroller_Source_SideScroller_MainMenuHUD_h_16_SPARSE_DATA
+#define SideScroller_Source_SideScroller_MainMenuHUD_h_16_RPC_WRAPPERS \
  \
+	DECLARE_FUNCTION(execOnControlClicked); \
 	DECLARE_FUNCTION(execOnQuitClicked); \
 	DECLARE_FUNCTION(execOnNewGameClicked);
 
 
-#define SideScroller_Source_SideScroller_MainMenuHUD_h_17_RPC_WRAPPERS_NO_PURE_DECLS \
+#define SideScroller_Source_SideScroller_MainMenuHUD_h_16_RPC_WRAPPERS_NO_PURE_DECLS \
  \
+	DECLARE_FUNCTION(execOnControlClicked); \
 	DECLARE_FUNCTION(execOnQuitClicked); \
 	DECLARE_FUNCTION(execOnNewGameClicked);
 
 
-#define SideScroller_Source_SideScroller_MainMenuHUD_h_17_INCLASS_NO_PURE_DECLS \
+#define SideScroller_Source_SideScroller_MainMenuHUD_h_16_INCLASS_NO_PURE_DECLS \
 private: \
 	static void StaticRegisterNativesUMainMenuHUD(); \
 	friend struct Z_Construct_UClass_UMainMenuHUD_Statics; \
@@ -35,7 +37,7 @@ public: \
 	DECLARE_SERIALIZER(UMainMenuHUD)
 
 
-#define SideScroller_Source_SideScroller_MainMenuHUD_h_17_INCLASS \
+#define SideScroller_Source_SideScroller_MainMenuHUD_h_16_INCLASS \
 private: \
 	static void StaticRegisterNativesUMainMenuHUD(); \
 	friend struct Z_Construct_UClass_UMainMenuHUD_Statics; \
@@ -44,7 +46,7 @@ public: \
 	DECLARE_SERIALIZER(UMainMenuHUD)
 
 
-#define SideScroller_Source_SideScroller_MainMenuHUD_h_17_STANDARD_CONSTRUCTORS \
+#define SideScroller_Source_SideScroller_MainMenuHUD_h_16_STANDARD_CONSTRUCTORS \
 	/** Standard constructor, called after all reflected properties have been initialized */ \
 	NO_API UMainMenuHUD(const FObjectInitializer& ObjectInitializer = FObjectInitializer::Get()); \
 	DEFINE_DEFAULT_OBJECT_INITIALIZER_CONSTRUCTOR_CALL(UMainMenuHUD) \
@@ -57,7 +59,7 @@ private: \
 public:
 
 
-#define SideScroller_Source_SideScroller_MainMenuHUD_h_17_ENHANCED_CONSTRUCTORS \
+#define SideScroller_Source_SideScroller_MainMenuHUD_h_16_ENHANCED_CONSTRUCTORS \
 	/** Standard constructor, called after all reflected properties have been initialized */ \
 	NO_API UMainMenuHUD(const FObjectInitializer& ObjectInitializer = FObjectInitializer::Get()) : Super(ObjectInitializer) { }; \
 private: \
@@ -70,32 +72,33 @@ DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(UMainMenuHUD); \
 	DEFINE_DEFAULT_OBJECT_INITIALIZER_CONSTRUCTOR_CALL(UMainMenuHUD)
 
 
-#define SideScroller_Source_SideScroller_MainMenuHUD_h_17_PRIVATE_PROPERTY_OFFSET \
+#define SideScroller_Source_SideScroller_MainMenuHUD_h_16_PRIVATE_PROPERTY_OFFSET \
 	FORCEINLINE static uint32 __PPO__NewGameButton() { return STRUCT_OFFSET(UMainMenuHUD, NewGameButton); } \
-	FORCEINLINE static uint32 __PPO__QuitButton() { return STRUCT_OFFSET(UMainMenuHUD, QuitButton); }
+	FORCEINLINE static uint32 __PPO__QuitButton() { return STRUCT_OFFSET(UMainMenuHUD, QuitButton); } \
+	FORCEINLINE static uint32 __PPO__ControlButton() { return STRUCT_OFFSET(UMainMenuHUD, ControlButton); }
 
 
-#define SideScroller_Source_SideScroller_MainMenuHUD_h_14_PROLOG
-#define SideScroller_Source_SideScroller_MainMenuHUD_h_17_GENERATED_BODY_LEGACY \
+#define SideScroller_Source_SideScroller_MainMenuHUD_h_13_PROLOG
+#define SideScroller_Source_SideScroller_MainMenuHUD_h_16_GENERATED_BODY_LEGACY \
 PRAGMA_DISABLE_DEPRECATION_WARNINGS \
 public: \
-	SideScroller_Source_SideScroller_MainMenuHUD_h_17_PRIVATE_PROPERTY_OFFSET \
-	SideScroller_Source_SideScroller_MainMenuHUD_h_17_SPARSE_DATA \
-	SideScroller_Source_SideScroller_MainMenuHUD_h_17_RPC_WRAPPERS \
-	SideScroller_Source_SideScroller_MainMenuHUD_h_17_INCLASS \
-	SideScroller_Source_SideScroller_MainMenuHUD_h_17_STANDARD_CONSTRUCTORS \
+	SideScroller_Source_SideScroller_MainMenuHUD_h_16_PRIVATE_PROPERTY_OFFSET \
+	SideScroller_Source_SideScroller_MainMenuHUD_h_16_SPARSE_DATA \
+	SideScroller_Source_SideScroller_MainMenuHUD_h_16_RPC_WRAPPERS \
+	SideScroller_Source_SideScroller_MainMenuHUD_h_16_INCLASS \
+	SideScroller_Source_SideScroller_MainMenuHUD_h_16_STANDARD_CONSTRUCTORS \
 public: \
 PRAGMA_ENABLE_DEPRECATION_WARNINGS
 
 
-#define SideScroller_Source_SideScroller_MainMenuHUD_h_17_GENERATED_BODY \
+#define SideScroller_Source_SideScroller_MainMenuHUD_h_16_GENERATED_BODY \
 PRAGMA_DISABLE_DEPRECATION_WARNINGS \
 public: \
-	SideScroller_Source_SideScroller_MainMenuHUD_h_17_PRIVATE_PROPERTY_OFFSET \
-	SideScroller_Source_SideScroller_MainMenuHUD_h_17_SPARSE_DATA \
-	SideScroller_Source_SideScroller_MainMenuHUD_h_17_RPC_WRAPPERS_NO_PURE_DECLS \
-	SideScroller_Source_SideScroller_MainMenuHUD_h_17_INCLASS_NO_PURE_DECLS \
-	SideScroller_Source_SideScroller_MainMenuHUD_h_17_ENHANCED_CONSTRUCTORS \
+	SideScroller_Source_SideScroller_MainMenuHUD_h_16_PRIVATE_PROPERTY_OFFSET \
+	SideScroller_Source_SideScroller_MainMenuHUD_h_16_SPARSE_DATA \
+	SideScroller_Source_SideScroller_MainMenuHUD_h_16_RPC_WRAPPERS_NO_PURE_DECLS \
+	SideScroller_Source_SideScroller_MainMenuHUD_h_16_INCLASS_NO_PURE_DECLS \
+	SideScroller_Source_SideScroller_MainMenuHUD_h_16_ENHANCED_CONSTRUCTORS \
 private: \
 PRAGMA_ENABLE_DEPRECATION_WARNINGS
 

@@ -4,7 +4,6 @@
 
 #include "CoreMinimal.h"
 #include "Blueprint/UserWidget.h"
-#include "Components/TextBlock.h"
 #include "Components/Button.h"
 #include "MainMenuHUD.generated.h"
 
@@ -23,11 +22,18 @@ protected:
 	UPROPERTY(BlueprintReadOnly, meta = (BindWidget))
 		class UButton* QuitButton;
 
+	UPROPERTY(BlueprintReadOnly, meta = (BindWidget))
+		class UButton* ControlButton;
+
 	UFUNCTION()
 		void OnNewGameClicked();
 
 	UFUNCTION()
 		void OnQuitClicked();
+
+
+	UFUNCTION()
+		void OnControlClicked();
 
 
 	virtual void NativeConstruct() override;
