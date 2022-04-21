@@ -22,14 +22,17 @@ void AEnemyBase::BeginPlay()
 	Super::BeginPlay();
 
 	TriggerBox->OnComponentBeginOverlap.AddDynamic(this, &AEnemyBase::OnTriggerBoxOverlap);
+
+
+	playerCharacter = Cast<APlayerCharacter>(UGameplayStatics::GetPlayerCharacter(this, 0));
 }
 
 
 void AEnemyBase::OnTriggerBoxOverlap(UPrimitiveComponent* OverlappedComponent, AActor* OtherActor, UPrimitiveComponent* OtherComp, int32 OtherBodyIndex, bool bFromSweep, const FHitResult& SweepResult)
 {
-	APlayerCharacter* playerCharacter = Cast<APlayerCharacter>(OtherActor);
+	//APlayerCharacter* playerCharacter = Cast<APlayerCharacter>(OtherActor);
 
-	if (playerCharacter)
+	if (playerCharacter == OtherActor)
 	{
 		playerCharacter->PlayerDeath();
 	}

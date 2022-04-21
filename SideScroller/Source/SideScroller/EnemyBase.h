@@ -24,6 +24,7 @@ protected:
 	UPROPERTY(VisibleAnywhere, BlueprintReadOnly, Category = "Collision")
 		class UBoxComponent* TriggerBox;
 
+	class APlayerCharacter* playerCharacter;
 
 	// Called when the game starts or when spawned
 	virtual void BeginPlay() override;

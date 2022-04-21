@@ -3,7 +3,7 @@
   <ItemGroup>
     <None Include="..\..\SideScroller.uproject" />
     <Filter Include="Source">
-      <UniqueIdentifier>{33D55054-98C7-4F99-89A3-78BD5755297B}</UniqueIdentifier>
+      <UniqueIdentifier>{6CB29920-3654-43A5-9AEB-9E668D0F006F}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Source\SideScroller.Target.cs">
       <Filter>Source</Filter>
@@ -12,7 +12,7 @@
       <Filter>Source</Filter>
     </None>
     <Filter Include="Config">
-      <UniqueIdentifier>{404370B5-9AAF-4CBA-8741-1459C11C7F52}</UniqueIdentifier>
+      <UniqueIdentifier>{1317646D-B244-42EA-8017-50CA5AE82C74}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Config\DefaultEditor.ini">
       <Filter>Config</Filter>
@@ -27,7 +27,7 @@
       <Filter>Config</Filter>
     </None>
     <Filter Include="Source\SideScroller">
-      <UniqueIdentifier>{20DA9C91-18DF-472C-B031-BDB50C8213C3}</UniqueIdentifier>
+      <UniqueIdentifier>{579CC6E3-3F30-4B66-AE4B-94E2AB0A5A99}</UniqueIdentifier>
     </Filter>
     <ClCompile Include="..\..\Source\SideScroller\BreakableBrick.cpp">
       <Filter>Source\SideScroller</Filter>
@@ -45,6 +45,12 @@
       <Filter>Source\SideScroller</Filter>
     </ClCompile>
     <ClInclude Include="..\..\Source\SideScroller\BreakableWall.h">
+      <Filter>Source\SideScroller</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\SideScroller\CloudEnemy.cpp">
+      <Filter>Source\SideScroller</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\SideScroller\CloudEnemy.h">
       <Filter>Source\SideScroller</Filter>
     </ClInclude>
     <ClCompile Include="..\..\Source\SideScroller\Coin.cpp">

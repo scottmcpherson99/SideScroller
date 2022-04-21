@@ -1,13 +1,12 @@
 ﻿  Using 'git status' to determine working set for adaptive non-unity build (D:\Unreal Projects\SideScroller2D).
   Building SideScrollerEditor...
   Using Visual Studio 2019 14.30.30706 toolchain (C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.30.30705) and Windows 10.0.19041.0 SDK (C:\Program Files (x86)\Windows Kits\10).
-  Building 5 actions with 16 processes...
-    [1/5] MainMenuGameModeBase.cpp
-    [2/5] ControlWidget.cpp
-    [3/5] UE4Editor-SideScroller-0260.lib
-       Creating library D:\Unreal Projects\SideScroller2D\SideScroller\Intermediate\Build\Win64\UE4Editor\Development\SideScroller\UE4Editor-SideScroller-0260.lib and object D:\Unreal Projects\SideScroller2D\SideScroller\Intermediate\Build\Win64\UE4Editor\Development\SideScroller\UE4Editor-SideScroller-0260.exp
-    [4/5] UE4Editor-SideScroller-0260.dll
-       Creating library D:\Unreal Projects\SideScroller2D\SideScroller\Intermediate\Build\Win64\UE4Editor\Development\SideScroller\UE4Editor-SideScroller-0260.suppressed.lib and object D:\Unreal Projects\SideScroller2D\SideScroller\Intermediate\Build\Win64\UE4Editor\Development\SideScroller\UE4Editor-SideScroller-0260.suppressed.exp
-    [5/5] SideScrollerEditor.target
-  Total time in Parallel executor: 27.55 seconds
-  Total execution time: 28.13 seconds
+  Building 4 actions with 16 processes...
+    [1/4] CloudEnemy.cpp
+    [2/4] UE4Editor-SideScroller-0013.lib
+       Creating library D:\Unreal Projects\SideScroller2D\SideScroller\Intermediate\Build\Win64\UE4Editor\Development\SideScroller\UE4Editor-SideScroller-0013.lib and object D:\Unreal Projects\SideScroller2D\SideScroller\Intermediate\Build\Win64\UE4Editor\Development\SideScroller\UE4Editor-SideScroller-0013.exp
+    [3/4] UE4Editor-SideScroller-0013.dll
+       Creating library D:\Unreal Projects\SideScroller2D\SideScroller\Intermediate\Build\Win64\UE4Editor\Development\SideScroller\UE4Editor-SideScroller-0013.suppressed.lib and object D:\Unreal Projects\SideScroller2D\SideScroller\Intermediate\Build\Win64\UE4Editor\Development\SideScroller\UE4Editor-SideScroller-0013.suppressed.exp
+    [4/4] SideScrollerEditor.target
+  Total time in Parallel executor: 2.44 seconds
+  Total execution time: 2.86 seconds
