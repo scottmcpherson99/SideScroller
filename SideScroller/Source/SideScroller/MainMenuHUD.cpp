@@ -23,6 +23,11 @@ void UMainMenuHUD::NativeConstruct()
 	{
 		ControlButton->OnClicked.AddDynamic(this, &UMainMenuHUD::OnControlClicked);
 	}
+
+	if (HowToButton)
+	{
+		HowToButton->OnClicked.AddDynamic(this, &UMainMenuHUD::OnHowToClicked);
+	}
 }
 
 
@@ -42,5 +47,14 @@ void UMainMenuHUD::OnControlClicked()
 	if (gameMode)
 	{
 		gameMode->SwitchWidget(1);
+	}
+}
+
+void UMainMenuHUD::OnHowToClicked()
+{
+	AMainMenuGameModeBase* gameMode = (AMainMenuGameModeBase*)GetWorld()->GetAuthGameMode();
+	if (gameMode)
+	{
+		gameMode->SwitchWidget(2);
 	}
 }

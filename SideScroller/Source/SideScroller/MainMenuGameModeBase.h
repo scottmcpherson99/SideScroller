@@ -35,4 +35,11 @@ protected:
 
 	UPROPERTY(VisibleInstanceOnly, Category = "Widget")
 		class UControlWidget* controlWidget;
+
+	//widget class to use for our hud screen
+	UPROPERTY(EditAnywhere, Category = "Widget")
+		TSubclassOf<UUserWidget> HowToHUDWidget;
+
+	UPROPERTY(VisibleInstanceOnly, Category = "Widget")
+		class UHowToWidget* howToWidget;
 };

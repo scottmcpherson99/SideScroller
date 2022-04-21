@@ -62,7 +62,9 @@ DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(AMainMenuGameModeBase); \
 	FORCEINLINE static uint32 __PPO__MainMenuHUDWidget() { return STRUCT_OFFSET(AMainMenuGameModeBase, MainMenuHUDWidget); } \
 	FORCEINLINE static uint32 __PPO__mainMenuWidget() { return STRUCT_OFFSET(AMainMenuGameModeBase, mainMenuWidget); } \
 	FORCEINLINE static uint32 __PPO__ControlHUDWidget() { return STRUCT_OFFSET(AMainMenuGameModeBase, ControlHUDWidget); } \
-	FORCEINLINE static uint32 __PPO__controlWidget() { return STRUCT_OFFSET(AMainMenuGameModeBase, controlWidget); }
+	FORCEINLINE static uint32 __PPO__controlWidget() { return STRUCT_OFFSET(AMainMenuGameModeBase, controlWidget); } \
+	FORCEINLINE static uint32 __PPO__HowToHUDWidget() { return STRUCT_OFFSET(AMainMenuGameModeBase, HowToHUDWidget); } \
+	FORCEINLINE static uint32 __PPO__howToWidget() { return STRUCT_OFFSET(AMainMenuGameModeBase, howToWidget); }
 
 
 #define SideScroller_Source_SideScroller_MainMenuGameModeBase_h_12_PROLOG

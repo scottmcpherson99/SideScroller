@@ -16,6 +16,7 @@ PRAGMA_DISABLE_DEPRECATION_WARNINGS
 #define SideScroller_Source_SideScroller_MainMenuHUD_h_16_SPARSE_DATA
 #define SideScroller_Source_SideScroller_MainMenuHUD_h_16_RPC_WRAPPERS \
  \
+	DECLARE_FUNCTION(execOnHowToClicked); \
 	DECLARE_FUNCTION(execOnControlClicked); \
 	DECLARE_FUNCTION(execOnQuitClicked); \
 	DECLARE_FUNCTION(execOnNewGameClicked);
@@ -23,6 +24,7 @@ PRAGMA_DISABLE_DEPRECATION_WARNINGS
 
 #define SideScroller_Source_SideScroller_MainMenuHUD_h_16_RPC_WRAPPERS_NO_PURE_DECLS \
  \
+	DECLARE_FUNCTION(execOnHowToClicked); \
 	DECLARE_FUNCTION(execOnControlClicked); \
 	DECLARE_FUNCTION(execOnQuitClicked); \
 	DECLARE_FUNCTION(execOnNewGameClicked);
@@ -75,7 +77,8 @@ DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(UMainMenuHUD); \
 #define SideScroller_Source_SideScroller_MainMenuHUD_h_16_PRIVATE_PROPERTY_OFFSET \
 	FORCEINLINE static uint32 __PPO__NewGameButton() { return STRUCT_OFFSET(UMainMenuHUD, NewGameButton); } \
 	FORCEINLINE static uint32 __PPO__QuitButton() { return STRUCT_OFFSET(UMainMenuHUD, QuitButton); } \
-	FORCEINLINE static uint32 __PPO__ControlButton() { return STRUCT_OFFSET(UMainMenuHUD, ControlButton); }
+	FORCEINLINE static uint32 __PPO__ControlButton() { return STRUCT_OFFSET(UMainMenuHUD, ControlButton); } \
+	FORCEINLINE static uint32 __PPO__HowToButton() { return STRUCT_OFFSET(UMainMenuHUD, HowToButton); }
 
 
 #define SideScroller_Source_SideScroller_MainMenuHUD_h_13_PROLOG

@@ -19,6 +19,13 @@ void EmptyLinkFunctionForGeneratedCodeMainMenuHUD() {}
 	UPackage* Z_Construct_UPackage__Script_SideScroller();
 	UMG_API UClass* Z_Construct_UClass_UButton_NoRegister();
 // End Cross Module References
+	DEFINE_FUNCTION(UMainMenuHUD::execOnHowToClicked)
+	{
+		P_FINISH;
+		P_NATIVE_BEGIN;
+		P_THIS->OnHowToClicked();
+		P_NATIVE_END;
+	}
 	DEFINE_FUNCTION(UMainMenuHUD::execOnControlClicked)
 	{
 		P_FINISH;
@@ -45,6 +52,7 @@ void EmptyLinkFunctionForGeneratedCodeMainMenuHUD() {}
 		UClass* Class = UMainMenuHUD::StaticClass();
 		static const FNameNativePtrPair Funcs[] = {
 			{ "OnControlClicked", &UMainMenuHUD::execOnControlClicked },
+			{ "OnHowToClicked", &UMainMenuHUD::execOnHowToClicked },
 			{ "OnNewGameClicked", &UMainMenuHUD::execOnNewGameClicked },
 			{ "OnQuitClicked", &UMainMenuHUD::execOnQuitClicked },
 		};
@@ -69,6 +77,28 @@ void EmptyLinkFunctionForGeneratedCodeMainMenuHUD() {}
 		if (!ReturnFunction)
 		{
 			UE4CodeGen_Private::ConstructUFunction(ReturnFunction, Z_Construct_UFunction_UMainMenuHUD_OnControlClicked_Statics::FuncParams);
+		}
+		return ReturnFunction;
+	}
+	struct Z_Construct_UFunction_UMainMenuHUD_OnHowToClicked_Statics
+	{
+#if WITH_METADATA
+		static const UE4CodeGen_Private::FMetaDataPairParam Function_MetaDataParams[];
+#endif
+		static const UE4CodeGen_Private::FFunctionParams FuncParams;
+	};
+#if WITH_METADATA
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UFunction_UMainMenuHUD_OnHowToClicked_Statics::Function_MetaDataParams[] = {
+		{ "ModuleRelativePath", "MainMenuHUD.h" },
+	};
+#endif
+	const UE4CodeGen_Private::FFunctionParams Z_Construct_UFunction_UMainMenuHUD_OnHowToClicked_Statics::FuncParams = { (UObject*(*)())Z_Construct_UClass_UMainMenuHUD, nullptr, "OnHowToClicked", nullptr, nullptr, 0, nullptr, 0, RF_Public|RF_Transient|RF_MarkAsNative, (EFunctionFlags)0x00080401, 0, 0, METADATA_PARAMS(Z_Construct_UFunction_UMainMenuHUD_OnHowToClicked_Statics::Function_MetaDataParams, UE_ARRAY_COUNT(Z_Construct_UFunction_UMainMenuHUD_OnHowToClicked_Statics::Function_MetaDataParams)) };
+	UFunction* Z_Construct_UFunction_UMainMenuHUD_OnHowToClicked()
+	{
+		static UFunction* ReturnFunction = nullptr;
+		if (!ReturnFunction)
+		{
+			UE4CodeGen_Private::ConstructUFunction(ReturnFunction, Z_Construct_UFunction_UMainMenuHUD_OnHowToClicked_Statics::FuncParams);
 		}
 		return ReturnFunction;
 	}
@@ -139,6 +169,10 @@ void EmptyLinkFunctionForGeneratedCodeMainMenuHUD() {}
 		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_ControlButton_MetaData[];
 #endif
 		static const UE4CodeGen_Private::FObjectPropertyParams NewProp_ControlButton;
+#if WITH_METADATA
+		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_HowToButton_MetaData[];
+#endif
+		static const UE4CodeGen_Private::FObjectPropertyParams NewProp_HowToButton;
 		static const UE4CodeGen_Private::FPropertyParamsBase* const PropPointers[];
 		static const FCppClassTypeInfoStatic StaticCppClassTypeInfo;
 		static const UE4CodeGen_Private::FClassParams ClassParams;
@@ -149,6 +183,7 @@ void EmptyLinkFunctionForGeneratedCodeMainMenuHUD() {}
 	};
 	const FClassFunctionLinkInfo Z_Construct_UClass_UMainMenuHUD_Statics::FuncInfo[] = {
 		{ &Z_Construct_UFunction_UMainMenuHUD_OnControlClicked, "OnControlClicked" }, // 3628079913
+		{ &Z_Construct_UFunction_UMainMenuHUD_OnHowToClicked, "OnHowToClicked" }, // 2327874229
 		{ &Z_Construct_UFunction_UMainMenuHUD_OnNewGameClicked, "OnNewGameClicked" }, // 3504112279
 		{ &Z_Construct_UFunction_UMainMenuHUD_OnQuitClicked, "OnQuitClicked" }, // 3068990521
 	};
@@ -186,10 +221,20 @@ void EmptyLinkFunctionForGeneratedCodeMainMenuHUD() {}
 	};
 #endif
 	const UE4CodeGen_Private::FObjectPropertyParams Z_Construct_UClass_UMainMenuHUD_Statics::NewProp_ControlButton = { "ControlButton", nullptr, (EPropertyFlags)0x002008000008001c, UE4CodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(UMainMenuHUD, ControlButton), Z_Construct_UClass_UButton_NoRegister, METADATA_PARAMS(Z_Construct_UClass_UMainMenuHUD_Statics::NewProp_ControlButton_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_UMainMenuHUD_Statics::NewProp_ControlButton_MetaData)) };
+#if WITH_METADATA
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_UMainMenuHUD_Statics::NewProp_HowToButton_MetaData[] = {
+		{ "BindWidget", "" },
+		{ "Category", "MainMenuHUD" },
+		{ "EditInline", "true" },
+		{ "ModuleRelativePath", "MainMenuHUD.h" },
+	};
+#endif
+	const UE4CodeGen_Private::FObjectPropertyParams Z_Construct_UClass_UMainMenuHUD_Statics::NewProp_HowToButton = { "HowToButton", nullptr, (EPropertyFlags)0x002008000008001c, UE4CodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(UMainMenuHUD, HowToButton), Z_Construct_UClass_UButton_NoRegister, METADATA_PARAMS(Z_Construct_UClass_UMainMenuHUD_Statics::NewProp_HowToButton_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_UMainMenuHUD_Statics::NewProp_HowToButton_MetaData)) };
 	const UE4CodeGen_Private::FPropertyParamsBase* const Z_Construct_UClass_UMainMenuHUD_Statics::PropPointers[] = {
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_UMainMenuHUD_Statics::NewProp_NewGameButton,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_UMainMenuHUD_Statics::NewProp_QuitButton,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_UMainMenuHUD_Statics::NewProp_ControlButton,
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_UMainMenuHUD_Statics::NewProp_HowToButton,
 	};
 	const FCppClassTypeInfoStatic Z_Construct_UClass_UMainMenuHUD_Statics::StaticCppClassTypeInfo = {
 		TCppClassTypeTraits<UMainMenuHUD>::IsAbstract,
@@ -218,7 +263,7 @@ void EmptyLinkFunctionForGeneratedCodeMainMenuHUD() {}
 		}
 		return OuterClass;
 	}
-	IMPLEMENT_CLASS(UMainMenuHUD, 3522873214);
+	IMPLEMENT_CLASS(UMainMenuHUD, 2558537172);
 	template<> SIDESCROLLER_API UClass* StaticClass<UMainMenuHUD>()
 	{
 		return UMainMenuHUD::StaticClass();

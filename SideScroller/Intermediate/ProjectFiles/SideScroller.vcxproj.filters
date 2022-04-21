@@ -3,7 +3,7 @@
   <ItemGroup>
     <None Include="..\..\SideScroller.uproject" />
     <Filter Include="Source">
-      <UniqueIdentifier>{32E84E2C-5E17-4324-A9C6-B5BF618BA790}</UniqueIdentifier>
+      <UniqueIdentifier>{33D55054-98C7-4F99-89A3-78BD5755297B}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Source\SideScroller.Target.cs">
       <Filter>Source</Filter>
@@ -12,7 +12,7 @@
       <Filter>Source</Filter>
     </None>
     <Filter Include="Config">
-      <UniqueIdentifier>{6AE71D85-175E-4593-A611-0F1604A62021}</UniqueIdentifier>
+      <UniqueIdentifier>{404370B5-9AAF-4CBA-8741-1459C11C7F52}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Config\DefaultEditor.ini">
       <Filter>Config</Filter>
@@ -27,7 +27,7 @@
       <Filter>Config</Filter>
     </None>
     <Filter Include="Source\SideScroller">
-      <UniqueIdentifier>{591058F7-F63D-4ABE-9B17-6CDDA83DDB79}</UniqueIdentifier>
+      <UniqueIdentifier>{20DA9C91-18DF-472C-B031-BDB50C8213C3}</UniqueIdentifier>
     </Filter>
     <ClCompile Include="..\..\Source\SideScroller\BreakableBrick.cpp">
       <Filter>Source\SideScroller</Filter>
@@ -105,6 +105,12 @@
       <Filter>Source\SideScroller</Filter>
     </ClCompile>
     <ClInclude Include="..\..\Source\SideScroller\Goal.h">
+      <Filter>Source\SideScroller</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\SideScroller\HowToWidget.cpp">
+      <Filter>Source\SideScroller</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\SideScroller\HowToWidget.h">
       <Filter>Source\SideScroller</Filter>
     </ClInclude>
     <ClCompile Include="..\..\Source\SideScroller\MainMenuGameModeBase.cpp">

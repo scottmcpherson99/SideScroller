@@ -116,6 +116,8 @@ C:\Program Files\Epic Games\UE_4.26\Engine\Intermediate\Build\Win64\UE4Editor\In
 D:\Unreal Projects\SideScroller2D\SideScroller\Intermediate\Build\Win64\UE4Editor\Inc\SideScroller\MainMenuHUD.generated.h
 D:\Unreal Projects\SideScroller2D\SideScroller\Source\SideScroller\ControlWidget.h
 D:\Unreal Projects\SideScroller2D\SideScroller\Intermediate\Build\Win64\UE4Editor\Inc\SideScroller\ControlWidget.generated.h
+D:\Unreal Projects\SideScroller2D\SideScroller\Source\SideScroller\HowToWidget.h
+D:\Unreal Projects\SideScroller2D\SideScroller\Intermediate\Build\Win64\UE4Editor\Inc\SideScroller\HowToWidget.generated.h
 C:\Program Files\Epic Games\UE_4.26\Engine\Source\Runtime\Engine\Classes\Kismet/GameplayStatics.h
 C:\Program Files\Epic Games\UE_4.26\Engine\Source\Runtime\Engine\Classes\Kismet/KismetSystemLibrary.h
 C:\Program Files\Epic Games\UE_4.26\Engine\Source\Runtime\CoreUObject\Public\UObject/PropertyAccessUtil.h

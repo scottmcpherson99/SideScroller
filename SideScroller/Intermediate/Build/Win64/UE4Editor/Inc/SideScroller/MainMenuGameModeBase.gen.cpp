@@ -21,6 +21,7 @@ void EmptyLinkFunctionForGeneratedCodeMainMenuGameModeBase() {}
 	UMG_API UClass* Z_Construct_UClass_UUserWidget_NoRegister();
 	SIDESCROLLER_API UClass* Z_Construct_UClass_UMainMenuHUD_NoRegister();
 	SIDESCROLLER_API UClass* Z_Construct_UClass_UControlWidget_NoRegister();
+	SIDESCROLLER_API UClass* Z_Construct_UClass_UHowToWidget_NoRegister();
 // End Cross Module References
 	void AMainMenuGameModeBase::StaticRegisterNativesAMainMenuGameModeBase()
 	{
@@ -51,6 +52,14 @@ void EmptyLinkFunctionForGeneratedCodeMainMenuGameModeBase() {}
 		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_controlWidget_MetaData[];
 #endif
 		static const UE4CodeGen_Private::FObjectPropertyParams NewProp_controlWidget;
+#if WITH_METADATA
+		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_HowToHUDWidget_MetaData[];
+#endif
+		static const UE4CodeGen_Private::FClassPropertyParams NewProp_HowToHUDWidget;
+#if WITH_METADATA
+		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_howToWidget_MetaData[];
+#endif
+		static const UE4CodeGen_Private::FObjectPropertyParams NewProp_howToWidget;
 		static const UE4CodeGen_Private::FPropertyParamsBase* const PropPointers[];
 		static const FCppClassTypeInfoStatic StaticCppClassTypeInfo;
 		static const UE4CodeGen_Private::FClassParams ClassParams;
@@ -102,11 +111,30 @@ void EmptyLinkFunctionForGeneratedCodeMainMenuGameModeBase() {}
 	};
 #endif
 	const UE4CodeGen_Private::FObjectPropertyParams Z_Construct_UClass_AMainMenuGameModeBase_Statics::NewProp_controlWidget = { "controlWidget", nullptr, (EPropertyFlags)0x00200800000a0809, UE4CodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(AMainMenuGameModeBase, controlWidget), Z_Construct_UClass_UControlWidget_NoRegister, METADATA_PARAMS(Z_Construct_UClass_AMainMenuGameModeBase_Statics::NewProp_controlWidget_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_AMainMenuGameModeBase_Statics::NewProp_controlWidget_MetaData)) };
+#if WITH_METADATA
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_AMainMenuGameModeBase_Statics::NewProp_HowToHUDWidget_MetaData[] = {
+		{ "Category", "Widget" },
+		{ "Comment", "//widget class to use for our hud screen\n" },
+		{ "ModuleRelativePath", "MainMenuGameModeBase.h" },
+		{ "ToolTip", "widget class to use for our hud screen" },
+	};
+#endif
+	const UE4CodeGen_Private::FClassPropertyParams Z_Construct_UClass_AMainMenuGameModeBase_Statics::NewProp_HowToHUDWidget = { "HowToHUDWidget", nullptr, (EPropertyFlags)0x0024080000000001, UE4CodeGen_Private::EPropertyGenFlags::Class, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(AMainMenuGameModeBase, HowToHUDWidget), Z_Construct_UClass_UUserWidget_NoRegister, Z_Construct_UClass_UClass, METADATA_PARAMS(Z_Construct_UClass_AMainMenuGameModeBase_Statics::NewProp_HowToHUDWidget_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_AMainMenuGameModeBase_Statics::NewProp_HowToHUDWidget_MetaData)) };
+#if WITH_METADATA
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_AMainMenuGameModeBase_Statics::NewProp_howToWidget_MetaData[] = {
+		{ "Category", "Widget" },
+		{ "EditInline", "true" },
+		{ "ModuleRelativePath", "MainMenuGameModeBase.h" },
+	};
+#endif
+	const UE4CodeGen_Private::FObjectPropertyParams Z_Construct_UClass_AMainMenuGameModeBase_Statics::NewProp_howToWidget = { "howToWidget", nullptr, (EPropertyFlags)0x00200800000a0809, UE4CodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(AMainMenuGameModeBase, howToWidget), Z_Construct_UClass_UHowToWidget_NoRegister, METADATA_PARAMS(Z_Construct_UClass_AMainMenuGameModeBase_Statics::NewProp_howToWidget_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_AMainMenuGameModeBase_Statics::NewProp_howToWidget_MetaData)) };
 	const UE4CodeGen_Private::FPropertyParamsBase* const Z_Construct_UClass_AMainMenuGameModeBase_Statics::PropPointers[] = {
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AMainMenuGameModeBase_Statics::NewProp_MainMenuHUDWidget,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AMainMenuGameModeBase_Statics::NewProp_mainMenuWidget,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AMainMenuGameModeBase_Statics::NewProp_ControlHUDWidget,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AMainMenuGameModeBase_Statics::NewProp_controlWidget,
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AMainMenuGameModeBase_Statics::NewProp_HowToHUDWidget,
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AMainMenuGameModeBase_Statics::NewProp_howToWidget,
 	};
 	const FCppClassTypeInfoStatic Z_Construct_UClass_AMainMenuGameModeBase_Statics::StaticCppClassTypeInfo = {
 		TCppClassTypeTraits<AMainMenuGameModeBase>::IsAbstract,
@@ -135,7 +163,7 @@ void EmptyLinkFunctionForGeneratedCodeMainMenuGameModeBase() {}
 		}
 		return OuterClass;
 	}
-	IMPLEMENT_CLASS(AMainMenuGameModeBase, 2744557300);
+	IMPLEMENT_CLASS(AMainMenuGameModeBase, 3730112947);
 	template<> SIDESCROLLER_API UClass* StaticClass<AMainMenuGameModeBase>()
 	{
 		return AMainMenuGameModeBase::StaticClass();

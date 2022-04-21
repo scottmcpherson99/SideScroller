@@ -25,6 +25,9 @@ protected:
 	UPROPERTY(BlueprintReadOnly, meta = (BindWidget))
 		class UButton* ControlButton;
 
+	UPROPERTY(BlueprintReadOnly, meta = (BindWidget))
+		class UButton* HowToButton;
+
 	UFUNCTION()
 		void OnNewGameClicked();
 
@@ -35,6 +38,9 @@ protected:
 	UFUNCTION()
 		void OnControlClicked();
 
+
+	UFUNCTION()
+		void OnHowToClicked();
 
 	virtual void NativeConstruct() override;
 };
