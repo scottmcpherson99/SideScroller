@@ -19,7 +19,7 @@ void UControlWidget::OnCloseClicked()
 	AMainMenuGameModeBase* gameMode = (AMainMenuGameModeBase*)GetWorld()->GetAuthGameMode();
 	if (gameMode)
 	{
-		gameMode->SwitchWidget(3);
+		gameMode->SwitchWidget(EMainMenuWidget::EMAINMENUFROMCONTROL);
 	}
 }
 

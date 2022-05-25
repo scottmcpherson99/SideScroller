@@ -33,6 +33,11 @@ void UMainMenuHUD::NativeConstruct()
 
 void UMainMenuHUD::OnNewGameClicked()
 {
+	AMainMenuGameModeBase* gameMode = (AMainMenuGameModeBase*)GetWorld()->GetAuthGameMode();
+	if (gameMode)
+	{
+		gameMode->CreateNewGame();
+	}
 	UGameplayStatics::OpenLevel(GetWorld(), "Level1");
 }
 
@@ -46,7 +51,7 @@ void UMainMenuHUD::OnControlClicked()
 	AMainMenuGameModeBase* gameMode = (AMainMenuGameModeBase*)GetWorld()->GetAuthGameMode();
 	if (gameMode)
 	{
-		gameMode->SwitchWidget(1);
+		gameMode->SwitchWidget(EMainMenuWidget::ECONTROLS);
 	}
 }
 
@@ -55,6 +60,6 @@ void UMainMenuHUD::OnHowToClicked()
 	AMainMenuGameModeBase* gameMode = (AMainMenuGameModeBase*)GetWorld()->GetAuthGameMode();
 	if (gameMode)
 	{
-		gameMode->SwitchWidget(2);
+		gameMode->SwitchWidget(EMainMenuWidget::EHOWTO);
 	}
 }

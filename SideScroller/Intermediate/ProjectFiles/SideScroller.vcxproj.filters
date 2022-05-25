@@ -3,7 +3,7 @@
   <ItemGroup>
     <None Include="..\..\SideScroller.uproject" />
     <Filter Include="Source">
-      <UniqueIdentifier>{6CB29920-3654-43A5-9AEB-9E668D0F006F}</UniqueIdentifier>
+      <UniqueIdentifier>{D2C84156-4720-4823-9965-953E6FC873A0}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Source\SideScroller.Target.cs">
       <Filter>Source</Filter>
@@ -12,7 +12,7 @@
       <Filter>Source</Filter>
     </None>
     <Filter Include="Config">
-      <UniqueIdentifier>{1317646D-B244-42EA-8017-50CA5AE82C74}</UniqueIdentifier>
+      <UniqueIdentifier>{C61A3A94-AB85-4977-99CF-95ABFBB5FC09}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Config\DefaultEditor.ini">
       <Filter>Config</Filter>
@@ -27,7 +27,7 @@
       <Filter>Config</Filter>
     </None>
     <Filter Include="Source\SideScroller">
-      <UniqueIdentifier>{579CC6E3-3F30-4B66-AE4B-94E2AB0A5A99}</UniqueIdentifier>
+      <UniqueIdentifier>{E9A1F7F4-0376-4B87-9DB7-7DBE4E35963D}</UniqueIdentifier>
     </Filter>
     <ClCompile Include="..\..\Source\SideScroller\BreakableBrick.cpp">
       <Filter>Source\SideScroller</Filter>
@@ -45,6 +45,12 @@
       <Filter>Source\SideScroller</Filter>
     </ClCompile>
     <ClInclude Include="..\..\Source\SideScroller\BreakableWall.h">
+      <Filter>Source\SideScroller</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\SideScroller\Bullet.cpp">
+      <Filter>Source\SideScroller</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\SideScroller\Bullet.h">
       <Filter>Source\SideScroller</Filter>
     </ClInclude>
     <ClCompile Include="..\..\Source\SideScroller\CloudEnemy.cpp">
@@ -147,6 +153,12 @@
       <Filter>Source\SideScroller</Filter>
     </ClCompile>
     <ClInclude Include="..\..\Source\SideScroller\SavePlayerStats.h">
+      <Filter>Source\SideScroller</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\SideScroller\Shooter.cpp">
+      <Filter>Source\SideScroller</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\SideScroller\Shooter.h">
       <Filter>Source\SideScroller</Filter>
     </ClInclude>
     <ClCompile Include="..\..\Source\SideScroller\SideEnemy.cpp">

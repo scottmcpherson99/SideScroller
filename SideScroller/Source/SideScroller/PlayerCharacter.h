@@ -1,4 +1,4 @@
-// Fill out your copyright notice in the Description page of Project Settings.
+ // Fill out your copyright notice in the Description page of Project Settings.
 
 #pragma once
 
@@ -6,6 +6,7 @@
 #include "PaperCharacter.h"
 #include "Blueprint/UserWidget.h"
 #include "GameScreenHUD.h"
+#include "GameFramework/SaveGame.h"
 #include "PlayerCharacter.generated.h"
 
 /**
@@ -25,6 +26,10 @@ class SIDESCROLLER_API APlayerCharacter : public APaperCharacter
 
 
 	virtual void Tick(float DeltaSeconds) override;
+
+
+	// Called when the game starts or when spawned
+	virtual void BeginPlay() override;
 public:
 	APlayerCharacter();
 
@@ -38,6 +43,13 @@ public:
 
 	void PlayerDeath();
 
+	void LevelComplete();
+
+	//save game state
+	UPROPERTY(EditAnywhere, Category = "Save Game")
+		TSubclassOf<class USavePlayerStats> saveState;
+
+	class USavePlayerStats* savePlayerStats;
 protected:
 
 
@@ -68,9 +80,12 @@ protected:
 
 	void UpdateCharacter();
 
+	void LoadPlayerStats();
 
+	void SavePlayerStats();
 	float coins = 0;
 
 	float lives = 3;
 
 };
+   

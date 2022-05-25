@@ -114,7 +114,7 @@ void EmptyLinkFunctionForGeneratedCodeEnemyBase() {}
 		{ "ModuleRelativePath", "EnemyBase.h" },
 	};
 #endif
-	const UE4CodeGen_Private::FFunctionParams Z_Construct_UFunction_AEnemyBase_OnTriggerBoxOverlap_Statics::FuncParams = { (UObject*(*)())Z_Construct_UClass_AEnemyBase, nullptr, "OnTriggerBoxOverlap", nullptr, nullptr, sizeof(EnemyBase_eventOnTriggerBoxOverlap_Parms), Z_Construct_UFunction_AEnemyBase_OnTriggerBoxOverlap_Statics::PropPointers, UE_ARRAY_COUNT(Z_Construct_UFunction_AEnemyBase_OnTriggerBoxOverlap_Statics::PropPointers), RF_Public|RF_Transient|RF_MarkAsNative, (EFunctionFlags)0x00480401, 0, 0, METADATA_PARAMS(Z_Construct_UFunction_AEnemyBase_OnTriggerBoxOverlap_Statics::Function_MetaDataParams, UE_ARRAY_COUNT(Z_Construct_UFunction_AEnemyBase_OnTriggerBoxOverlap_Statics::Function_MetaDataParams)) };
+	const UE4CodeGen_Private::FFunctionParams Z_Construct_UFunction_AEnemyBase_OnTriggerBoxOverlap_Statics::FuncParams = { (UObject*(*)())Z_Construct_UClass_AEnemyBase, nullptr, "OnTriggerBoxOverlap", nullptr, nullptr, sizeof(EnemyBase_eventOnTriggerBoxOverlap_Parms), Z_Construct_UFunction_AEnemyBase_OnTriggerBoxOverlap_Statics::PropPointers, UE_ARRAY_COUNT(Z_Construct_UFunction_AEnemyBase_OnTriggerBoxOverlap_Statics::PropPointers), RF_Public|RF_Transient|RF_MarkAsNative, (EFunctionFlags)0x00480400, 0, 0, METADATA_PARAMS(Z_Construct_UFunction_AEnemyBase_OnTriggerBoxOverlap_Statics::Function_MetaDataParams, UE_ARRAY_COUNT(Z_Construct_UFunction_AEnemyBase_OnTriggerBoxOverlap_Statics::Function_MetaDataParams)) };
 	UFunction* Z_Construct_UFunction_AEnemyBase_OnTriggerBoxOverlap()
 	{
 		static UFunction* ReturnFunction = nullptr;
@@ -152,7 +152,7 @@ void EmptyLinkFunctionForGeneratedCodeEnemyBase() {}
 		(UObject* (*)())Z_Construct_UPackage__Script_SideScroller,
 	};
 	const FClassFunctionLinkInfo Z_Construct_UClass_AEnemyBase_Statics::FuncInfo[] = {
-		{ &Z_Construct_UFunction_AEnemyBase_OnTriggerBoxOverlap, "OnTriggerBoxOverlap" }, // 3426083224
+		{ &Z_Construct_UFunction_AEnemyBase_OnTriggerBoxOverlap, "OnTriggerBoxOverlap" }, // 4089991713
 	};
 #if WITH_METADATA
 	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_AEnemyBase_Statics::Class_MetaDataParams[] = {
@@ -208,7 +208,7 @@ void EmptyLinkFunctionForGeneratedCodeEnemyBase() {}
 		}
 		return OuterClass;
 	}
-	IMPLEMENT_CLASS(AEnemyBase, 761255262);
+	IMPLEMENT_CLASS(AEnemyBase, 1926872622);
 	template<> SIDESCROLLER_API UClass* StaticClass<AEnemyBase>()
 	{
 		return AEnemyBase::StaticClass();

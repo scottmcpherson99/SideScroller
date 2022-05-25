@@ -38,6 +38,7 @@ void AGoal::OnTriggerBoxOverlap(UPrimitiveComponent* OverlappedComponent, AActor
 
 		if (gameMode != nullptr)
 		{
+			
 			UGameplayStatics::OpenLevel(GetWorld(), gameMode->GetNextLevelName(), true);
 
 		}

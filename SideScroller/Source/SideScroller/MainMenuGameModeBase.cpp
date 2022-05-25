@@ -7,6 +7,7 @@
 #include "ControlWidget.h"
 #include "HowToWidget.h"
 #include "Kismet/GameplayStatics.h"
+#include "SavePlayerStats.h"
 #include "PlayerCharacter.h"
 AMainMenuGameModeBase::AMainMenuGameModeBase()
 {
@@ -47,11 +48,12 @@ void AMainMenuGameModeBase::BeginPlay()
 
 }
 
-void AMainMenuGameModeBase::SwitchWidget(int widget_)
+void AMainMenuGameModeBase::SwitchWidget(EMainMenuWidget widget_)
 {
+	// choose which widget is being displayed
 	switch (widget_)
 	{
-	case 0:
+	case EMainMenuWidget::EMAINMENUFROMHOWTO:
 		if (IsValid(mainMenuWidget))
 		{
 			mainMenuWidget->AddToViewport();
@@ -59,7 +61,7 @@ void AMainMenuGameModeBase::SwitchWidget(int widget_)
 		}
 		break;
 
-	case 1:
+	case EMainMenuWidget::ECONTROLS:
 		if (IsValid(controlWidget))
 		{
 			controlWidget->AddToViewport();
@@ -67,7 +69,7 @@ void AMainMenuGameModeBase::SwitchWidget(int widget_)
 		}
 		break;
 
-	case 2:
+	case EMainMenuWidget::EHOWTO:
 		UE_LOG(LogTemp, Warning, TEXT("Clicked Button"));
 
 		if (IsValid(howToWidget))
@@ -79,7 +81,7 @@ void AMainMenuGameModeBase::SwitchWidget(int widget_)
 		}
 		break;
 
-	case 3:
+	case EMainMenuWidget::EMAINMENUFROMCONTROL:
 		if (IsValid(mainMenuWidget))
 		{
 			mainMenuWidget->AddToViewport();
@@ -88,4 +90,23 @@ void AMainMenuGameModeBase::SwitchWidget(int widget_)
 		break;
 	}
 	
+}
+
+void AMainMenuGameModeBase::CreateNewGame()
+{
+	GEngine->AddOnScreenDebugMessage(-1, 10, FColor::Orange, FString::Printf(TEXT("Creating save game")));
+
+
+	savePlayerStats = Cast<USavePlayerStats>(UGameplayStatics::CreateSaveGameObject(USavePlayerStats::StaticClass()));
+
+
+	if (savePlayerStats != nullptr)
+	{
+		GEngine->AddOnScreenDebugMessage(-1, 10, FColor::Green, FString::Printf(TEXT("Save player stats was not a nullptr!")));
+
+		savePlayerStats->SetLives(3);
+		savePlayerStats->SetCoins(0);
+		savePlayerStats->SetLevelName(FName("Level1"));
+	}
+	UGameplayStatics::SaveGameToSlot(savePlayerStats, FString("Slot1"), 0);
 }

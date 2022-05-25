@@ -92,7 +92,7 @@ void EmptyLinkFunctionForGeneratedCodeCloudEnemy() {}
 		}
 		return OuterClass;
 	}
-	IMPLEMENT_CLASS(ACloudEnemy, 3987508846);
+	IMPLEMENT_CLASS(ACloudEnemy, 2366241511);
 	template<> SIDESCROLLER_API UClass* StaticClass<ACloudEnemy>()
 	{
 		return ACloudEnemy::StaticClass();

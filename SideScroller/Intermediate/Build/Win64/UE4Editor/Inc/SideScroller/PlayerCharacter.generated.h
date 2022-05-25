@@ -13,10 +13,10 @@ PRAGMA_DISABLE_DEPRECATION_WARNINGS
 #endif
 #define SIDESCROLLER_PlayerCharacter_generated_h
 
-#define SideScroller_Source_SideScroller_PlayerCharacter_h_17_SPARSE_DATA
-#define SideScroller_Source_SideScroller_PlayerCharacter_h_17_RPC_WRAPPERS
-#define SideScroller_Source_SideScroller_PlayerCharacter_h_17_RPC_WRAPPERS_NO_PURE_DECLS
-#define SideScroller_Source_SideScroller_PlayerCharacter_h_17_INCLASS_NO_PURE_DECLS \
+#define SideScroller_Source_SideScroller_PlayerCharacter_h_18_SPARSE_DATA
+#define SideScroller_Source_SideScroller_PlayerCharacter_h_18_RPC_WRAPPERS
+#define SideScroller_Source_SideScroller_PlayerCharacter_h_18_RPC_WRAPPERS_NO_PURE_DECLS
+#define SideScroller_Source_SideScroller_PlayerCharacter_h_18_INCLASS_NO_PURE_DECLS \
 private: \
 	static void StaticRegisterNativesAPlayerCharacter(); \
 	friend struct Z_Construct_UClass_APlayerCharacter_Statics; \
@@ -25,7 +25,7 @@ public: \
 	DECLARE_SERIALIZER(APlayerCharacter)
 
 
-#define SideScroller_Source_SideScroller_PlayerCharacter_h_17_INCLASS \
+#define SideScroller_Source_SideScroller_PlayerCharacter_h_18_INCLASS \
 private: \
 	static void StaticRegisterNativesAPlayerCharacter(); \
 	friend struct Z_Construct_UClass_APlayerCharacter_Statics; \
@@ -34,7 +34,7 @@ public: \
 	DECLARE_SERIALIZER(APlayerCharacter)
 
 
-#define SideScroller_Source_SideScroller_PlayerCharacter_h_17_STANDARD_CONSTRUCTORS \
+#define SideScroller_Source_SideScroller_PlayerCharacter_h_18_STANDARD_CONSTRUCTORS \
 	/** Standard constructor, called after all reflected properties have been initialized */ \
 	NO_API APlayerCharacter(const FObjectInitializer& ObjectInitializer); \
 	DEFINE_DEFAULT_OBJECT_INITIALIZER_CONSTRUCTOR_CALL(APlayerCharacter) \
@@ -47,7 +47,7 @@ private: \
 public:
 
 
-#define SideScroller_Source_SideScroller_PlayerCharacter_h_17_ENHANCED_CONSTRUCTORS \
+#define SideScroller_Source_SideScroller_PlayerCharacter_h_18_ENHANCED_CONSTRUCTORS \
 private: \
 	/** Private move- and copy-constructors, should never be used */ \
 	NO_API APlayerCharacter(APlayerCharacter&&); \
@@ -58,7 +58,7 @@ DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(APlayerCharacter); \
 	DEFINE_DEFAULT_CONSTRUCTOR_CALL(APlayerCharacter)
 
 
-#define SideScroller_Source_SideScroller_PlayerCharacter_h_17_PRIVATE_PROPERTY_OFFSET \
+#define SideScroller_Source_SideScroller_PlayerCharacter_h_18_PRIVATE_PROPERTY_OFFSET \
 	FORCEINLINE static uint32 __PPO__CameraBoom() { return STRUCT_OFFSET(APlayerCharacter, CameraBoom); } \
 	FORCEINLINE static uint32 __PPO__SideViewCameraComponent() { return STRUCT_OFFSET(APlayerCharacter, SideViewCameraComponent); } \
 	FORCEINLINE static uint32 __PPO__RunningAnimation() { return STRUCT_OFFSET(APlayerCharacter, RunningAnimation); } \
@@ -66,27 +66,27 @@ DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(APlayerCharacter); \
 	FORCEINLINE static uint32 __PPO__JumpingAnimation() { return STRUCT_OFFSET(APlayerCharacter, JumpingAnimation); }
 
 
-#define SideScroller_Source_SideScroller_PlayerCharacter_h_14_PROLOG
-#define SideScroller_Source_SideScroller_PlayerCharacter_h_17_GENERATED_BODY_LEGACY \
+#define SideScroller_Source_SideScroller_PlayerCharacter_h_15_PROLOG
+#define SideScroller_Source_SideScroller_PlayerCharacter_h_18_GENERATED_BODY_LEGACY \
 PRAGMA_DISABLE_DEPRECATION_WARNINGS \
 public: \
-	SideScroller_Source_SideScroller_PlayerCharacter_h_17_PRIVATE_PROPERTY_OFFSET \
-	SideScroller_Source_SideScroller_PlayerCharacter_h_17_SPARSE_DATA \
-	SideScroller_Source_SideScroller_PlayerCharacter_h_17_RPC_WRAPPERS \
-	SideScroller_Source_SideScroller_PlayerCharacter_h_17_INCLASS \
-	SideScroller_Source_SideScroller_PlayerCharacter_h_17_STANDARD_CONSTRUCTORS \
+	SideScroller_Source_SideScroller_PlayerCharacter_h_18_PRIVATE_PROPERTY_OFFSET \
+	SideScroller_Source_SideScroller_PlayerCharacter_h_18_SPARSE_DATA \
+	SideScroller_Source_SideScroller_PlayerCharacter_h_18_RPC_WRAPPERS \
+	SideScroller_Source_SideScroller_PlayerCharacter_h_18_INCLASS \
+	SideScroller_Source_SideScroller_PlayerCharacter_h_18_STANDARD_CONSTRUCTORS \
 public: \
 PRAGMA_ENABLE_DEPRECATION_WARNINGS
 
 
-#define SideScroller_Source_SideScroller_PlayerCharacter_h_17_GENERATED_BODY \
+#define SideScroller_Source_SideScroller_PlayerCharacter_h_18_GENERATED_BODY \
 PRAGMA_DISABLE_DEPRECATION_WARNINGS \
 public: \
-	SideScroller_Source_SideScroller_PlayerCharacter_h_17_PRIVATE_PROPERTY_OFFSET \
-	SideScroller_Source_SideScroller_PlayerCharacter_h_17_SPARSE_DATA \
-	SideScroller_Source_SideScroller_PlayerCharacter_h_17_RPC_WRAPPERS_NO_PURE_DECLS \
-	SideScroller_Source_SideScroller_PlayerCharacter_h_17_INCLASS_NO_PURE_DECLS \
-	SideScroller_Source_SideScroller_PlayerCharacter_h_17_ENHANCED_CONSTRUCTORS \
+	SideScroller_Source_SideScroller_PlayerCharacter_h_18_PRIVATE_PROPERTY_OFFSET \
+	SideScroller_Source_SideScroller_PlayerCharacter_h_18_SPARSE_DATA \
+	SideScroller_Source_SideScroller_PlayerCharacter_h_18_RPC_WRAPPERS_NO_PURE_DECLS \
+	SideScroller_Source_SideScroller_PlayerCharacter_h_18_INCLASS_NO_PURE_DECLS \
+	SideScroller_Source_SideScroller_PlayerCharacter_h_18_ENHANCED_CONSTRUCTORS \
 private: \
 PRAGMA_ENABLE_DEPRECATION_WARNINGS
 

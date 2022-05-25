@@ -10,7 +10,59 @@
 #include "Components/InputComponent.h"
 #include "PaperFlipbookComponent.h"
 #include "SideScrollerGameModeBase.h"
+#include "SavePlayerStats.h"
 
+
+
+
+void APlayerCharacter::LoadPlayerStats()
+{
+	GEngine->AddOnScreenDebugMessage(-1, 10, FColor::Orange, FString::Printf(TEXT("Looking for Save Game Slot")));
+
+	if (UGameplayStatics::DoesSaveGameExist(FString("Slot1"), 0))
+	{
+		GEngine->AddOnScreenDebugMessage(-1, 10, FColor::Green, FString::Printf(TEXT("Found Save Game Slot!")));
+		USavePlayerStats* loadGameObj_ = Cast<USavePlayerStats>(UGameplayStatics::LoadGameFromSlot(FString("Slot1"), 0));
+		
+		lives = loadGameObj_->GetLives();
+		coins = loadGameObj_->GetCoins();
+		savePlayerStats = loadGameObj_;
+
+	}
+	else
+	{
+		GEngine->AddOnScreenDebugMessage(-1, 10, FColor::Red, FString::Printf(TEXT("Did not find Save Game Slot!")));
+
+	}
+}
+
+void APlayerCharacter::SavePlayerStats()
+{
+	savePlayerStats = Cast<USavePlayerStats>(UGameplayStatics::CreateSaveGameObject(USavePlayerStats::StaticClass()));
+
+	if (savePlayerStats != nullptr)
+	{
+		GEngine->AddOnScreenDebugMessage(-1, 10, FColor::Green, FString::Printf(TEXT("Save player stats was not a nullptr!")));
+
+		savePlayerStats->SetLives(lives);
+		savePlayerStats->SetCoins(coins);
+	}
+	UGameplayStatics::SaveGameToSlot(savePlayerStats, FString("Slot1"), 0);
+}
+
+void APlayerCharacter::BeginPlay()
+{
+	Super::BeginPlay();
+
+	LoadPlayerStats();
+	
+	
+	ASideScrollerGameModeBase* gameMode = (ASideScrollerGameModeBase*)GetWorld()->GetAuthGameMode();
+	if (gameMode)
+	{
+		gameMode->UpdatePlayerStats(coins, lives);
+	}
+}
 
 APlayerCharacter::APlayerCharacter()
 {
@@ -119,6 +171,7 @@ void APlayerCharacter::UpdateCharacter()
 		}
 	}
 }
+
 //////////////////////////////////////////////////////////////////////////
 
 
@@ -128,7 +181,7 @@ void APlayerCharacter::UpdateCharacter()
 void APlayerCharacter::CollectCoin()
 {
 	coins++;
-	if (coins >= 3)
+	if (coins >= 10)
 	{
 		coins = 0;
 		lives++;
@@ -153,13 +206,17 @@ void APlayerCharacter::PlayerDeath()
 	if (lives > 0)
 	{
 		lives--;
+		SavePlayerStats();
+
 		UGameplayStatics::OpenLevel(GetWorld(), FName(UGameplayStatics::GetCurrentLevelName(GetWorld(), true)));
+	
 	}
 	else
 	{
 		UKismetSystemLibrary::QuitGame(GetWorld(), UGameplayStatics::GetPlayerController(GetWorld(), 0), EQuitPreference::Quit, true);
 	}
 }
+
 
 //////////////////////////////////////////////////////////////////////////
 
