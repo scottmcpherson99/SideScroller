@@ -10,6 +10,7 @@
 #include "Components/InputComponent.h"
 #include "PaperFlipbookComponent.h"
 #include "SideScrollerGameModeBase.h"
+#include "Sound/SoundBase.h"
 #include "SavePlayerStats.h"
 
 
@@ -62,6 +63,8 @@ void APlayerCharacter::BeginPlay()
 	{
 		gameMode->UpdatePlayerStats(coins, lives);
 	}
+
+	playJumpSound = true;
 }
 
 APlayerCharacter::APlayerCharacter()
@@ -114,12 +117,52 @@ void APlayerCharacter::SetupPlayerInputComponent(UInputComponent* PlayerInputCom
 	PlayerInputComponent->BindAction("Jump", IE_Released, this, &APlayerCharacter::StopJumping);
 }
 
+void APlayerCharacter::Jump()
+{
+	Super::Jump();
+
+	if (jumpSound != nullptr)
+	{
+		if (playJumpSound == true)
+		{
+			UGameplayStatics::PlaySound2D(GetWorld(), jumpSound);
+			playJumpSound = false;
+		}
+	}
+}
+
+void APlayerCharacter::StopJumping()
+{
+	Super::StopJumping();
+
+	playJumpSound = true;
+}
 void APlayerCharacter::MoveRight(float value_)
 {
 	if (Controller && (value_ != 0.0f))
 	{
 		AddMovementInput(FVector(1.0f * value_, 0.0f, 0.0f));
+
+		if (walkSound != nullptr)
+		{
+			if (playWalkSound == true)
+			{
+				UGameplayStatics::PlaySound2D(GetWorld(), walkSound);
+				playWalkSound = false;
+			}
+		}
 	}
+}
+
+void APlayerCharacter::ResetWalkSound()
+{
+
+}
+
+
+void APlayerCharacter::ResetJumpSound()
+{
+
 }
 
 void APlayerCharacter::PauseGame()

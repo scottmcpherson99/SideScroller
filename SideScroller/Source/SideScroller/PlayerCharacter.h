@@ -30,6 +30,13 @@ class SIDESCROLLER_API APlayerCharacter : public APaperCharacter
 
 	// Called when the game starts or when spawned
 	virtual void BeginPlay() override;
+
+	//jump
+	virtual void Jump() override;
+
+	//stop jump
+	virtual void StopJumping() override;
+
 public:
 	APlayerCharacter();
 
@@ -43,7 +50,7 @@ public:
 
 	void PlayerDeath();
 
-	void LevelComplete();
+	
 
 	//save game state
 	UPROPERTY(EditAnywhere, Category = "Save Game")
@@ -74,6 +81,22 @@ protected:
 	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = Animations)
 		class UPaperFlipbook* JumpingAnimation;
 
+	//jumping sound
+	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = Sound)
+		class USoundBase* jumpSound;
+
+
+	//jumping sound
+	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = Sound)
+		class USoundBase* walkSound;
+
+	bool playJumpSound;
+
+	bool playWalkSound;
+
+	void ResetJumpSound();
+
+	void ResetWalkSound();
 
 	/** Called to choose the correct animation to play based on the character's movement state */
 	void UpdateAnimation();
