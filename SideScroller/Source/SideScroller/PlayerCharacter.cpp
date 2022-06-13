@@ -65,6 +65,7 @@ void APlayerCharacter::BeginPlay()
 	}
 
 	playJumpSound = true;
+	playWalkSound = true;
 }
 
 APlayerCharacter::APlayerCharacter()
@@ -127,6 +128,9 @@ void APlayerCharacter::Jump()
 		{
 			UGameplayStatics::PlaySound2D(GetWorld(), jumpSound);
 			playJumpSound = false;
+
+			//reset the do once loop
+			GetWorld()->GetTimerManager().SetTimer(jumpTimerHandle, this, &APlayerCharacter::ResetJumpSound, jumpSound->GetDuration(), false);
 		}
 	}
 }
@@ -135,7 +139,6 @@ void APlayerCharacter::StopJumping()
 {
 	Super::StopJumping();
 
-	playJumpSound = true;
 }
 void APlayerCharacter::MoveRight(float value_)
 {
@@ -145,24 +148,31 @@ void APlayerCharacter::MoveRight(float value_)
 
 		if (walkSound != nullptr)
 		{
+			GEngine->AddOnScreenDebugMessage(-1, 10, FColor::Green, FString::Printf(TEXT("walkSound is not a nullptr")));
+
 			if (playWalkSound == true)
 			{
 				UGameplayStatics::PlaySound2D(GetWorld(), walkSound);
 				playWalkSound = false;
+
+				//reset the do once loop
+				GetWorld()->GetTimerManager().SetTimer(walkTimerHandle, this, &APlayerCharacter::ResetWalkSound, walkSound->GetDuration(), false);
+
 			}
 		}
+		
 	}
 }
 
 void APlayerCharacter::ResetWalkSound()
 {
-
+	playWalkSound = true;
 }
 
 
 void APlayerCharacter::ResetJumpSound()
 {
-
+	playJumpSound = true;
 }
 
 void APlayerCharacter::PauseGame()

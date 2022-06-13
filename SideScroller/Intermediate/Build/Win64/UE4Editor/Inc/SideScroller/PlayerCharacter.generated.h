@@ -64,7 +64,8 @@ DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(APlayerCharacter); \
 	FORCEINLINE static uint32 __PPO__RunningAnimation() { return STRUCT_OFFSET(APlayerCharacter, RunningAnimation); } \
 	FORCEINLINE static uint32 __PPO__IdleAnimation() { return STRUCT_OFFSET(APlayerCharacter, IdleAnimation); } \
 	FORCEINLINE static uint32 __PPO__JumpingAnimation() { return STRUCT_OFFSET(APlayerCharacter, JumpingAnimation); } \
-	FORCEINLINE static uint32 __PPO__jumpSound() { return STRUCT_OFFSET(APlayerCharacter, jumpSound); }
+	FORCEINLINE static uint32 __PPO__jumpSound() { return STRUCT_OFFSET(APlayerCharacter, jumpSound); } \
+	FORCEINLINE static uint32 __PPO__walkSound() { return STRUCT_OFFSET(APlayerCharacter, walkSound); }
 
 
 #define SideScroller_Source_SideScroller_PlayerCharacter_h_15_PROLOG

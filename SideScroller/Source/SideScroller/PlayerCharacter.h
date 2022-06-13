@@ -85,10 +85,13 @@ protected:
 	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = Sound)
 		class USoundBase* jumpSound;
 
+	FTimerHandle jumpTimerHandle;
 
 	//jumping sound
 	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = Sound)
 		class USoundBase* walkSound;
+
+	FTimerHandle walkTimerHandle;
 
 	bool playJumpSound;
 
